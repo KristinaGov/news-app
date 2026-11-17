@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Energy Briefing</title>
+<meta name="theme-color" content="#0f4c5c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Briefing">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-180.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="bar">
+    <button id="prevDay" class="icon" aria-label="Previous day">‹</button>
+    <button id="dayLabel" class="day">…</button>
+    <button id="nextDay" class="icon" aria-label="Next day">›</button>
+    <span class="grow"></span>
+    <button id="searchBtn" class="icon" aria-label="Search">⌕</button>
+    <button id="settingsBtn" class="icon" aria-label="Settings">⚙</button>
+  </div>
+  <div id="searchBar" class="search" hidden>
+    <input id="searchInput" type="search" placeholder="Search the last 60 days" autocomplete="off">
+  </div>
+  <div id="banner" class="banner" hidden></div>
+</header>
+
+<main id="view"></main>
+
+<nav id="tabs"></nav>
+
+<dialog id="noteDialog">
+  <form method="dialog" id="noteForm">
+    <h2>Save note</h2>
+    <label>Title<input id="noteTitle" required></label>
+    <label>Note<textarea id="noteText" rows="5"></textarea></label>
+    <label>Topic tags (comma separated)<input id="noteTags" autocapitalize="none"></label>
+    <label>Date<input id="noteDate" type="date" required></label>
+    <p id="noteError" class="error" hidden></p>
+    <div class="row">
+      <button type="button" id="noteCancel" class="ghost">Cancel</button>
+      <button type="submit" class="primary">Save</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="settingsDialog">
+  <form method="dialog" id="settingsForm">
+    <h2>Settings</h2>
+    <p class="hint">Notes and ratings feedback are stored in your private GitHub repository.
+      The token stays on this device.</p>
+    <label>Notes repository (owner/name)<input id="cfgRepo" placeholder="your-user/news-notes" autocapitalize="none" autocorrect="off"></label>
+    <label>GitHub token<input id="cfgToken" type="password" autocomplete="off"></label>
+    <p id="cfgStatus" class="hint"></p>
+    <div class="row">
+      <button type="button" id="cfgTest" class="ghost">Test connection</button>
+      <button type="submit" class="primary">Save</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>

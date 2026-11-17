@@ -1,0 +1,44 @@
+name: Daily briefing
+
+on:
+  schedule:
+    # 05:00 UTC = 06:00 Brussels in winter, 07:00 in summer. GitHub may start it late.
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-briefing
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Build briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Optional: lets the job read your thumbs up/down and saved notes
+          # from the private notes repo to tune the interest ratings.
+          NOTES_TOKEN: ${{ secrets.NOTES_TOKEN }}
+          NOTES_REPO: ${{ vars.NOTES_REPO }}
+          # Optional: set a repository variable NEWS_MODEL to change the model.
+          NEWS_MODEL: ${{ vars.NEWS_MODEL }}
+        run: python scripts/build_briefing.py
+      - name: Commit briefing
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet || git commit -m "Briefing $(date -u +%F)"
+          git push

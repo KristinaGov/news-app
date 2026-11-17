@@ -1,0 +1,75 @@
+# Sources for the daily briefing. Edit freely; the daily job reads this file on every run.
+#
+# feeds:           RSS/Atom feeds, read directly (all checked and working on 2026-11-17).
+#   keywords: true   -> general-news feed; keep only entries matching the category keywords.
+# search_sources:  outlets without a working feed. Claude runs a web search for their
+#                  latest items each day.
+# search_topics:   extra search angles for that category.
+# max_searches:    cap on web searches per category per day (controls cost).
+
+categories:
+  - id: eu
+    name: EU
+    description: >
+      European Commission energy and environment publications (studies, laws, white
+      papers, decrees, consultations) and the EU Emissions Trading System (EU ETS).
+    keywords: [energy, climate, emission, ets, carbon, electricity, gas, hydrogen,
+               renewable, nuclear, environment, grid, methane, cbam, green deal,
+               net-zero, decarbon]
+    feeds:
+      - {name: "EC DG Energy", url: "https://energy.ec.europa.eu/node/2/rss_en"}
+      - {name: "EC DG Climate Action", url: "https://climate.ec.europa.eu/node/2/rss_en"}
+      - {name: "EC Joint Research Centre", url: "https://joint-research-centre.ec.europa.eu/node/2/rss_en", keywords: true}
+      - {name: "EC Press Corner", url: "https://ec.europa.eu/commission/presscorner/api/rss?language=en", keywords: true}
+      - {name: "ACER", url: "https://www.acer.europa.eu/rss.xml"}
+      - {name: "Carbon Pulse", url: "https://carbon-pulse.com/feed/"}
+    search_sources:
+      - "European Commission DG Environment (environment.ec.europa.eu)"
+      - "EUR-Lex / Official Journal: new energy, climate and environment legal acts"
+      - "European Commission 'Have your say' consultations on energy, climate, environment"
+      - "European Environment Agency (eea.europa.eu)"
+      - "ENTSO-E (entsoe.eu)"
+      - "Euractiv energy and environment section"
+    search_topics:
+      - "EU ETS and ETS2: prices, reforms, Market Stability Reserve, CBAM"
+    max_searches: 6
+
+  - id: de
+    name: Germany
+    description: Energy and environment news and policy in Germany.
+    keywords: [energie, strom, gas, klima, emission, wasserstoff, erneuerbar, wind,
+               solar, photovoltaik, netz, kohle, kraftwerk, wärme, umwelt, co2]
+    feeds:
+      - {name: "Clean Energy Wire", url: "https://www.cleanenergywire.org/rss.xml"}
+      - {name: "pv magazine Deutschland", url: "https://www.pv-magazine.de/feed/"}
+      - {name: "Umweltbundesamt", url: "https://www.umweltbundesamt.de/rss/presse"}
+      - {name: "tagesschau Energie", url: "https://www.tagesschau.de/wirtschaft/energie/index~rss2.xml"}
+      - {name: "heise Energie", url: "https://www.heise.de/thema/Energie.xml", keywords: true}
+    search_sources:
+      - "German Federal Ministry for Economic Affairs and Energy (press releases)"
+      - "German Federal Environment Ministry (press releases)"
+      - "Bundesnetzagentur (press releases on electricity, gas, grids)"
+      - "Agora Energiewende (publications)"
+    search_topics: []
+    max_searches: 5
+
+  - id: be
+    name: Belgium
+    description: Energy and environment news and policy in Belgium (federal and regional).
+    keywords: [energy, energie, énergie, stroom, elektriciteit, électricité, gas, gaz,
+               klimaat, climat, climate, kern, nucle, nuclé, wind, zonne, solar, elia,
+               creg, fluxys, engie, emission, uitstoot, milieu, environment, waterstof,
+               hydrogen, warmtepomp, capaciteitstarief]
+    feeds:
+      - {name: "VRT NWS (English)", url: "https://www.vrt.be/vrtnws/en.rss.articles.xml", keywords: true}
+      - {name: "VRT NWS (Dutch)", url: "https://www.vrt.be/vrtnws/nl.rss.articles.xml", keywords: true}
+    search_sources:
+      - "CREG, the Belgian federal energy regulator (creg.be)"
+      - "Elia, the Belgian transmission system operator (elia.be news)"
+      - "VREG, the Flemish energy regulator"
+      - "FPS Economy Belgium, energy pages"
+      - "The Brussels Times, energy and environment stories"
+      - "RTBF, De Tijd, L'Echo: energy and climate stories"
+    search_topics:
+      - "Belgian federal and regional energy and climate policy decisions"
+    max_searches: 6
