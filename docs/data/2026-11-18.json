@@ -1,0 +1,466 @@
+{
+ "date": "2026-11-18",
+ "items": [
+  {
+   "title": "EU endorses 35-by-35 Global Electrification Pledge at COP31",
+   "headline": "EU backs global electrification pledge at COP31 in Türkiye.",
+   "summary": "The European Union has endorsed the 35-by-35 Global Electrification Pledge at the UN Climate Change Conference COP31 in Antalya, Türkiye.",
+   "doc_type": "press_release",
+   "interest": 3,
+   "interest_reason": "Official EC energy announcement, but limited detail.",
+   "tags": [
+    "cop31",
+    "electrification",
+    "energy-policy"
+   ],
+   "published": "2026-11-17",
+   "sources": [
+    {
+     "name": "EC DG Energy",
+     "url": "https://ec.europa.eu/commission/presscorner/detail/en/jp_26_2465"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "54b8df5a5920"
+  },
+  {
+   "title": "EU agrees faster permitting for grids and clean energy projects",
+   "headline": "Deal reached to accelerate permitting for EU grids and clean energy.",
+   "summary": "The European Commission welcomes the provisional political agreement reached by the European Parliament and the Council on new rules to simplify and accelerate permitting procedures for grids and clean energy infrastructure. MEPs and governments agreed to limit permitting delays in a late-night deal.",
+   "doc_type": "law",
+   "interest": 4,
+   "interest_reason": "Major EU energy infrastructure policy, relevant to reader.",
+   "tags": [
+    "permitting",
+    "grids",
+    "clean-energy",
+    "eu-policy"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "EC DG Energy",
+     "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2450"
+    },
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/late-night-deal-to-accelerate-eu-electricity-grid-development/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "0f88bf149732"
+  },
+  {
+   "title": "Commission opens consultation on carbon storage certification for buildings",
+   "headline": "Public consultation launched on certifying biogenic carbon storage in buildings.",
+   "summary": "The Commission has launched a public consultation on a new methodology to certify biogenic carbon storage in buildings. The consultation closes on 10 December 2026.",
+   "doc_type": "consultation",
+   "interest": 3,
+   "interest_reason": "Niche certification methodology, but official consultation.",
+   "tags": [
+    "carbon-storage",
+    "buildings",
+    "consultation"
+   ],
+   "published": "2026-11-17",
+   "sources": [
+    {
+     "name": "EC DG Climate Action",
+     "url": "https://climate.ec.europa.eu/news-other-reads/news/commission-invites-public-shape-new-carbon-storage-certification-buildings-2026-11-18_en"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "c40b4536743d"
+  },
+  {
+   "title": "EEA briefing links climate and environment to antimicrobial resistance spread",
+   "headline": "EEA briefing says environmental factors can spread antimicrobial resistance.",
+   "summary": "Climate change and other environmental factors can promote the accumulation, persistence and spread of antimicrobial resistant bacteria and antibiotic-resistant genes in surface waters and urban wastewater, according to a European Environment Agency (EEA) briefing published today.",
+   "doc_type": "study",
+   "interest": 3,
+   "interest_reason": "Environmental health study, but not core energy or ETS.",
+   "tags": [
+    "amr",
+    "water-quality",
+    "eea"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "European Environment Agency",
+     "url": "https://www.eea.europa.eu/en/newsroom/news/changing-climate-other-environmental-factors-can-play-role-in-spread-of-antimicrobial-resistance"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "9941712ebbac"
+  },
+  {
+   "title": "EU ETS reform: free allowances increased for fallback industries",
+   "headline": "EU ambassadors back extra free ETS allowances as reform progresses.",
+   "summary": "EU ambassadors approved a political deal to increase the number of free allowances for industries in the “fallback” benchmark category of the revised Emissions Trading System (ETS) by more than 120 million units up to 2030. The EU presidency, currently chaired by Ireland, reports good progress on the second compromise text on revising the EU’s ETS.",
+   "doc_type": "law",
+   "interest": 5,
+   "interest_reason": "Core EU ETS development, high priority for reader.",
+   "tags": [
+    "eu-ets",
+    "free-allowances",
+    "carbon-market"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/573285/"
+    },
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/573259/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "b78e04dc65aa"
+  },
+  {
+   "title": "EU defends CBAM as climate tool, not revenue raiser at COP31",
+   "headline": "EU insists CBAM is a climate tool, defends emissions trading at COP31.",
+   "summary": "European Commission Climate Chief Wopke Hoekstra insisted at COP31 that the EU’s carbon border adjustment mechanism (CBAM) is intended to encourage cleaner production, not raise revenue. He defended the bloc’s emissions record and described emissions trading as a way to drive carbon out of industry.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "EU carbon market policy, relevant to ETS interests.",
+   "tags": [
+    "cbam",
+    "cop31",
+    "carbon-market"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/573021/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "74a8434ecd6a"
+  },
+  {
+   "title": "EU set to delay methane rules after US pushback",
+   "headline": "Europe poised to delay methane law by at least a year.",
+   "summary": "The EU is set to delay its methane rules by at least a year following US pushback, according to Euractiv. A year ago Brussels stood firm.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "EU methane regulation delay, relevant environment policy.",
+   "tags": [
+    "methane",
+    "regulation",
+    "eu-policy"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/europe-set-to-buckle-on-methane-rules-after-us-pushback/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "29b2f20b5335"
+  },
+  {
+   "title": "Coalition agrees to cut electricity tax using unused EEG funds",
+   "headline": "Coalition to fund power tax cut from unused EEG money from 2027.",
+   "summary": "The BEE had proposed using unspent funds earmarked for the EEG account to lower the electricity tax for everyone, and the CDU/CSU/SPD coalition committee has now agreed to do so. The reduction to the European minimum level is to take effect on 1 January 2027 and is initially limited to one year.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Coalition deal on power tax and EEG funds, core energy policy",
+   "tags": [
+    "electricity-tax",
+    "eeg",
+    "energy-policy",
+    "germany"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/18/bundesregierung-findet-milliarden-fuer-stromsteuer-senkung-beim-eeg/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "47f4811643ff"
+  },
+  {
+   "title": "EU Commission clears electricity price compensation until 2030",
+   "headline": "Brussels approves German industrial power price compensation through 2030.",
+   "summary": "The European Commission has approved the German electricity price compensation until 2030, the environment ministry said. The ministry says the scheme brings further relief for companies, particularly in verification requirements and ecological counter-performance such as buying green power or decarbonisation.",
+   "doc_type": "press_release",
+   "interest": 4,
+   "interest_reason": "Official ministry source on industrial power price relief to 2030",
+   "tags": [
+    "industry",
+    "state-aid",
+    "electricity-prices",
+    "germany"
+   ],
+   "published": "2026-11-17",
+   "sources": [
+    {
+     "name": "Bundesumweltministerium",
+     "url": "https://www.bundesumweltministerium.de/pressemitteilung/klimafreundliche-transformation-der-industrie-europaeische-kommission-genehmigt-strompreiskompensation-bis-2030"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "6d789cf4dd75"
+  },
+  {
+   "title": "Flexible grid connection models cut battery storage revenues, and no single FCA standard is expected",
+   "headline": "Flexible grid deals can cut storage revenues by up to 29 percent.",
+   "summary": "The platform Regelenergie Online calculated how different models of flexible grid connection agreements (FCA) affect battery storage revenues: two-hour storage could earn 15 to 29 percent less, four-hour storage currently 11 to 20 percent less. Debate over standardisation continues after Eon presented a draft standard FCA for its distribution grid operators at Intersolar, drawing criticism, while Green Flexibility has published a standardised alternative blueprint; pv magazine reports there will be no single FCA standard.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Specialist press on storage revenue and grid connection rules",
+   "tags": [
+    "battery-storage",
+    "grid-connection",
+    "revenues"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/18/fca-rechner-je-nach-modell-sinken-batteriespeicher-erloese-bis-zu-29-prozent/"
+    },
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/18/den-fca-standard-wird-es-nicht-geben/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "c5ab0dec0014"
+  },
+  {
+   "title": "Green Flexibility starts building 480 megawatt-hours of battery storage in Lower Saxony",
+   "headline": "Green Flexibility begins 480 MWh battery storage build in Lower Saxony.",
+   "summary": "Green Flexibility has started construction of the first of six battery storage facilities in Lower Saxony, together totalling 480 megawatt-hours, with an overall investment of around 150 million euros. Shortly before commissioning, the company also opened its completed storage site in Obergünzburg to the public.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Battery storage build-out with investment figures, specialist press",
+   "tags": [
+    "battery-storage",
+    "investment",
+    "lower-saxony"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/18/green-flexibility-startet-bau-von-batteriespeichern-mit-insgesamt-480-megawattstunden-in-niedersachsen/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "a53bbe24417c"
+  },
+  {
+   "title": "Next2Sun Austria files for insolvency",
+   "headline": "Austrian arm of agri-PV specialist Next2Sun files for insolvency.",
+   "summary": "After insolvency applications for two German companies in the group, the Austrian subsidiary of agri-photovoltaics specialist Next2Sun has also filed for insolvency. The company is not to be continued.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Insolvency in agri-PV sector, specialist press coverage",
+   "tags": [
+    "agri-pv",
+    "insolvency",
+    "solar"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/18/auch-next2sun-austria-meldet-insolvenz-an/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "989ce54f8b16"
+  },
+  {
+   "title": "Commentary: for heat pumps, when power is used matters as much as efficiency",
+   "headline": "Commentary argues heat pump economics depend on timing of power use.",
+   "summary": "In a guest commentary for pv magazine, Ostrom CEO and co-founder Matthias Martensen argues that running a heat pump cheaply requires more than watching the electricity price. He writes that genuinely shifting load is often impossible or not sensible, and sets out which factors actually influence the flexibility of electricity procurement.",
+   "doc_type": "other",
+   "interest": 3,
+   "interest_reason": "Commentary on heat pump flexibility, limited news value",
+   "tags": [
+    "heat-pumps",
+    "flexibility",
+    "electricity-prices"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/18/effizient-heizen-reicht-nicht-warum-bei-waermepumpen-zunehmend-der-zeitpunkt-des-stromverbrauchs-zaehlt/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "c96def28f9fc"
+  },
+  {
+   "title": "Bees & Bears launches invoice purchases for solar and heat pumps",
+   "headline": "Bees & Bears offers installers upfront payment for PV and heat pump sales.",
+   "summary": "With a capital framework of up to 1.2 billion euros a year, Bees & Bears is enabling invoice purchases beyond instalment offers, letting installers forgo customer down payments while still receiving their money in advance. The company says this can cover up to 60,000 photovoltaic systems, heat pumps and other sales.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Financing product for PV and heat pumps, niche for this reader",
+   "tags": [
+    "solar",
+    "heat-pumps",
+    "financing"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/18/bees-bears-ermoeglicht-rechnungskaeufe-von-photovoltaik-und-waermepumpen/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "87d1ae4899cb"
+  },
+  {
+   "title": "Germany notified of cross-border environmental assessment for Helsinki nuclear plant",
+   "headline": "Finland notifies Germany of cross-border EIA for Helsinki nuclear plant.",
+   "summary": "Germany's environment ministry, acting as the German Espoo contact point, received official notification from Finland on 27 October 2026 under Article 3 of the Espoo Convention. The notification concerns an upcoming cross-border environmental impact assessment for a new nuclear power plant in Helsinki.",
+   "doc_type": "press_release",
+   "interest": 2,
+   "interest_reason": "Routine Espoo notification concerning a foreign nuclear plant",
+   "tags": [
+    "nuclear",
+    "eia",
+    "espoo-convention"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "Bundesumweltministerium",
+     "url": "https://www.bundesumweltministerium.de/pressemitteilung/grenzueberschreitende-umweltvertraeglichkeitspruefung-zum-neubau-eines-atomkraftwerks-in-helsinki-finnland"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "6b87de2f0519"
+  },
+  {
+   "title": "Funding open for municipal biodiversity strategies",
+   "headline": "Municipalities can apply for biodiversity strategy funding until March 2027.",
+   "summary": "Under the Federal Biological Diversity Programme, cities and municipalities can apply for funding for municipal biodiversity strategies and exemplary nature conservation measures. Project sketches for new strategies must be submitted by 1 March 2027.",
+   "doc_type": "press_release",
+   "interest": 2,
+   "interest_reason": "Routine municipal funding call from environment ministry",
+   "tags": [
+    "biodiversity",
+    "funding",
+    "municipalities"
+   ],
+   "published": "2026-11-17",
+   "sources": [
+    {
+     "name": "Bundesumweltministerium",
+     "url": "https://www.bundesumweltministerium.de/pressemitteilung/foerderung-fuer-kommunale-biodiversitaetsstrategien-im-bundesprogramm-biologische-vielfalt"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "9140ad0193eb"
+  },
+  {
+   "title": "Storm wind farm developer CEO Jan Caerts steps down",
+   "headline": "Jan Caerts steps down as CEO of wind park developer Storm, replaced by Carel Kok.",
+   "summary": "Jan Caerts, founder of wind park developer Storm, is stepping down as CEO and will be succeeded by Dutchman Carel Kok. The management change comes weeks after investors PMV and TINC injected 20 million euros into the company.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Company management news, not policy; neutral relevance.",
+   "tags": [
+    "wind energy",
+    "management",
+    "investment",
+    "belgium"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "De Tijd Energie",
+     "url": "https://www.tijd.be/r/t/1/id/10706101"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "fb8637beb8f9"
+  },
+  {
+   "title": "Brussels digital electricity meters to become remotely readable",
+   "headline": "New Brussels rules let Sibelga remotely read digital meters, ending manual checks for 80%.",
+   "summary": "New Brussels rules will allow distribution grid operator Sibelga to remotely read digital electricity meters. Currently, nearly four out of five digital meters in Brussels still require manual meter readings. The change is expected to make the meters fully smart.",
+   "doc_type": "law",
+   "interest": 4,
+   "interest_reason": "Energy regulation in Belgium, relevant to official sources interest.",
+   "tags": [
+    "brussels",
+    "smart meters",
+    "sibelga",
+    "energy regulation"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "De Tijd Energie",
+     "url": "https://www.tijd.be/r/t/1/id/10706086"
+    },
+    {
+     "name": "L'Echo Énergie",
+     "url": "https://www.lecho.be/r/t/1/id/10706113"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "cea6eede3604"
+  }
+ ],
+ "generated_at": "2026-11-18T22:15:26+00:00",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 17011,
+  "output_tokens": 12991,
+  "web_searches": 6,
+  "calls": 6,
+  "cost_usd": 0.056374
+ },
+ "categories": [
+  {
+   "id": "eu",
+   "name": "EU"
+  },
+  {
+   "id": "de",
+   "name": "Germany"
+  },
+  {
+   "id": "be",
+   "name": "Belgium"
+  }
+ ],
+ "errors": [],
+ "feed_errors": [],
+ "profile_set": true
+}
