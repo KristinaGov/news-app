@@ -1,5 +1,9 @@
 "use strict";
 
+// Raise this with every change to the app. The app compares it with the copy on the
+// server and offers an update when they differ.
+const APP_VERSION = "2026.11.18-3";
+
 const $ = (id) => document.getElementById(id);
 const DOC_TYPES = {
   law: "Law", study: "Study", consultation: "Consultation", white_paper: "Policy paper",
@@ -33,6 +37,8 @@ const state = {
   noteTag: null,
   notesError: "",
   legis: null,
+  latestVersion: null,
+  versionChecked: 0,
   catView: store.get("catView", "news"),
   legisDone: false,
 };
@@ -96,6 +102,7 @@ function renderChrome() {
   if (state.day && state.day.profile_set === false && state.tab !== "notes")
     msgs.push("No interest profile yet, so ratings are neutral. Fill in config/profile.md.");
   if (!navigator.onLine) msgs.push("Offline: showing the last saved copy.");
+  if (updateReady()) msgs.push(`App version ${state.latestVersion} is available. Tap here to update.`);
   $("banner").hidden = !msgs.length;
   $("banner").textContent = msgs.join(" ");
 }
@@ -407,6 +414,41 @@ function findItem(id) {
     (state.searchResults || []).map((r) => r.item).find((i) => i.id === id);
 }
 
+// ---------- app version ----------
+
+function updateReady() { return Boolean(state.latestVersion && state.latestVersion !== APP_VERSION); }
+
+// Reads the version straight from the server's copy of this file, bypassing every cache.
+async function checkVersion() {
+  state.versionChecked = Date.now();
+  try {
+    const res = await fetch(`app.js?check=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const found = (await res.text()).match(/const APP_VERSION = "([^"]+)"/);
+    if (!found) throw new Error("no version found");
+    state.latestVersion = found[1];
+    return true;
+  } catch { return false; }
+}
+
+async function updateApp() {
+  try {
+    if (window.caches) await Promise.all((await caches.keys()).map((k) => caches.delete(k)));
+    const reg = await navigator.serviceWorker?.getRegistration();
+    if (reg) await reg.update();
+  } catch { /* reload anyway */ }
+  location.reload();
+}
+
+function versionText(ok) {
+  const briefing = state.day?.generated_at
+    ? ` Latest briefing: ${new Date(state.day.generated_at).toLocaleString("en-GB", { dateStyle: "medium", timeStyle: "short" })}.` : "";
+  if (!ok) return `App version ${APP_VERSION}. Could not reach the server to check for a newer one.${briefing}`;
+  return (updateReady()
+    ? `App version ${APP_VERSION}. Version ${state.latestVersion} is available.`
+    : `App version ${APP_VERSION}. This is the latest version.`) + briefing;
+}
+
 // ---------- dialogs ----------
 
 let noteDraft = null;
@@ -424,7 +466,14 @@ function openSettings() {
   $("cfgRepo").value = state.cfg.repo;
   $("cfgToken").value = state.cfg.token;
   $("cfgStatus").textContent = "";
+  $("cfgVersion").textContent = `App version ${APP_VERSION}. Checking for a newer one…`;
+  $("cfgUpdate").hidden = true;
   $("settingsDialog").showModal();
+  checkVersion().then((ok) => {
+    $("cfgVersion").textContent = versionText(ok);
+    $("cfgUpdate").hidden = !updateReady();
+    renderChrome();
+  });
 }
 
 function readSettingsForm() {
@@ -557,6 +606,14 @@ $("settingsForm").onsubmit = async (e) => {
   render();
 };
 
+$("cfgUpdate").onclick = updateApp;
+$("banner").onclick = () => { if (updateReady()) updateApp(); };
+// Re-check when the app comes back to the foreground, at most every 10 minutes.
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible" && Date.now() - state.versionChecked > 600000)
+    checkVersion().then(renderChrome);
+});
+
 window.addEventListener("online", render);
 window.addEventListener("offline", render);
 
@@ -567,6 +624,7 @@ window.addEventListener("offline", render);
   await loadIndex();
   await loadDay();
   render();
+  checkVersion().then(renderChrome);
   try { state.legis = await fetchJson("data/legislation.json"); render(); } catch { /* no tracker data yet */ }
   if (state.tab === "notes") { await loadNotes(); render(); }
 })();
