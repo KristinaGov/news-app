@@ -1,5 +1,5 @@
 // Offline support: the app shell and the briefings you have opened are kept on the device.
-const CACHE = "briefing-v1";
+const CACHE = "briefing-v2";
 const SHELL = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest", "icon-180.png"];
 
 self.addEventListener("install", (event) => {

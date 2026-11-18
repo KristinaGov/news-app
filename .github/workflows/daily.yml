@@ -5,6 +5,10 @@ on:
     # 05:00 UTC = 06:00 Brussels in winter, 07:00 in summer. GitHub may start it late.
     - cron: "0 5 * * *"
   workflow_dispatch: {}
+  # Also run when the job itself changes, so a fix can be tested by pushing it.
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/daily.yml", "requirements.txt"]
 
 permissions:
   contents: write
@@ -26,13 +30,12 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Build briefing
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Your OpenRouter key (starts with sk-or-), stored as the repository secret API.
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY || secrets.API }}
           # Optional: lets the job read your thumbs up/down and saved notes
           # from the private notes repo to tune the interest ratings.
           NOTES_TOKEN: ${{ secrets.NOTES_TOKEN }}
           NOTES_REPO: ${{ vars.NOTES_REPO }}
-          # Optional: set a repository variable NEWS_MODEL to change the model.
-          NEWS_MODEL: ${{ vars.NEWS_MODEL }}
         run: python scripts/build_briefing.py
       - name: Commit briefing
         if: always()

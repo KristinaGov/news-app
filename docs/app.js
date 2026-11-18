@@ -32,6 +32,9 @@ const state = {
   noteDay: null,
   noteTag: null,
   notesError: "",
+  legis: null,
+  catView: store.get("catView", "news"),
+  legisDone: false,
 };
 
 function isoDate(d) {
@@ -143,7 +146,56 @@ function renderToday() {
   }).join("");
 }
 
+// EU legislation tracker: a second view inside the category it belongs to.
+function hasLegis(catId) { return state.legis?.category === catId && state.legis.files?.length; }
+function legisDone(f) { return /^procedure (completed|lapsed|rejected)/i.test(f.stage || ""); }
+function daysAgo(iso) { return iso ? (Date.now() - new Date(iso + "T12:00:00").getTime()) / 864e5 : Infinity; }
+function eventLine(label, ev) {
+  return ev ? `<p class="why"><strong>${label}:</strong> ${esc(niceYear(ev.date))}, ${esc(ev.text)}</p>` : "";
+}
+function niceYear(iso) {
+  return new Date(iso + "T12:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+}
+
+function renderLegislation() {
+  const L = state.legis;
+  const open = L.files.filter((f) => !legisDone(f)), done = L.files.filter(legisDone);
+  const shown = state.legisDone ? done : open;
+  const cards = shown.map((f) => `<article class="card">
+      <h3>${esc(f.title)}</h3>
+      <div class="meta">
+        <span class="badge">${esc(f.stage || "Status not read yet")}</span>
+        ${daysAgo(f.changed) <= 7 ? `<span class="flag">Updated ${esc(niceDate(f.changed))}</span>` : ""}
+        ${daysAgo(f.first_event?.date) <= 14 ? `<span class="flag">New</span>` : ""}
+      </div>
+      ${eventLine("Latest step", f.last_event)}
+      ${eventLine("Next", f.next)}
+      <div class="tags">${esc([...(f.committees || []), ...(f.rapporteurs || [])].join(" · "))}</div>
+      <div class="srcs"><a href="${esc(safeUrl(f.link))}" target="_blank" rel="noopener">${esc(f.ref)}</a></div>
+    </article>`).join("");
+  return `<div class="chips">
+      <button class="chip ${state.legisDone ? "" : "on"}" data-legis="open">In progress ${open.length}</button>
+      <button class="chip ${state.legisDone ? "on" : ""}" data-legis="done">Completed ${done.length}</button>
+    </div>
+    <p class="legend">Energy and environment files since 2024, from the European Parliament's Legislative Observatory.
+      Updated ${esc(niceDate(L.updated))}. For background on each file, open the
+      <a href="${esc(safeUrl(L.train_url))}" target="_blank" rel="noopener">Legislative Train</a>.</p>
+    ${cards || `<p class="empty">Nothing here.</p>`}`;
+}
+
 function renderCategory(catId) {
+  if (hasLegis(catId)) {
+    const legis = state.catView === "legis";
+    const views = `<div class="chips">
+        <button class="chip ${legis ? "" : "on"}" data-view="news">News</button>
+        <button class="chip ${legis ? "on" : ""}" data-view="legis">Legislation</button>
+      </div>`;
+    return views + (legis ? renderLegislation() : renderCategoryNews(catId));
+  }
+  return renderCategoryNews(catId);
+}
+
+function renderCategoryNews(catId) {
   const all = (state.day?.items || []).filter((i) => i.category === catId);
   const types = [...new Set(all.map((i) => i.doc_type))];
   if (state.docType !== "all" && !types.includes(state.docType)) state.docType = "all";
@@ -408,11 +460,13 @@ document.addEventListener("click", async (e) => {
   if (d.tab) return switchTab(d.tab);
   if (d.goto) {
     await switchTab(d.cat);
-    state.minInterest = 1; render();
+    state.minInterest = 1; state.catView = "news"; render();
     const el = $("item-" + d.goto);
     if (el) { el.scrollIntoView({ block: "start" }); el.classList.add("flash"); setTimeout(() => el.classList.remove("flash"), 1500); }
     return;
   }
+  if (d.view) { state.catView = d.view; store.set("catView", d.view); render(); return window.scrollTo(0, 0); }
+  if (d.legis) { state.legisDone = d.legis === "done"; return render(); }
   if (d.min) { state.minInterest = Number(d.min); store.set("minInterest", state.minInterest); return render(); }
   if (d.type) { state.docType = d.type; return render(); }
   if (d.vote) { const item = findItem(d.id); if (item) sendVote(item, d.vote); return; }
@@ -513,5 +567,6 @@ window.addEventListener("offline", render);
   await loadIndex();
   await loadDay();
   render();
+  try { state.legis = await fetchJson("data/legislation.json"); render(); } catch { /* no tracker data yet */ }
   if (state.tab === "notes") { await loadNotes(); render(); }
 })();

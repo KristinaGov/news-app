@@ -1,11 +1,44 @@
 # Sources for the daily briefing. Edit freely; the daily job reads this file on every run.
+# SOURCES.md lists every source in plain words and says how each one is collected.
 #
-# feeds:           RSS/Atom feeds, read directly (all checked and working on 2026-11-17).
-#   keywords: true   -> general-news feed; keep only entries matching the category keywords.
-# search_sources:  outlets without a working feed. Claude runs a web search for their
-#                  latest items each day.
-# search_topics:   extra search angles for that category.
-# max_searches:    cap on web searches per category per day (controls cost).
+# feeds:           RSS/Atom feeds, read directly without AI (all checked on 2026-11-18).
+#   keywords: true   -> broad feed; keep only entries matching the category keywords.
+# search_sources:  outlets with no usable feed. A model runs a web search limited to
+#                  their own websites. Each search costs a fee, so keep the list short.
+# max_searches:    cap on web searches per category per search day. 0 turns search off.
+
+# AI models, by their OpenRouter names (https://openrouter.ai/models). Each list is tried
+# in order: the second model is used only if the first fails. Chosen on 2026-11-18 by
+# price among models that support the features the job needs.
+#   summary: translates, merges, summarises and rates. Needs "structured outputs".
+#   search:  runs the web searches. Needs "tools".
+#   reasoning: how much the model thinks before answering (none, low, high). Thinking is
+#              billed as output, so keep it low.
+models:
+  summary: ["deepseek/deepseek-v4.1-flash", "openai/gpt-6-luna"]
+  search: ["openai/gpt-6-luna", "anthropic/claude-haiku-5.5"]
+  reasoning: low
+
+# AI web search runs only on these weekdays (0 = Monday ... 6 = Sunday) and looks back
+# lookback_days. RSS feeds are read every day regardless.
+search:
+  weekdays: [0, 2, 4]
+  lookback_days: 3
+
+# EU legislation tracker, shown in the EU tab under "Legislation". No AI is used: the
+# job reads the European Parliament's Legislative Observatory, which holds the same
+# procedures as the Legislative Train. A file is tracked when its title matches a keyword.
+legislation:
+  enabled: true
+  category: eu
+  since_year: 2024          # ignore procedures opened before this year
+  procedure_types: [COD]    # COD = ordinary legislative procedure
+  recheck_days: 3           # how often an unfinished file's status is looked up again
+  max_checks: 40            # most status lookups per run
+  keywords: [energy, climate, emission, ets, carbon, electricity, gas, hydrogen,
+             renewable, nuclear, environment, grid, methane, cbam, net-zero, decarbon,
+             fuel, pollut, waste, water, nature, biodivers, chemical, batter, co2,
+             circular, deforest, forest, soil, air quality, heating, cooling]
 
 categories:
   - id: eu
@@ -15,24 +48,23 @@ categories:
       papers, decrees, consultations) and the EU Emissions Trading System (EU ETS).
     keywords: [energy, climate, emission, ets, carbon, electricity, gas, hydrogen,
                renewable, nuclear, environment, grid, methane, cbam, green deal,
-               net-zero, decarbon]
+               net-zero, decarbon, fuel, pollution]
     feeds:
       - {name: "EC DG Energy", url: "https://energy.ec.europa.eu/node/2/rss_en"}
       - {name: "EC DG Climate Action", url: "https://climate.ec.europa.eu/node/2/rss_en"}
+      - {name: "EC DG Environment", url: "https://environment.ec.europa.eu/node/92/rss_en"}
       - {name: "EC Joint Research Centre", url: "https://joint-research-centre.ec.europa.eu/node/2/rss_en", keywords: true}
       - {name: "EC Press Corner", url: "https://ec.europa.eu/commission/presscorner/api/rss?language=en", keywords: true}
+      - {name: "EUR-Lex Official Journal L", url: "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222", keywords: true}
+      - {name: "EUR-Lex Commission proposals", url: "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=161", keywords: true}
+      - {name: "European Environment Agency", url: "https://www.eea.europa.eu/en/newsroom/rss.xml"}
       - {name: "ACER", url: "https://www.acer.europa.eu/rss.xml"}
+      - {name: "ENTSO-E", url: "https://www.entsoe.eu/rss/news.xml"}
       - {name: "Carbon Pulse", url: "https://carbon-pulse.com/feed/"}
+      - {name: "Euractiv", url: "https://www.euractiv.com/feed/", keywords: true}
     search_sources:
-      - "European Commission DG Environment (environment.ec.europa.eu)"
-      - "EUR-Lex / Official Journal: new energy, climate and environment legal acts"
-      - "European Commission 'Have your say' consultations on energy, climate, environment"
-      - "European Environment Agency (eea.europa.eu)"
-      - "ENTSO-E (entsoe.eu)"
-      - "Euractiv energy and environment section"
-    search_topics:
-      - "EU ETS and ETS2: prices, reforms, Market Stability Reserve, CBAM"
-    max_searches: 6
+      - {name: "European Commission 'Have your say' consultations on energy, climate, environment", domain: "ec.europa.eu"}
+    max_searches: 1
 
   - id: de
     name: Germany
@@ -43,15 +75,14 @@ categories:
       - {name: "Clean Energy Wire", url: "https://www.cleanenergywire.org/rss.xml"}
       - {name: "pv magazine Deutschland", url: "https://www.pv-magazine.de/feed/"}
       - {name: "Umweltbundesamt", url: "https://www.umweltbundesamt.de/rss/presse"}
+      - {name: "Bundesumweltministerium", url: "https://www.bundesumweltministerium.de/meldungen.rss"}
+      - {name: "Bundesnetzagentur", url: "https://www.bundesnetzagentur.de/SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/RSSNewsfeed_Pressemitteilungen.xml?nn=693926", keywords: true}
       - {name: "tagesschau Energie", url: "https://www.tagesschau.de/wirtschaft/energie/index~rss2.xml"}
       - {name: "heise Energie", url: "https://www.heise.de/thema/Energie.xml", keywords: true}
     search_sources:
-      - "German Federal Ministry for Economic Affairs and Energy (press releases)"
-      - "German Federal Environment Ministry (press releases)"
-      - "Bundesnetzagentur (press releases on electricity, gas, grids)"
-      - "Agora Energiewende (publications)"
-    search_topics: []
-    max_searches: 5
+      - {name: "German Federal Ministry for Economic Affairs and Energy, press releases", domain: "bundeswirtschaftsministerium.de"}
+      - {name: "Agora Energiewende, publications", domain: "agora-energiewende.de"}
+    max_searches: 2
 
   - id: be
     name: Belgium
@@ -61,15 +92,15 @@ categories:
                creg, fluxys, engie, emission, uitstoot, milieu, environment, waterstof,
                hydrogen, warmtepomp, capaciteitstarief]
     feeds:
+      - {name: "De Tijd Energie", url: "https://www.tijd.be/rss/ondernemen_energie.xml"}
+      - {name: "L'Echo Énergie", url: "https://www.lecho.be/rss/entreprises_energie.xml"}
       - {name: "VRT NWS (English)", url: "https://www.vrt.be/vrtnws/en.rss.articles.xml", keywords: true}
       - {name: "VRT NWS (Dutch)", url: "https://www.vrt.be/vrtnws/nl.rss.articles.xml", keywords: true}
+      - {name: "RTBF Info", url: "https://rss.rtbf.be/article/rss/highlight_rtbf_info.xml?source=internal", keywords: true}
     search_sources:
-      - "CREG, the Belgian federal energy regulator (creg.be)"
-      - "Elia, the Belgian transmission system operator (elia.be news)"
-      - "VREG, the Flemish energy regulator"
-      - "FPS Economy Belgium, energy pages"
-      - "The Brussels Times, energy and environment stories"
-      - "RTBF, De Tijd, L'Echo: energy and climate stories"
-    search_topics:
-      - "Belgian federal and regional energy and climate policy decisions"
-    max_searches: 6
+      - {name: "CREG, the Belgian federal energy regulator", domain: "creg.be"}
+      - {name: "Elia, the Belgian transmission system operator, news", domain: "elia.be"}
+      - {name: "Vlaamse Nutsregulator (formerly VREG), the Flemish energy regulator", domain: "vlaamsenutsregulator.be"}
+      - {name: "FPS Economy Belgium, energy pages", domain: "economie.fgov.be"}
+      - {name: "The Brussels Times, energy and environment stories", domain: "brusselstimes.com"}
+    max_searches: 3
