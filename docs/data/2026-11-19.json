@@ -1,0 +1,126 @@
+{
+ "date": "2026-11-19",
+ "items": [
+  {
+   "title": "EEA Joint Committee adopts environment and energy amendments to the EEA Agreement",
+   "headline": "EEA Joint Committee decisions amending environment and energy annexes published in the Official Journal.",
+   "summary": "Seven decisions of the EEA Joint Committee dated 10 July 2026 were published in the EU Official Journal on 18 November 2026. Five amend Annex XX (Environment) to the EEA Agreement, while two amend Annex II (Technical regulations, standards, testing and certification) and Annex IV (Energy). The decisions bring the corresponding EU environment and energy rules into the EEA Agreement; the cited texts themselves were not available, so the specific acts concerned are not detailed here.",
+   "doc_type": "law",
+   "interest": 2,
+   "interest_reason": "Routine EEA incorporation of EU rules; source text lacks detail",
+   "tags": [
+    "eea",
+    "environment",
+    "energy",
+    "legal-acts"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=OJ:L_202602464"
+    },
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=OJ:L_202602423"
+    },
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=OJ:L_202602452"
+    },
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=OJ:L_202602461"
+    },
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=OJ:L_202602420"
+    },
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=OJ:L_202602416"
+    },
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=OJ:L_202602427"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "9e5e98862e54"
+  },
+  {
+   "title": "Corrigendum to Implementing Regulation (EU) 2025/1706 on vehicle emission type-approval",
+   "headline": "Corrigendum published to Commission rules on vehicle emission type-approval and battery durability.",
+   "summary": "A corrigendum to Commission Implementing Regulation (EU) 2025/1706 of 25 July 2025 was published in the Official Journal on 18 November 2026. The regulation lays down rules, procedures and testing methodologies for applying Regulation (EU) 2024/1257 on exhaust and evaporative emission type-approval, in-vehicle battery durability and related requirements. Only the corrigendum notice was available; its specific changes are not described in the candidate text.",
+   "doc_type": "law",
+   "interest": 2,
+   "interest_reason": "Technical corrigendum; minor news value for energy and environment beat",
+   "tags": [
+    "vehicles",
+    "emissions",
+    "type-approval"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=OJ:L_202690999"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "fee56f1b0cb0"
+  },
+  {
+   "title": "The soaring cost of shoring up Europe's power grid",
+   "headline": "Subsidies to power plants cost €7 billion last year, with a new German scheme adding more.",
+   "summary": "Euractiv reports that subsidies to power plants cost €7 billion last year, and that a new German scheme will add further to the bill for shoring up Europe's power grid. The piece is press reporting on the rising cost of grid support rather than an official publication.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "EU electricity cost and grid policy, close to reader's energy beat",
+   "tags": [
+    "grid",
+    "subsidies",
+    "electricity",
+    "germany"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/the-soaring-cost-of-shoring-up-europes-power-grid/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "07c8fff72833"
+  }
+ ],
+ "generated_at": "2026-11-19T05:07:25+00:00",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2733,
+  "output_tokens": 5417,
+  "web_searches": 0,
+  "calls": 2,
+  "cost_usd": 0.004926
+ },
+ "categories": [
+  {
+   "id": "eu",
+   "name": "EU"
+  },
+  {
+   "id": "de",
+   "name": "Germany"
+  },
+  {
+   "id": "be",
+   "name": "Belgium"
+  }
+ ],
+ "errors": [],
+ "feed_errors": [],
+ "profile_set": true
+}
