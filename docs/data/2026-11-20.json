@@ -1,0 +1,494 @@
+{
+ "date": "2026-11-20",
+ "items": [
+  {
+   "title": "Post-2030 EU climate and energy package delayed to Q1 2027",
+   "headline": "Commission pushes entire post-2030 climate and energy package back to early 2027.",
+   "summary": "The European Commission will not issue its post-2030 proposals on international carbon credits, national climate targets, land use, land-use change and forestry (LULUCF), and climate and energy governance until Q1 2027, an EU official said on Thursday. The delay covers the whole package rather than individual files. The reporting by Carbon Pulse cites the official but no revised legislative timetable.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Core EU energy and climate policy file from specialist press the reader follows.",
+   "tags": [
+    "eu-climate-policy",
+    "post-2030",
+    "lulucf",
+    "carbon-credits"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/573879/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "00624968f2d0"
+  },
+  {
+   "title": "EU electricity support spending reached €12 billion as reliance grows",
+   "headline": "Commission reports €12 billion in EU electricity support spending amid rising reliance.",
+   "summary": "DG Energy says EU spending on electricity support measures reached €12 billion, as Member States increasingly rely on such measures. The Commission argues that cooperation and coordination between Member States are needed to deliver security of supply at the most affordable cost for consumers. Secure electricity supply is described as key for European citizens and the economy.",
+   "doc_type": "data",
+   "interest": 3,
+   "interest_reason": "Official Commission figure on security of supply, but limited detail in the text.",
+   "tags": [
+    "electricity",
+    "security-of-supply",
+    "state-aid",
+    "energy-prices"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "EC DG Energy",
+     "url": "https://www.acer.europa.eu/news/eu-spending-electricity-support-measures-reaches-eur12-billion-2025-reliance-grows"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "b910545c7b5e"
+  },
+  {
+   "title": "EU joins Global SF6 Pledge at COP31",
+   "headline": "EU joins Germany-led Global SF6 Pledge to cut the most potent greenhouse gas.",
+   "summary": "At COP31 in Antalya, the European Union joined the Global SF6 Pledge, an initiative launched by Germany to reduce global emissions of sulphur hexafluoride (SF6) in the power sector. Climate Commissioner Hoekstra presented the move at a press conference on 19 November. SF6 is described in the Commission's material as the world's most potent greenhouse gas.",
+   "doc_type": "press_release",
+   "interest": 3,
+   "interest_reason": "EU official announcement on a power-sector greenhouse gas at COP31.",
+   "tags": [
+    "sf6",
+    "cop31",
+    "power-sector",
+    "fluorinated-gases"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "EC DG Climate Action",
+     "url": "https://climate.ec.europa.eu/news-other-reads/news/cop31-eu-joins-global-sf6-pledge-fight-worlds-most-potent-greenhouse-gas-2026-11-19_en"
+    },
+    {
+     "name": "EC Press Corner",
+     "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2514"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "efdb4549879a"
+  },
+  {
+   "title": "EU publishes second Biennial Transparency Report under Paris Agreement",
+   "headline": "Commission submits its second Paris Agreement transparency report and urges others to follow.",
+   "summary": "The European Union published its second Biennial Transparency Report (BTR2) under the Paris Agreement, timed to COP31. The Commission calls on other parties to follow suit with their own reports. No figures from the report are given in the candidate text.",
+   "doc_type": "study",
+   "interest": 3,
+   "interest_reason": "Official EU climate reporting publication, but little substantive detail provided.",
+   "tags": [
+    "paris-agreement",
+    "transparency",
+    "cop31",
+    "climate-reporting"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "EC DG Climate Action",
+     "url": "https://climate.ec.europa.eu/news-other-reads/news/cop31-eu-submits-second-biennial-transparency-report-under-paris-agreement-and-calls-others-follow-2026-11-19_en"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "849db54a36a2"
+  },
+  {
+   "title": "Commission restricts lead gunshot use and sale",
+   "headline": "Commission adopts rules banning gunshot containing 1% or more lead.",
+   "summary": "The Commission adopted measures restricting lead gunshot, banning the use and sale of gunshot containing 1% lead or more. The stated aim is to protect human health and the environment. The candidate gives no further detail on scope, exemptions or entry-into-force dates.",
+   "doc_type": "law",
+   "interest": 3,
+   "interest_reason": "New EU environment restriction measure from DG Environment.",
+   "tags": [
+    "lead",
+    "chemicals",
+    "environment",
+    "hunting"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "EC DG Environment",
+     "url": "https://single-market-economy.ec.europa.eu/news/commission-adopts-measures-restrict-lead-gunshot-protect-health-and-environment-2026-11-17_en"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "ead8b1d6648a"
+  },
+  {
+   "title": "JRC proposes method to quantify e-bike battery carbon footprint",
+   "headline": "New JRC report sets technical basis for carbon footprint of light transport batteries.",
+   "summary": "A new JRC report proposes a technical basis on which to calculate the carbon footprint of batteries for e-bikes, e-scooters and other light means of transport. The guidelines target this battery segment specifically. The candidate does not state whether the method feeds into a regulatory requirement.",
+   "doc_type": "study",
+   "interest": 3,
+   "interest_reason": "JRC technical publication, a source type the reader follows.",
+   "tags": [
+    "batteries",
+    "carbon-footprint",
+    "jrc",
+    "e-bikes"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "EC Joint Research Centre",
+     "url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/e-bike-batteries-new-guidelines-quantifying-carbon-footprint-2026-11-19_en"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "7b4cd4b88b9f"
+  },
+  {
+   "title": "EPP pushes to revise EU nature directives as agri-lobby mobilises",
+   "headline": "EPP environment chief says Birds and Habitats Directives need amending.",
+   "summary": "The European People's Party's environment policy chief said the Birds and Habitats Directives need to be amended. The call comes as the agricultural lobby steps up campaigning around the EU nature laws. No legislative proposal is reported in the candidate text.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "EU environment policy story from specialist press; political rather than official publication.",
+   "tags": [
+    "nature-directives",
+    "biodiversity",
+    "agriculture",
+    "epp"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/agri-lobby-shifts-into-gear-as-epp-calls-for-revision-of-eu-nature-laws/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "622bf2f7e2b4"
+  },
+  {
+   "title": "November infringements package includes one energy letter and one reasoned opinion",
+   "headline": "Commission's November infringements list has a single energy-related letter and opinion.",
+   "summary": "In the November infringements package, the Commission lists one energy-related letter of formal notice and one reasoned opinion. The candidate gives no details on the Member States or the subject matter involved.",
+   "doc_type": "other",
+   "interest": 2,
+   "interest_reason": "Official Commission act but too little detail to be of much use.",
+   "tags": [
+    "infringements",
+    "energy",
+    "commission"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "EC DG Energy",
+     "url": "https://energy.ec.europa.eu/news/november-infringements-package-key-decisions-energy-2026-11-19_en"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "6f520f2ed184"
+  },
+  {
+   "title": "Voltwise to build 125 MWh battery storage in North Rhine-Westphalia",
+   "headline": "Voltwise plans its first large German battery park, 56 MW and 125 MWh, for 2027.",
+   "summary": "Voltwise is building a battery storage system with 56 megawatts of power and 125 megawatt-hours of capacity in North Rhine-Westphalia. It is the company's first large-scale battery storage project in Germany and is scheduled to go into operation in the second half of 2027.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "German storage build-out news; profile gives no specific topic basis.",
+   "tags": [
+    "battery storage",
+    "germany",
+    "north rhine-westphalia"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/19/voltwise-baut-125-megawattstunden-speicher-in-nordrhein-westfalen/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "242ba6ea93c0"
+  },
+  {
+   "title": "EWI study puts net subsidy need for rooftop PV at 0.8 cents per kWh",
+   "headline": "EWI study finds rooftop solar needs far less net support than ground-mounted parks.",
+   "summary": "The Institute of Energy Economics (EWI) examined support costs for solar, including grid expansion costs, and found the net support need for new rooftop PV systems is only 0.8 cents per kilowatt-hour. Grid costs are much lower for rooftop installations than for solar parks. Based on the findings, industry association BSW-Solar welcomes plans to retain the feed-in tariff for small PV systems.",
+   "doc_type": "study",
+   "interest": 4,
+   "interest_reason": "German solar subsidy design study, directly relevant to policy debate.",
+   "tags": [
+    "solar",
+    "subsidies",
+    "grid costs",
+    "germany"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/19/studie-nettofoerderbedarf-fuer-neu-photovoltaik-dachanlagen-bei-nur-08-cent-pro-kilowattstunde/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "f1502bdbe921"
+  },
+  {
+   "title": "EU trilogue deal on customer installations, faster permits and grid connection",
+   "headline": "EU institutions agree rules to speed permitting and grid connection for renewables and storage.",
+   "summary": "Parliament, Council and Commission reached agreement in trilogue on requirements for faster and simpler permitting and grid connection procedures for renewable energy installations, battery storage and EV charging infrastructure. The deal also points to a route to long-term legal certainty for customer installations, particularly relevant for tenant-electricity solar.",
+   "doc_type": "law",
+   "interest": 4,
+   "interest_reason": "EU regulatory file on permitting and grid access, core policy interest.",
+   "tags": [
+    "eu",
+    "permitting",
+    "grid connection",
+    "solar"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/19/einigung-im-eu-trilog-zu-kundenanlage-schnelleren-genehmigungen-und-netzanschlussverfahren/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "2a8e0e6aba6b"
+  },
+  {
+   "title": "P3 proposes three-stage readiness framework for battery storage projects",
+   "headline": "Consultants propose clearer readiness tiers for storage projects sold as ready to build.",
+   "summary": "Many large battery storage projects are currently sold as \"ready to build\" despite very different levels of maturity, write Constantin Ernst and Martin Davidsen of P3. They propose three stages to give buyers and investors more clarity about what a project has actually secured.",
+   "doc_type": "study",
+   "interest": 2,
+   "interest_reason": "Industry technical analysis, not policy or official source.",
+   "tags": [
+    "battery storage",
+    "investment",
+    "germany"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/19/wann-ein-batteriespeicher-wirklich-baureif-ist/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "ef8712db50e0"
+  },
+  {
+   "title": "Environment ministry launches initiative against SF6 at world climate conference",
+   "headline": "Germany backs global initiative to cut SF6 emissions from the power sector.",
+   "summary": "The Federal Environment Ministry presented a new initiative at the world climate conference aimed at reducing emissions of sulphur hexafluoride (SF6) in the electricity sector and promoting climate-friendly alternatives worldwide. SF6 is described as the strongest and most harmful known greenhouse gas.",
+   "doc_type": "press_release",
+   "interest": 3,
+   "interest_reason": "Ministry source on climate policy, relevant but not a core named topic.",
+   "tags": [
+    "sf6",
+    "climate",
+    "electricity sector",
+    "germany"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "Bundesumweltministerium",
+     "url": "https://www.bundesumweltministerium.de/pressemitteilung/weltklimakonferenz-neue-initiative-gegen-schaedlichstes-klimagas-sf6-und-fuer-neue-technologien"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "173664b0c603"
+  },
+  {
+   "title": "EU delays methane import rules by two years",
+   "headline": "Brussels postpones methane requirements for imported fossil fuels to 2029.",
+   "summary": "The EU has had methane emission reduction rules since 2024, with rules for imported fossil fuels due to apply from 2027. Their entry into force is now to be postponed by two years, with reporting citing the energy crisis as the reason.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "EU energy and climate regulation change; profile gives no topic basis.",
+   "tags": [
+    "eu",
+    "methane",
+    "imports",
+    "climate policy"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "tagesschau Energie",
+     "url": "https://www.tagesschau.de/wirtschaft/energie/eu-methan-100.html"
+    },
+    {
+     "name": "heise Energie",
+     "url": "https://www.heise.de/news/EU-verschiebt-Klimaschutzregeln-wegen-Energiekrise-11530309.html?wt_mc=rss.red.ho.themen.energie.beitrag.beitrag"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "4a76bc6c2b02"
+  },
+  {
+   "title": "IEA: Hormuz crisis triggers largest energy supply shock on record",
+   "headline": "IEA warns of record supply shock as cooling overtakes heating in global demand.",
+   "summary": "According to the IEA, the crisis around the Strait of Hormuz has triggered the largest energy supply shock in history, and oil transport through the strait could fall drastically with lasting market consequences. The agency also reports that the world now consumes more energy for cooling than for heating for the first time.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "IEA analysis on global energy, adjacent to but not core profile interest.",
+   "tags": [
+    "iea",
+    "oil",
+    "cooling",
+    "energy security"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "heise Energie",
+     "url": "https://www.heise.de/news/Erstmals-braucht-die-Welt-mehr-Energie-zum-Kuehlen-als-zum-Heizen-11531700.html?wt_mc=rss.red.ho.themen.energie.beitrag.beitrag"
+    },
+    {
+     "name": "heise Energie",
+     "url": "https://www.heise.de/news/IEA-Hormus-Blockade-veraendert-globale-Energieversorgung-dauerhaft-11530319.html?wt_mc=rss.red.ho.themen.energie.beitrag.beitrag"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "a0169f7328f1"
+  },
+  {
+   "title": "World's tallest wind turbine commissioned in Schipkau, Brandenburg",
+   "headline": "World's tallest wind turbine starts feeding power in Brandenburg, more planned.",
+   "summary": "The world's tallest wind turbine has gone into operation in Schipkau, Brandenburg, and is now supplying electricity. Further turbines are already planned, with series production targeted for 2030.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "German wind energy milestone; profile gives no specific topic basis.",
+   "tags": [
+    "wind power",
+    "brandenburg",
+    "germany"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "heise Energie",
+     "url": "https://www.heise.de/news/Offshore-auf-dem-Land-Weltweit-hoechste-Windkraftanlage-in-Betrieb-genommen-11531361.html?wt_mc=rss.red.ho.themen.energie.beitrag.beitrag"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "d19c9aecc3d5"
+  },
+  {
+   "title": "CEO Change at Vlaams Energiebedrijf",
+   "headline": "Frederik Hindryckx transitions from Vlaams Energiebedrijf to lead Ekopak.",
+   "summary": "Frederik Hindryckx, the General Manager of Vlaams Energiebedrijf, is set to become the CEO of Ekopak, the publicly listed water treatment company. The move represents a transition within the regional energy and utility sector.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Relevant organizational update for key Belgian utility players.",
+   "tags": [
+    "energy",
+    "utility",
+    "management"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "De Tijd Energie",
+     "url": "https://www.tijd.be/r/t/1/id/10706295"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "78358a5651d0"
+  },
+  {
+   "title": "COP31 Concludes in Antalya",
+   "headline": "Ecolo's Gilles Vanden Burre comments on the conclusion and proposals from COP31.",
+   "summary": "Gilles Vanden Burre, co-president of Ecolo, commented on the conclusion of COP31 in Antalya, noting that they are ready with proposals regarding climate change. This event marks the end of the recent climate conference.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Political update on international climate policy engagement.",
+   "tags": [
+    "climate",
+    "cop",
+    "policy"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "RTBF Info",
+     "url": "https://www.rtbf.be/article/nous-sommes-prets-nous-avons-des-propositions-dit-gilles-vanden-burre-copresident-d-ecolo-dans-jeudi-en-prime-11818185"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "1e070694fa10"
+  },
+  {
+   "title": "Mechelen Pool Water Loss",
+   "headline": "New public pool De Otter is temporarily closed after losing 100,000 liters of water.",
+   "summary": "The newly opened De Otter neighborhood pool in Mechelen is closed following a significant water loss. The loss, totaling 100,000 liters, was attributed to a combination of a pipe break and a software error.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Local incident concerning infrastructure failure and resource management.",
+   "tags": [
+    "water",
+    "infrastructure",
+    "mechelen"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "VRT NWS (Dutch)",
+     "url": "https://vrtnws.be/p.93pyEYOav"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "954bc484bcc7"
+  }
+ ],
+ "generated_at": "2026-11-20T05:07:48+00:00",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 21675,
+  "output_tokens": 7919,
+  "web_searches": 6,
+  "calls": 6,
+  "cost_usd": 0.049067
+ },
+ "categories": [
+  {
+   "id": "eu",
+   "name": "EU"
+  },
+  {
+   "id": "de",
+   "name": "Germany"
+  },
+  {
+   "id": "be",
+   "name": "Belgium"
+  }
+ ],
+ "errors": [],
+ "feed_errors": [
+  "ACER: <urlopen error timed out>"
+ ],
+ "profile_set": true
+}
