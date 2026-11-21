@@ -1,0 +1,488 @@
+{
+ "date": "2026-11-21",
+ "items": [
+  {
+   "title": "EU and UK finalise negotiations to link emissions trading systems",
+   "headline": "Commission says EU-UK ETS linking talks concluded as traders fret over timetable",
+   "summary": "The Commission's DG Climate Action said on 19 November that negotiations to link the EU and UK Emissions Trading Systems had been finalised. The same day, the Official Journal published Council Decision (EU) 2026/2599 establishing the EU position in the Partnership Council created by the EU-UK Trade and Cooperation Agreement, and Decision No 1/2026 of that Partnership Council. Euractiv reported the next day that carbon prices were seesawing as the market merger stalled, with a dispute over UK university fees causing jitters among traders.",
+   "doc_type": "law",
+   "interest": 5,
+   "interest_reason": "Core EU ETS file; UK link matters to reader",
+   "tags": [
+    "eu-ets",
+    "uk",
+    "carbon-markets",
+    "linking"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "EC DG Climate Action",
+     "url": "https://climate.ec.europa.eu/news-other-reads/news/negotiations-finalised-link-eu-and-uk-emissions-trading-systems-2026-11-20_en"
+    },
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:32026D2599"
+    },
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:22026D2604"
+    },
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/eu-uk-carbon-prices-seesaw-as-market-merger-stalls/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "a95029db0c20"
+  },
+  {
+   "title": "Commission publishes draft rules for CBAM declarations",
+   "headline": "Brussels sets out draft rules for annual CBAM declarations due 30 September 2027",
+   "summary": "Brussels has set out draft rules for submitting annual EU Carbon Border Adjustment Mechanism declarations. According to Carbon Pulse, the annual declarations are due by 30 September 2027.",
+   "doc_type": "law",
+   "interest": 4,
+   "interest_reason": "CBAM compliance rules, close to reader's EU ETS interest",
+   "tags": [
+    "cbam",
+    "carbon-border",
+    "implementation"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/574118/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "50e4a1c05931"
+  },
+  {
+   "title": "EU carbon allowances post largest weekly drop since February",
+   "headline": "EUA prices fall 0.9% on Friday for biggest weekly drop since February",
+   "summary": "EU carbon allowance prices recorded their largest weekly decline since February, falling 0.9% on Friday, according to Carbon Pulse's Euro Markets report. The report attributes the moves to technical selling, volatile equity markets and uncertainty over the timetable for a UK-EU linking agreement, with the market hunting for stops and support levels.",
+   "doc_type": "data",
+   "interest": 3,
+   "interest_reason": "EU ETS price move; reader follows carbon markets",
+   "tags": [
+    "eu-ets",
+    "carbon-price",
+    "markets"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/573894/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "aa5318c7aea0"
+  },
+  {
+   "title": "EU endorses Antalya Compact on energy efficient buildings",
+   "headline": "EU backs global compact to cut buildings' energy intensity by 25% by 2035",
+   "summary": "The EU endorsed the Antalya Compact for Energy Efficient Buildings, an initiative to reduce buildings' energy intensity - energy consumed per square metre - by at least 25% by 2035. The endorsement was announced by DG Energy and DG Climate Action on 19 November.",
+   "doc_type": "other",
+   "interest": 3,
+   "interest_reason": "Commission buildings efficiency target; no profile steer yet",
+   "tags": [
+    "buildings",
+    "energy-efficiency",
+    "international"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "EC DG Climate Action",
+     "url": "https://energy.ec.europa.eu/news/eu-backs-global-compact-cut-energy-bills-and-emissions-buildings-2026-11-20_en"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "29cfce8a4a08"
+  },
+  {
+   "title": "Gas Coordination Group confirms EU winter preparedness",
+   "headline": "Gas Coordination Group says EU is prepared for winter despite price pressure",
+   "summary": "Experts from EU countries, the Commission and stakeholder associations confirmed at the latest Gas Coordination Group meeting that the EU is prepared for winter. The group underlined the importance of gas storage through the winter despite challenging price conditions and continued geopolitical uncertainty.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Official security-of-supply update from DG Energy",
+   "tags": [
+    "gas",
+    "security-of-supply",
+    "winter"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "EC DG Energy",
+     "url": "https://energy.ec.europa.eu/news/gas-coordination-group-confirms-eus-winter-preparedness-importance-gas-storage-through-winter-2026-11-20_en"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "0c56c63ce3ee"
+  },
+  {
+   "title": "EU bans plastic waste exports to non-OECD countries",
+   "headline": "EU restricts plastic waste exports to non-OECD countries until at least 2029",
+   "summary": "The Commission's DG Environment announced a ban on plastic waste exports to non-OECD countries. The restrictions will apply until at least 21 May 2029, after which those countries may apply to receive plastic waste from the EU.",
+   "doc_type": "law",
+   "interest": 3,
+   "interest_reason": "Environment policy measure; no profile steer yet",
+   "tags": [
+    "waste",
+    "plastics",
+    "trade"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "EC DG Environment",
+     "url": "https://environment.ec.europa.eu/news/eu-bans-plastic-waste-exports-non-oecd-countries-2026-11-20_en"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "fdc7a6d7cd0b"
+  },
+  {
+   "title": "EEA: more action needed on Europe's groundwater resilience",
+   "headline": "EEA briefing warns groundwater faces pollution, over-use and climate pressure",
+   "summary": "The European Environment Agency published a briefing finding that more work is needed to protect and strengthen the resilience of Europe's groundwater. The EEA describes the resource as one of Europe's most strategic natural assets, facing increasing pressures from pollution, over-use and climate change.",
+   "doc_type": "study",
+   "interest": 3,
+   "interest_reason": "EEA assessment; reader follows EEA and JRC output",
+   "tags": [
+    "water",
+    "groundwater",
+    "eea"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "European Environment Agency",
+     "url": "https://www.eea.europa.eu/en/newsroom/news/more-must-be-done-to-strengthen-europes-groundwater-resilience"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "03591b4c09b9"
+  },
+  {
+   "title": "ACER updates guidance on cybersecurity performance monitoring in electricity",
+   "headline": "ACER updates voluntary guidance for cybersecurity reliability indicators in power",
+   "summary": "ACER published updated guidance on the voluntary submission of information for monitoring cybersecurity-related operational reliability performance indicators in the electricity sector. The item carries no publication date.",
+   "doc_type": "other",
+   "interest": 3,
+   "interest_reason": "ACER output on grid reliability, a listed source",
+   "tags": [
+    "electricity",
+    "cybersecurity",
+    "acer"
+   ],
+   "published": "",
+   "sources": [
+    {
+     "name": "ACER",
+     "url": "https://www.acer.europa.eu/%3Ca%20href%3D%22/news/acer-updates-guidance-track-cybersecurity-performance-eu-electricity-networks%22%20hreflang%3D%22en%22%3EACER%20updates%20guidance%20to%20track%20cybersecurity%20performance%20in%20EU%20electricity%20networks%3C/a%3E"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "11730c0b1310"
+  },
+  {
+   "title": "EU warns COP31 could fail without fossil fuel commitment",
+   "headline": "EU official says latest COP31 draft 'won't fly' without fossil fuel language",
+   "summary": "An EU official told Euractiv's Rapporteur that the latest draft agreement at COP31 'won't fly', warning that the summit could fail without a commitment on fossil fuels.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "EU climate diplomacy stance, comparable to earlier COP31 items",
+   "tags": [
+    "cop31",
+    "fossil-fuels",
+    "climate-diplomacy"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/eu-warns-cop31-could-fail-without-commitment-on-fossil-fuels/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "3fdfe6277993"
+  },
+  {
+   "title": "Commission postpones expiry of hydrogen cyanide biocide approval",
+   "headline": "EU postpones expiry of hydrogen cyanide approval for three biocide product types",
+   "summary": "Commission Implementing Decision (EU) 2026/2564 postpones the expiry date of the approval of hydrogen cyanide for use in biocidal products of product-types 8, 14 and 18, in accordance with Regulation (EU) No 528/2012. It was published in the Official Journal on 19 November 2026.",
+   "doc_type": "law",
+   "interest": 1,
+   "interest_reason": "Routine chemical approval, no energy or ETS angle",
+   "tags": [
+    "biocides",
+    "chemicals",
+    "regulation"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:32026D2564"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "b6b30133b60a"
+  },
+  {
+   "title": "Renewable and farm associations urge coalition to secure EEG and grid package",
+   "headline": "Associations from seven states warn of investment gap in EEG reforms",
+   "summary": "Renewable energy and agricultural associations from seven federal states issued a joint appeal to the governing coalition on the EEG and grid package. They demand investment security for planned projects, including in the 2027 auctions, and warn that operators with expiring support, running permits and sunk investments could fall into a gap. They put particular emphasis on grid connection.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Core German energy policy file the reader follows",
+   "tags": [
+    "eeg",
+    "grid",
+    "policy",
+    "auctions"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/20/erneuerbaren-und-landwirtschaftsverbaende-richten-gemeinsamen-appell-zu-eeg-und-netzpaket-an-die-regierungskoalition/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "1a4bec275ffa"
+  },
+  {
+   "title": "UBA: peatland and forest investment needed to close 77 Mt LULUCF gap",
+   "headline": "Environment agency says land sector misses climate target by 77 Mt CO2e in 2045",
+   "summary": "The German Environment Agency (UBA) published its 2025 projections showing the land use, land-use change and forestry (LULUCF) sector will fall 77 million tonnes of CO2 equivalent per year short of the target set in the Climate Action Law by 2045. It argues that targeted investment in peatland rewetting and adapted forest management can mitigate climate change and close part of the gap.",
+   "doc_type": "study",
+   "interest": 4,
+   "interest_reason": "Official federal agency projection on climate targets",
+   "tags": [
+    "climate",
+    "lulucf",
+    "peatlands",
+    "forests"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "Umweltbundesamt",
+     "url": "https://www.umweltbundesamt.de/presse/pressemitteilungen/investitionen-in-moore-waelder-koennen-den"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "a907a036a8c4"
+  },
+  {
+   "title": "Survey: a third of redispatch operators receive an invoice instead of a credit",
+   "headline": "Node Energy survey finds widespread problems with redispatch billing",
+   "summary": "A survey by Node Energy found that 49 percent of plant operators who received redispatch billing from their grid operator cannot check whether it is correct, and only 19 percent said their expectations were met. About one third received an invoice rather than a credit from the grid operator, according to the pv magazine report.",
+   "doc_type": "data",
+   "interest": 3,
+   "interest_reason": "Grid operator practice, relevant to reader's regulator focus",
+   "tags": [
+    "redispatch",
+    "grid",
+    "billing"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/20/redispatch-2026-etwa-ein-drittel-der-anlagenbetreiber-erhaelt-rechnung-statt-gutschrift/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "15097f99fbf9"
+  },
+  {
+   "title": "Survey asks why homeowners with suitable roofs skip solar",
+   "headline": "ThEGA and Erfurt university write to 44,300 homeowners on PV economics",
+   "summary": "The Thuringian state energy agency ThEGA and the University of Erfurt wrote to around 44,300 homeowners to find out why owners of suitable roofs do not install photovoltaics, a group that does not appear in any statistics. The letter included a calculation of how quickly a PV system would pay off for each recipient.",
+   "doc_type": "study",
+   "interest": 3,
+   "interest_reason": "German rooftop PV adoption data, on reader's PV interest",
+   "tags": [
+    "solar",
+    "rooftop",
+    "survey"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/20/warum-eigentuemer-trotz-geeigneter-daecher-auf-photovoltaik-verzichten/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "e6600d80e75b"
+  },
+  {
+   "title": "Svea Solar guarantees minimum 7.2 cents per kWh for small PV direct marketing",
+   "headline": "Svea Solar offers ten-year minimum feed-in revenue for household PV",
+   "summary": "Against the backdrop of the debate over the future design of EEG support, Svea Solar is offering households with a PV system and battery guaranteed feed-in revenue of at least 7.2 cents per kWh for the next ten years under its \"Svea Strom\" tariff. The guarantee is described as net of direct marketing costs.",
+   "doc_type": "press_release",
+   "interest": 3,
+   "interest_reason": "Concrete market offer amid EEG reform uncertainty",
+   "tags": [
+    "solar",
+    "eeg",
+    "direct-marketing"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/20/svea-solar-garantiert-mindestens-72-cent-pro-kilowattstunde-fuer-10-jahre-bei-direktvermarktung-kleiner-photovoltaik-anlagen/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "227e6feb994a"
+  },
+  {
+   "title": "Transparency platform scores distribution grid operators",
+   "headline": "vnb-transparenz.de publishes performance data on German DSOs",
+   "summary": "The platform vnb-transparenz.de makes the performance of individual German distribution grid operators publicly visible, aiming to show how problems can be solved and to create pressure for improvement. One aspect covered is the implementation of joint building supply (gemeinschaftliche Gebäudeversorgung).",
+   "doc_type": "data",
+   "interest": 3,
+   "interest_reason": "Grid operator transparency, matches reader's DSO interest",
+   "tags": [
+    "grid",
+    "distribution",
+    "transparency"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/20/pv-magazine-spotlight-fuer-verteilnetzbetreiber-transparenzplattform-licht-ins-dunkel-bringen/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "abb45740fc51"
+  },
+  {
+   "title": "Hedera appoints CFO to manage nuclear provisions",
+   "headline": "Celine Azizieh Bockstael named CFO of Hedera, overseeing Belgian nuclear provisions.",
+   "summary": "Celine Azizieh Bockstael has been appointed chief financial officer of Hedera, which manages billions in nuclear provisions. A president still needs to be appointed to complete the management committee.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Relevant to Belgian nuclear policy and financial oversight.",
+   "tags": [
+    "nuclear",
+    "belgium",
+    "finance"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "L'Echo Énergie",
+     "url": "https://www.lecho.be/r/t/1/id/10706500"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "127dce905eea"
+  },
+  {
+   "title": "Herent installs wooden check dam to stop mudflows",
+   "headline": "Herent builds a wooden check dam to prevent mud from flowing onto streets and gardens.",
+   "summary": "A new wooden check dam has been installed on Grote Molenweg in Herent to reduce nuisance from mudflows. After heavy rain, mud from higher fields regularly flowed onto streets, gardens and a sewer pumping system. The wooden structure filled with root wood chips is meant to slow water and trap mud.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Local environmental measure; limited policy impact.",
+   "tags": [
+    "flooding",
+    "environment",
+    "local"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "VRT NWS (Dutch)",
+     "url": "https://vrtnws.be/p.Yb5KJbqZx"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "cdd99d775f68"
+  },
+  {
+   "title": "Belgium launches roadmap to phase out fossil fuels",
+   "headline": "Belgium announces a roadmap for a rapid phase-out of fossil fuels at COP31.",
+   "summary": "Federal climate minister Jean-Luc Crucke announced at the COP31 climate conference in Antalya that Belgium is starting a step-by-step plan for a rapid exit from fossil fuels. Belgium and about 20 other countries pushed to include the phase-out of oil and gas in the draft COP decision, one of the main sticking points of the summit. Crucke called it the kick-off of Belgium's fossil fuel phase-out.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Belgian federal climate policy at COP31; high relevance.",
+   "tags": [
+    "fossil-fuels",
+    "climate-policy",
+    "cop31",
+    "belgium"
+   ],
+   "published": "2026-11-20",
+   "sources": [
+    {
+     "name": "VRT NWS (Dutch)",
+     "url": "https://vrtnws.be/p.kQONVK1BB"
+    },
+    {
+     "name": "RTBF Info",
+     "url": "https://www.rtbf.be/article/cop31-a-antalya-la-belgique-et-une-vingtaine-de-pays-haussent-le-ton-pour-reinscrire-la-sortie-du-petrole-et-du-gaz-dans-le-projet-d-accord-11818457"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "62d4ec2c4e01"
+  }
+ ],
+ "generated_at": "2026-11-21T05:06:23+00:00",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 5992,
+  "output_tokens": 11418,
+  "web_searches": 0,
+  "calls": 3,
+  "cost_usd": 0.007038
+ },
+ "categories": [
+  {
+   "id": "eu",
+   "name": "EU"
+  },
+  {
+   "id": "de",
+   "name": "Germany"
+  },
+  {
+   "id": "be",
+   "name": "Belgium"
+  }
+ ],
+ "errors": [],
+ "feed_errors": [],
+ "profile_set": true
+}
