@@ -3,7 +3,8 @@
 
 Per category in config/feeds.yaml:
   1. Read the RSS feeds (no AI) and keep recent, not-yet-seen entries.
-  2. On search days, ask a model to web-search the few sources that have no feed.
+     Sources without a feed are read from their news page, also without AI.
+  2. On search days, ask a model to web-search a few topics for stories the feeds missed.
   3. Ask a model to merge duplicates, summarise in English, label and rate each story.
      The model refers to candidates by number, so every link shown comes from a feed
      or a search result and none can be invented.
@@ -44,6 +45,7 @@ DEFAULT_MODELS = {
 # Token use is kept low on purpose: these caps limit the text sent to the model.
 LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS") or 36)
 MAX_PER_FEED = 8
+MAX_PER_PAGE = 5
 MAX_CANDIDATES = 40
 MAX_SEARCH_FINDINGS = 8
 TEXT_LIMIT = 350
@@ -213,65 +215,129 @@ def read_feeds(cat, seen, cutoff, feed_errors, today):
     return out
 
 
-# ---------- step 2: web search for sources without feeds ----------
+# ---------- step 1b: news pages of sources without a feed (no AI) ----------
 
-def search_gaps(key, models, cat, today, rss_items, lookback_days, seen):
-    """Returns candidate items found by web search on the sources' own websites."""
-    sources = cat.get("search_sources") or []
-    max_uses = int(cat.get("max_searches", 0))
-    if max_uses < 1 or not sources:
-        return []
-    domains = sorted({s["domain"].lower() for s in sources if s.get("domain")})
+def read_pages(cat, seen, feed_errors, today):
+    """Reads a source's news listing page and returns links not seen before."""
+    topic_re = keyword_re(cat.get("keywords"))
+    out = []
+    for page in cat.get("pages", []):
+        try:
+            body = http_get(page["url"]).decode("utf-8", "replace")
+        except Exception as exc:
+            feed_errors.append(f"{page['name']}: {exc}")
+            log(f"  page failed: {page['name']}: {exc}")
+            continue
+        wanted = re.compile(page["links"])
+        titles = {}
+        for href, inner in re.findall(r'<a\b[^>]*href="([^"#]+)"[^>]*>(.*?)</a>', body, re.S):
+            if not wanted.search(href):
+                continue
+            url = urllib.parse.urljoin(page["url"], html.unescape(href))
+            text = strip_html(inner, 300)
+            if len(text) > len(titles.get(url, "")) or url not in titles:
+                titles[url] = text
+        # These pages carry no dates. The first time a page is read, its links are only
+        # remembered; from then on, a link not seen before is a new item.
+        first_read = not any(norm_url(u) in seen for u in titles)
+        kept = 0
+        for url, title in titles.items():
+            key = norm_url(url)
+            known = key in seen
+            seen[key] = today
+            if known or first_read:
+                continue
+            if len(title) < 15:  # link without readable text: fall back to the address
+                title = urllib.parse.unquote(url.rstrip("/").rsplit("/", 1)[-1]).replace("-", " ")
+            if page.get("keywords") and topic_re and not topic_re.search(title.lower()):
+                continue
+            if kept < MAX_PER_PAGE:
+                out.append({"source": page["name"], "title": title, "url": url, "via": "page",
+                            "date": "", "text": ""})
+                kept += 1
+        log(f"  {page['name']}: {kept} new" + (" (first read, remembered only)" if first_read else ""))
+    return out
+
+
+# ---------- step 2: web search for stories the feeds missed ----------
+
+def url_alive(url):
+    try:
+        http_get(url, timeout=15)
+        return True
+    except Exception:
+        return False
+
+
+def search_topics(key, models, cat, today, have_items, lookback_days, seen):
+    """Asks a model to search the web for a few topics. Returns (candidates, log entry)."""
+    topics = cat.get("search_topics") or []
+    max_uses = min(int(cat.get("max_searches", 0)), len(topics))
+    info = {"category": cat["id"], "searches_allowed": max_uses, "lines": 0, "kept": 0, "dropped": []}
+    if max_uses < 1:
+        return [], None
+    covered = sorted({urllib.parse.urlparse(f["url"]).netloc.lower().replace("www.", "")
+                      for f in cat.get("feeds", []) + cat.get("pages", [])})
     since = (today - dt.timedelta(days=lookback_days)).isoformat()
-    have = "\n".join(f"- {i['title']}" for i in rss_items[:20]) or "(none)"
-    prompt = f"""Today is {today.isoformat()}. I am compiling a daily briefing on: {cat['description']}
+    have = "\n".join(f"- {i['title']}" for i in have_items[:25]) or "(none)"
+    prompt = f"""Today is {today.isoformat()}. I am compiling a briefing on: {cat['description']}
 
-Search the web for items published on or after {since} by these sources:
-{chr(10).join(f"- {s['name']} ({s.get('domain', '')})" for s in sources)}
+Find news published on or after {since} that I do not have yet. Run one web search for each
+of these topics ({max_uses} searches at most). Put the month and year in each query so the
+results are recent:
+{chr(10).join('- ' + t for t in topics[:max_uses])}
 
-You may run at most {max_uses} searches, so combine sources in one query where sensible.
-
-I already have these stories, so skip them:
+I already have these stories, so skip them and anything covering the same event:
 {have}
 
-Report only items that appear in the search results, with the exact URL from the result.
-Skip anything older than {since} or whose date you cannot establish. Finding nothing new
-is a normal outcome; never fill gaps from memory.
+Report at most {MAX_SEARCH_FINDINGS} items, the most significant first. Report only items
+that appear in the search results, with the exact URL from the result. Skip anything older
+than {since} or whose date you cannot establish. Finding nothing new is a normal outcome;
+never fill gaps from memory.
 
 Answer with one line per item, nothing else:
-date (YYYY-MM-DD) | source | title | URL | one factual sentence on what it says
+date (YYYY-MM-DD) | publisher | title | URL | two factual sentences on what it says
 If there is nothing new, answer NONE."""
-    params = {"engine": "exa", "max_results": 5, "max_uses": max_uses, "max_characters": 600}
-    if domains:
-        params["allowed_domains"] = domains
-    body = {"messages": [{"role": "user", "content": prompt}], "max_tokens": 1500,
+    params = {"engine": "exa", "max_results": 6, "max_uses": max_uses, "max_characters": 700}
+    if covered:
+        params["excluded_domains"] = covered
+    body = {"messages": [{"role": "user", "content": prompt}], "max_tokens": 2000,
             "tools": [{"type": "openrouter:web_search", "parameters": params}]}
+    before = USAGE["web_searches"]
     message, model = chat(key, models, body, lambda m: m)
     text = (message.get("content") or "").strip()
     cited = {norm_url(a.get("url_citation", {}).get("url", ""))
              for a in message.get("annotations") or [] if a.get("type") == "url_citation"}
+    info.update({"model": model, "searches_run": USAGE["web_searches"] - before,
+                 "results_cited": len(cited)})
     found = []
     for line in text.splitlines():
         parts = [p.strip() for p in line.split("|")]
         match = URL_RE.search(line)
         if len(parts) < 4 or not match:
             continue
+        info["lines"] += 1
         url = match.group(0).rstrip(".,;")
-        host = urllib.parse.urlparse(url).netloc.lower()
-        # Keep a link only if the search really returned it, or it is on a source's own site.
-        on_site = any(host == d or host.endswith("." + d) for d in domains)
-        if norm_url(url) not in cited and not on_site:
-            log(f"  dropped search finding (unverified link): {url}")
-            continue
-        if norm_url(url) in seen:
-            continue
         date = parts[0] if re.fullmatch(r"\d{4}-\d{2}-\d{2}", parts[0]) else ""
-        if date and date < since:
+        if norm_url(url) in seen:
+            reason = "already seen"
+        elif not date or date < since:
+            reason = "no recent date"
+        elif norm_url(url) not in cited and not url_alive(url):
+            # Not among the returned results and the address does not open: likely invented.
+            reason = "link not verified"
+        else:
+            reason = ""
+        if reason:
+            info["dropped"].append(f"{reason}: {url}"[:160])
             continue
         found.append({"source": parts[1][:60], "title": strip_html(parts[2], 300), "url": url,
                       "via": "search", "date": date, "text": strip_html(parts[-1])})
-    log(f"  web search ({model}): {len(found)} findings")
-    return found[:MAX_SEARCH_FINDINGS]
+    found = found[:MAX_SEARCH_FINDINGS]
+    info["kept"] = len(found)
+    info["dropped"] = info["dropped"][:8]
+    log(f"  web search ({model}): {info['searches_run']} searches, {info['lines']} lines, {len(found)} kept")
+    return found, info
 
 
 # ---------- step 3: summarise, merge, rate ----------
@@ -542,16 +608,22 @@ def main():
 
     feedback = load_feedback(today)
     neutral = not profile and not feedback
-    errors, feed_errors, used_models = [], [], set()
+    errors, feed_errors, used_models, search_log = [], [], set(), []
 
     for cat in config["categories"]:
         log(f"== {cat['name']}")
-        candidates = read_feeds(cat, seen, cutoff, feed_errors, today.isoformat())[:MAX_CANDIDATES]
+        candidates = read_feeds(cat, seen, cutoff, feed_errors, today.isoformat())
+        candidates = (read_pages(cat, seen, feed_errors, today.isoformat()) + candidates)[:MAX_CANDIDATES]
         if search_today:
             try:
-                candidates += search_gaps(key, search_models, cat, today, candidates, lookback_days, seen)
+                have = candidates + [{"title": t} for t in recent.get(cat["id"], [])[-10:]]
+                found, info = search_topics(key, search_models, cat, today, have, lookback_days, seen)
+                candidates += found
+                if info:
+                    search_log.append(info)
             except ModelError as exc:
                 errors.append(f"{cat['name']}: web search failed")
+                search_log.append({"category": cat["id"], "error": str(exc)[:200]})
                 log(f"  web search failed: {exc}")
         if not candidates:
             log("  nothing new")
@@ -583,7 +655,7 @@ def main():
                 "tags": [str(t).lower() for t in (item.get("tags") or [])][:4],
                 "published": str(item.get("published") or ""),
                 "sources": sources, "category": cat["id"],
-                "via": "rss" if any(c["via"] == "rss" for c in refs) else "search",
+                "via": "search" if all(c["via"] == "search" for c in refs) else "rss",
                 "id": hashlib.sha1(norm_url(sources[0]["url"]).encode()).hexdigest()[:12],
             }
             if any(existing["id"] == record["id"] for existing in day["items"]):
@@ -605,6 +677,7 @@ def main():
         "generated_at": now.isoformat(timespec="seconds"),
         "model": ", ".join(sorted(used_models)),
         "usage": USAGE,
+        "search_log": (day.get("search_log") or []) + search_log,
         "categories": [{"id": c["id"], "name": c["name"]} for c in config["categories"]],
         "errors": errors,
         "feed_errors": feed_errors,

@@ -7,13 +7,16 @@ this page.
 - **RSS**: read directly from the source's feed every day. No AI is used to collect it.
 - **RSS, filtered**: a broad feed. Only entries matching the category keywords are kept,
   again without AI.
-- **AI search**: the source has no usable feed, so a model runs a web search limited to
-  that source's own website. Each search costs a fee (about $0.007). It runs on Monday,
-  Wednesday and Friday only, looking back three days, with a cap on searches per category
-  (EU 1, Germany 2, Belgium 3).
+- **News page**: the source has no feed, so the job reads its news page every day and
+  picks up links it has not seen before. No AI is used.
 - **Data export**: read from an official data export every day. No AI is used.
+- **AI search**: not tied to a source. On Monday and Thursday a model runs a few web
+  searches on set topics (EU 3, Germany 1, Belgium 2) to catch stories the sources below
+  missed, from any publisher. Each search costs about $0.007. The topics are in
+  `config/feeds.yaml` under `search_topics`; each day's file records what the searches
+  returned (`search_log`).
 
-Totals: 25 sources by RSS, 8 by AI search, 1 by data export.
+Totals: 33 sources by RSS, 5 news pages, 1 data export, plus 6 topic searches twice a week.
 
 ## EU
 
@@ -31,7 +34,10 @@ Totals: 25 sources by RSS, 8 by AI search, 1 by data export.
 | ENTSO-E | RSS | Was AI search before |
 | Carbon Pulse | RSS | Paywalled: headlines only |
 | Euractiv | RSS, filtered | Whole-site feed; the energy section feed refuses automated readers. Was AI search before |
-| Commission "Have your say" consultations | AI search | No feed exists |
+| Politico Europe, energy section | RSS | Added 2026-11-22. Partly paywalled |
+| E3G (think tank) | RSS, filtered | Added 2026-11-22 |
+| Florence School of Regulation | RSS, filtered | Added 2026-11-22 |
+| Sandbag (think tank, ETS and CBAM) | RSS | Added 2026-11-22 |
 | European Parliament Legislative Observatory | Data export | Feeds the Legislation view in the EU tab: status, latest step and next date of each energy and environment file opened since 2024 |
 | European Parliament Legislative Train | Not read | The site refuses automated readers. The Observatory above holds the same procedures; the app links to the Train for background |
 
@@ -47,8 +53,10 @@ Totals: 25 sources by RSS, 8 by AI search, 1 by data export.
 | tagesschau, energy section | RSS | |
 | Tagesspiegel, business and politics sections | RSS, filtered | Added 2026-11-22. No energy-only feed exists |
 | heise, energy topic | RSS, filtered | |
-| Federal Ministry for Economic Affairs and Energy | AI search | No working feed found |
-| Agora Energiewende | AI search | No feed found |
+| Handelsblatt, energy section | RSS | Added 2026-11-22. Partly paywalled |
+| Spiegel, Energiewende topic | RSS | Added 2026-11-22 |
+| FAZ, climate, energy and environment | RSS | Added 2026-11-22. Partly paywalled |
+| Agora Energiewende, news and publications | News page | Was AI search before |
 
 ## Belgium
 
@@ -59,11 +67,9 @@ Totals: 25 sources by RSS, 8 by AI search, 1 by data export.
 | VRT NWS (English) | RSS, filtered | |
 | VRT NWS (Dutch) | RSS, filtered | |
 | RTBF Info | RSS, filtered | French. Was AI search before |
-| CREG (federal energy regulator) | AI search | No feed found |
-| Elia (transmission system operator) | AI search | Site refuses automated readers |
-| Vlaamse Nutsregulator (formerly VREG) | AI search | No feed found |
-| FPS Economy, energy pages | AI search | A feed address exists but is empty |
-| The Brussels Times | AI search | No feed found |
+| Knack | RSS, filtered | Dutch. Added 2026-11-22 |
+| CREG (federal energy regulator), news and publications | News page | Was AI search before |
+| FPS Economy, news | News page, filtered | Was AI search before |
 
 ## Considered and left out
 
@@ -83,13 +89,21 @@ Totals: 25 sources by RSS, 8 by AI search, 1 by data export.
 
 | Tagesspiegel Background (Energie & Klima) | Subscriber-only and closed to automated readers; cannot be read by the job |
 
+| Commission "Have your say" consultations | No feed, and the page cannot be read without a browser |
+| Federal Ministry for Economic Affairs and Energy (DE) | No feed, and the press page cannot be read without a browser. Its announcements reach the briefing through the German press feeds and the Germany search topic |
+| Elia | Site refuses automated readers. Covered by a Belgium search topic |
+| Vlaamse Nutsregulator, The Brussels Times | No feed, and their news pages cannot be read without a browser |
+| Financial Times and Guardian energy feeds, Energy Monitor, IEA | Work, but global rather than European; add if wanted |
+| WindEurope, Hydrogen Europe | Work, but mostly industry announcements |
+| Bruegel, Ember, CEPS, Montel, Reuters, Energy Post | No working feed, stale feed, or refuses automated readers |
+
 ## Adding a source
 
 1. Look for a feed first (often `/rss`, `/feed`, or a link in the page footer) and add it
    under `feeds:` in `config/feeds.yaml`. Add `keywords: true` if the feed is not
    energy-specific.
-2. Only if there is no feed, add it under `search_sources:` with its website domain and
-   raise `max_searches` for that category by one at most.
+2. If there is no feed but the site has a plain news page, add it under `pages:` with
+   the pattern its news links follow.
 
 ## AI models
 

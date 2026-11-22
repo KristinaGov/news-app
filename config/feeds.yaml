@@ -3,8 +3,11 @@
 #
 # feeds:           RSS/Atom feeds, read directly without AI (all checked on 2026-11-18).
 #   keywords: true   -> broad feed; keep only entries matching the category keywords.
-# search_sources:  outlets with no usable feed. A model runs a web search limited to
-#                  their own websites. Each search costs a fee, so keep the list short.
+# pages:           sources without a feed. Their news page is read directly without AI;
+#                  "links" is the pattern a link must match to count as a news item.
+# search_topics:   questions a model searches the web for, to catch stories the feeds
+#                  missed. One search per topic, about $0.007 each. Rewrite these to
+#                  match what you follow; specific topics find better stories.
 # max_searches:    cap on web searches per category per search day. 0 turns search off.
 
 # AI models, by their OpenRouter names (https://openrouter.ai/models). Each list is tried
@@ -20,10 +23,10 @@ models:
   reasoning: low
 
 # AI web search runs only on these weekdays (0 = Monday ... 6 = Sunday) and looks back
-# lookback_days. RSS feeds are read every day regardless.
+# lookback_days. Feeds and pages are read every day regardless.
 search:
-  weekdays: [0, 2, 4]
-  lookback_days: 3
+  weekdays: [0, 3, 6]
+  lookback_days: 4
 
 # EU legislation tracker, shown in the EU tab under "Legislation". No AI is used: the
 # job reads the European Parliament's Legislative Observatory, which holds the same
@@ -62,9 +65,15 @@ categories:
       - {name: "ENTSO-E", url: "https://www.entsoe.eu/rss/news.xml"}
       - {name: "Carbon Pulse", url: "https://carbon-pulse.com/feed/"}
       - {name: "Euractiv", url: "https://www.euractiv.com/feed/", keywords: true}
-    search_sources:
-      - {name: "European Commission 'Have your say' consultations on energy, climate, environment", domain: "ec.europa.eu"}
-    max_searches: 1
+      - {name: "Politico Europe Energy", url: "https://www.politico.eu/section/energy/feed/"}
+      - {name: "E3G", url: "https://www.e3g.org/feed/", keywords: true}
+      - {name: "Florence School of Regulation", url: "https://fsr.eui.eu/feed/", keywords: true}
+      - {name: "Sandbag", url: "https://sandbag.be/feed/"}
+    search_topics:
+      - "EU energy policy this week: decisions and agreements by the Commission, Council or Parliament on electricity, gas, grids, renewables or nuclear"
+      - "EU ETS, ETS2 and CBAM this week: reforms, political disputes, price moves"
+      - "European energy companies and markets this week: major deals, investments, power and gas price developments"
+    max_searches: 3
 
   - id: de
     name: Germany
@@ -81,10 +90,15 @@ categories:
       - {name: "Tagesspiegel Wirtschaft", url: "https://www.tagesspiegel.de/contentexport/feed/wirtschaft", keywords: true}
       - {name: "Tagesspiegel Politik", url: "https://www.tagesspiegel.de/contentexport/feed/politik", keywords: true}
       - {name: "heise Energie", url: "https://www.heise.de/thema/Energie.xml", keywords: true}
-    search_sources:
-      - {name: "German Federal Ministry for Economic Affairs and Energy, press releases", domain: "bundeswirtschaftsministerium.de"}
-      - {name: "Agora Energiewende, publications", domain: "agora-energiewende.de"}
-    max_searches: 2
+      - {name: "Handelsblatt Energie", url: "https://www.handelsblatt.com/contentexport/feed/energie"}
+      - {name: "Spiegel Energiewende", url: "https://www.spiegel.de/thema/energiewende/index.rss"}
+      - {name: "FAZ Klima, Energie und Umwelt", url: "https://www.faz.net/rss/aktuell/wirtschaft/klima-energie-und-umwelt/"}
+    pages:
+      - {name: "Agora Energiewende news", url: "https://www.agora-energiewende.de/aktuelles", links: "^/aktuelles/(?!filter)[^/]+$"}
+      - {name: "Agora Energiewende publications", url: "https://www.agora-energiewende.de/publikationen", links: "^/publikationen/(?!filter)[^/]+$"}
+    search_topics:
+      - "German energy policy this week: decisions by the federal economy and energy ministry and the coalition on power plants, grids, grid fees, heating, renewables"
+    max_searches: 1
 
   - id: be
     name: Belgium
@@ -99,10 +113,12 @@ categories:
       - {name: "VRT NWS (English)", url: "https://www.vrt.be/vrtnws/en.rss.articles.xml", keywords: true}
       - {name: "VRT NWS (Dutch)", url: "https://www.vrt.be/vrtnws/nl.rss.articles.xml", keywords: true}
       - {name: "RTBF Info", url: "https://rss.rtbf.be/article/rss/highlight_rtbf_info.xml?source=internal", keywords: true}
-    search_sources:
-      - {name: "CREG, the Belgian federal energy regulator", domain: "creg.be"}
-      - {name: "Elia, the Belgian transmission system operator, news", domain: "elia.be"}
-      - {name: "Vlaamse Nutsregulator (formerly VREG), the Flemish energy regulator", domain: "vlaamsenutsregulator.be"}
-      - {name: "FPS Economy Belgium, energy pages", domain: "economie.fgov.be"}
-      - {name: "The Brussels Times, energy and environment stories", domain: "brusselstimes.com"}
-    max_searches: 3
+      - {name: "Knack", url: "https://www.knack.be/feed/", keywords: true}
+    pages:
+      - {name: "CREG news", url: "https://www.creg.be/nl/nieuws", links: "^/nl/nieuws/.+"}
+      - {name: "CREG publications", url: "https://www.creg.be/en/publications", links: "^/en/publications/.+"}
+      - {name: "FPS Economy news", url: "https://economie.fgov.be/en/news", links: "^/en/news/[^?]+$", keywords: true}
+    search_topics:
+      - "Belgian energy policy this week: federal and regional government decisions on nuclear, offshore wind, capacity market, energy prices and taxes"
+      - "Elia, Fluxys and Belgian energy regulators this week: grid, tariffs, announcements"
+    max_searches: 2
