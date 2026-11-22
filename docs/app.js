@@ -2,7 +2,7 @@
 
 // Raise this with every change to the app. The app compares it with the copy on the
 // server and offers an update when they differ.
-const APP_VERSION = "2026.11.18-3";
+const APP_VERSION = "2026.11.22-1";
 
 const $ = (id) => document.getElementById(id);
 const DOC_TYPES = {

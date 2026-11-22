@@ -37,7 +37,7 @@ DATA = ROOT / "docs" / "data"
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 # Used when config/feeds.yaml has no "models" section. Each list is tried in order.
 DEFAULT_MODELS = {
-    "summary": ["deepseek/deepseek-v4.1-flash", "openai/gpt-6-luna"],
+    "summary": ["anthropic/claude-haiku-5.5", "openai/gpt-6-luna"],
     "search": ["openai/gpt-6-luna", "anthropic/claude-haiku-5.5"],
     "reasoning": "low",
 }
@@ -285,11 +285,18 @@ Rules:
 - Merge candidates about the same story into one item. refs: the numbers of every
   candidate the item is based on.
 - Drop candidates that are off-topic for the category, and stories already reported on
-  previous days (listed under "Already reported").
-- Write in English, whatever the source language.
-- title: clear English title. headline: one sentence, at most 20 words, for the overview.
+  previous days (listed under "Already reported"). On-topic means energy, climate or
+  environment policy, regulation, markets, infrastructure or research. A candidate that
+  only shares a word with those topics (a local fine, an unrelated product) is off-topic.
+- Write natural, fluent English as a news editor would, whatever the source language. Do
+  not translate word for word. Use full sentences with articles and verbs, not telegram
+  style. Give foreign organisation names once with a short explanation in English where
+  the name alone would not be understood (for example "water utility Pidpa").
+- title: clear English title. headline: one complete sentence, at most 20 words, for the
+  overview.
 - summary: 2 to 3 sentences of substance: what happened or was published, by whom, what it
-  changes, key numbers and dates when given.
+  changes, key numbers and dates when given. Start with the news itself, not with
+  background.
 - doc_type: law (adopted or proposed legal act, decree, regulation), study (report, analysis),
   consultation, white_paper (strategy, communication, policy paper), data (statistics, market
   data), press_release, news (journalism), other.

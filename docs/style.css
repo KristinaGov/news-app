@@ -35,6 +35,7 @@ header {
 .search input, dialog input, dialog textarea {
   width: 100%; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px;
   background: var(--card); color: var(--text); font: inherit;
+  font-size: 16px; /* iPhones zoom the page when a focused field has smaller text */
 }
 .banner { background: var(--warn-bg); color: var(--warn); font-size: 14px; padding: 8px 12px; border-radius: 10px; margin-bottom: 10px; }
 

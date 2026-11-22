@@ -15,7 +15,7 @@
 #   reasoning: how much the model thinks before answering (none, low, high). Thinking is
 #              billed as output, so keep it low.
 models:
-  summary: ["deepseek/deepseek-v4.1-flash", "openai/gpt-6-luna"]
+  summary: ["anthropic/claude-haiku-5.5", "openai/gpt-6-luna"]
   search: ["openai/gpt-6-luna", "anthropic/claude-haiku-5.5"]
   reasoning: low
 
@@ -78,6 +78,8 @@ categories:
       - {name: "Bundesumweltministerium", url: "https://www.bundesumweltministerium.de/meldungen.rss"}
       - {name: "Bundesnetzagentur", url: "https://www.bundesnetzagentur.de/SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/RSSNewsfeed_Pressemitteilungen.xml?nn=693926", keywords: true}
       - {name: "tagesschau Energie", url: "https://www.tagesschau.de/wirtschaft/energie/index~rss2.xml"}
+      - {name: "Tagesspiegel Wirtschaft", url: "https://www.tagesspiegel.de/contentexport/feed/wirtschaft", keywords: true}
+      - {name: "Tagesspiegel Politik", url: "https://www.tagesspiegel.de/contentexport/feed/politik", keywords: true}
       - {name: "heise Energie", url: "https://www.heise.de/thema/Energie.xml", keywords: true}
     search_sources:
       - {name: "German Federal Ministry for Economic Affairs and Energy, press releases", domain: "bundeswirtschaftsministerium.de"}

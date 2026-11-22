@@ -13,7 +13,7 @@ this page.
   (EU 1, Germany 2, Belgium 3).
 - **Data export**: read from an official data export every day. No AI is used.
 
-Totals: 24 sources by RSS, 8 by AI search, 1 by data export.
+Totals: 25 sources by RSS, 8 by AI search, 1 by data export.
 
 ## EU
 
@@ -45,6 +45,7 @@ Totals: 24 sources by RSS, 8 by AI search, 1 by data export.
 | Federal Environment Ministry | RSS | Was AI search before |
 | Bundesnetzagentur, press releases | RSS, filtered | Also covers telecoms and post, hence the filter. No dates in the feed. Was AI search before |
 | tagesschau, energy section | RSS | |
+| Tagesspiegel, business and politics sections | RSS, filtered | Added 2026-11-22. No energy-only feed exists |
 | heise, energy topic | RSS, filtered | |
 | Federal Ministry for Economic Affairs and Energy | AI search | No working feed found |
 | Agora Energiewende | AI search | No feed found |
@@ -80,6 +81,8 @@ Totals: 24 sources by RSS, 8 by AI search, 1 by data export.
 | Fluxys, FEBEG, EnergyVille, BDEW, DIW, dena | No feed found; not worth an AI search each |
 | Search topics "EU ETS prices and reforms" and "Belgian energy policy decisions" | Removed to save AI searches; the feeds above cover them |
 
+| Tagesspiegel Background (Energie & Klima) | Subscriber-only and closed to automated readers; cannot be read by the job |
+
 ## Adding a source
 
 1. Look for a feed first (often `/rss`, `/feed`, or a link in the page footer) and add it
@@ -96,5 +99,5 @@ The choice rests on price and listed features; no quality comparison was run.
 
 | Task | First choice | Fallback | Price of first choice per million tokens |
 |---|---|---|---|
-| Summaries | DeepSeek V4.1 Flash | GPT-6 Luna | $0.05 in, $0.20 out |
+| Summaries | Claude Haiku 5.5 | GPT-6 Luna | $0.10 in, $0.50 out |
 | Web search | GPT-6 Luna | Claude Haiku 5.5 | $0.10 in, $0.50 out |
