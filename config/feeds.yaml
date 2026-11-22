@@ -51,7 +51,8 @@ categories:
       papers, decrees, consultations) and the EU Emissions Trading System (EU ETS).
     keywords: [energy, climate, emission, ets, carbon, electricity, gas, hydrogen,
                renewable, nuclear, environment, grid, methane, cbam, green deal,
-               net-zero, decarbon, fuel, pollution]
+               net-zero, decarbon, fuel, pollution, heat pump, heating, capacity m,
+               blackout, outage, grid tariff, phase-out, phase out]
     feeds:
       - {name: "EC DG Energy", url: "https://energy.ec.europa.eu/node/2/rss_en"}
       - {name: "EC DG Climate Action", url: "https://climate.ec.europa.eu/node/2/rss_en"}
@@ -71,16 +72,19 @@ categories:
       - {name: "Florence School of Regulation", url: "https://fsr.eui.eu/feed/", keywords: true}
       - {name: "Sandbag", url: "https://sandbag.be/feed/"}
     search_topics:
-      - "EU energy policy this week: decisions and agreements by the Commission, Council or Parliament on electricity, gas, grids, renewables or nuclear"
-      - "EU ETS, ETS2 and CBAM this week: reforms, political disputes, price moves"
-      - "European energy companies and markets this week: major deals, investments, power and gas price developments"
-    max_searches: 3
+      - "EU ETS and ETS2 this week: revisions of the trading system, ETS2 rollout and delays, carbon price moves"
+      - "Hydrogen in Europe this week: pipelines and import infrastructure, new hydrogen storage, hydrogen use in industry and refineries"
+      - "European electricity grids and capacity markets this week: grid tariffs, grid expansion, outages and failures, capacity mechanisms"
+      - "Nuclear, gas and fossil fuel phase-out in Europe this week: new reactors, cancelled nuclear projects, phase-outs, gas infrastructure and gas storage"
+      - "Heat in Europe this week: heat pumps in homes and industry, high-temperature industrial heat, policy and market news"
+    max_searches: 5
 
   - id: de
     name: Germany
     description: Energy and environment news and policy in Germany.
     keywords: [energie, strom, gas, klima, emission, wasserstoff, erneuerbar, wind,
-               solar, photovoltaik, netz, kohle, kraftwerk, wärme, umwelt, co2]
+               solar, photovoltaik, netz, kohle, kraftwerk, wärme, umwelt, co2, atom,
+               kernkraft, heiz, kapazitätsm, speicher, stromausfall, raffinerie]
     feeds:
       - {name: "Clean Energy Wire", url: "https://www.cleanenergywire.org/rss.xml"}
       - {name: "pv magazine Deutschland", url: "https://www.pv-magazine.de/feed/"}
@@ -98,8 +102,9 @@ categories:
       - {name: "Agora Energiewende news", url: "https://www.agora-energiewende.de/aktuelles", links: "^/aktuelles/(?!filter)[^/]+$"}
       - {name: "Agora Energiewende publications", url: "https://www.agora-energiewende.de/publikationen", links: "^/publikationen/(?!filter)[^/]+$"}
     search_topics:
-      - "German energy policy this week: decisions by the federal economy and energy ministry and the coalition on power plants, grids, grid fees, heating, renewables"
-    max_searches: 1
+      - "Germany this week: grid fees and grid expansion, capacity market and power plant strategy, hydrogen core network and storage, gas storage, nuclear debate"
+      - "Germany this week: heat pumps and heating law, industrial heat and electrification, coal and gas phase-out"
+    max_searches: 2
 
   - id: be
     name: Belgium
@@ -107,7 +112,8 @@ categories:
     keywords: [energy, energie, énergie, stroom, elektriciteit, électricité, gas, gaz,
                klimaat, climat, climate, kern, nucle, nuclé, wind, zonne, solar, elia,
                creg, fluxys, engie, emission, uitstoot, milieu, environment, waterstof,
-               hydrogen, warmtepomp, capaciteitstarief]
+               hydrogen, warmtepomp, capaciteitstarief, pompe à chaleur, hydrogène,
+               nettarie, stroompanne, crm, raffinaderij, opslag]
     feeds:
       - {name: "De Tijd Energie", url: "https://www.tijd.be/rss/ondernemen_energie.xml"}
       - {name: "L'Echo Énergie", url: "https://www.lecho.be/rss/entreprises_energie.xml"}
@@ -120,6 +126,6 @@ categories:
       - {name: "CREG publications", url: "https://www.creg.be/en/publications", links: "^/en/publications/.+"}
       - {name: "FPS Economy news", url: "https://economie.fgov.be/en/news", links: "^/en/news/[^?]+$", keywords: true}
     search_topics:
-      - "Belgian energy policy this week: federal and regional government decisions on nuclear, offshore wind, capacity market, energy prices and taxes"
-      - "Elia, Fluxys and Belgian energy regulators this week: grid, tariffs, announcements"
+      - "Belgium this week: nuclear extension or new nuclear plans, capacity remuneration mechanism, Elia grid tariffs, grid expansion and outages"
+      - "Belgium this week: Fluxys hydrogen and gas infrastructure, gas storage, heat pumps, industrial decarbonisation in the port of Antwerp"
     max_searches: 2

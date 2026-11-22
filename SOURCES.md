@@ -11,12 +11,12 @@ this page.
   picks up links it has not seen before. No AI is used.
 - **Data export**: read from an official data export every day. No AI is used.
 - **AI search**: not tied to a source. On Monday and Thursday a model runs a few web
-  searches on set topics (EU 3, Germany 1, Belgium 2) to catch stories the sources below
+  searches on set topics (EU 5, Germany 2, Belgium 2) to catch stories the sources below
   missed, from any publisher. Each search costs about $0.007. The topics are in
   `config/feeds.yaml` under `search_topics`; each day's file records what the searches
   returned (`search_log`).
 
-Totals: 34 sources by RSS, 5 news pages, 1 data export, plus 6 topic searches twice a week.
+Totals: 34 sources by RSS, 5 news pages, 1 data export, plus 9 topic searches twice a week.
 
 ## EU
 

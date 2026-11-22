@@ -6,7 +6,15 @@ The reader's stated interests, in their own words:
 - Specialist press: Clean Energy Wire, pv magazine, Carbon Pulse (headlines only, paywalled) and similar.
 - General news, filtered: tagesschau, heise, VRT NWS and similar, keeping only energy and environment stories.
 
-The reader has not yet named specific topics, technologies or policy files. Do not assume
-any. Where the profile gives no basis for a rating, use 3 and rely on the reader feedback.
 
 <!-- Add topics you follow closely, and what counts as noise, below this line. -->
+
+EU ETS, ETS1 revisions, ETS prices, ETS2 rollout, ETS2 progress, ETS2 prices
+capacity markets, 
+hydrogen infrastructure, hydrogen storage, new hydrogen storage, hydrogen use in industry, hydrogen use in refineries
+high temperature heat in industry
+heat pumps in residential sector, heat pumps in industry
+grid tariffs, grid expansion, grid failures, outages
+gas infrastructure, gas storage
+nuclear expansion, cancellations of nuclear projects, nuclear phase out
+fossil fuel phase out
