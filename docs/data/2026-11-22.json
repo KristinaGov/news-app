@@ -347,14 +347,14 @@
    "id": "bff72d6d8c3d"
   }
  ],
- "generated_at": "2026-11-22T14:29:06+00:00",
- "model": "anthropic/claude-haiku-5.5",
+ "generated_at": "2026-11-22T14:31:42+00:00",
+ "model": "",
  "usage": {
-  "input_tokens": 17392,
-  "output_tokens": 3244,
-  "web_searches": 6,
-  "calls": 6,
-  "cost_usd": 0.045544
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "web_searches": 0,
+  "calls": 0,
+  "cost_usd": 0.0
  },
  "categories": [
   {
