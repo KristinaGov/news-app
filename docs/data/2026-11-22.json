@@ -96,16 +96,96 @@
    "category": "be",
    "via": "rss",
    "id": "4cbcad7fcc82"
+  },
+  {
+   "title": "COP31 talks in Antalya collapse over fossil fuel wording",
+   "headline": "Antalya climate talks end without a deal as the EU objects to fossil fuel and carbon capture wording.",
+   "summary": "Carbon Pulse reported that COP31 negotiations in Antalya were teetering on collapse on day 13, with the EU walking out and refusing to accept the current cover decision text. The plenary ran into a marathon session and, according to Carbon Pulse's update, countries failed to agree a political deal on Sunday. Vulnerable developing countries joined the EU in objecting to the absence of fossil fuel commitments and the inclusion of carbon capture ambitions.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Major EU climate diplomacy outcome; relevant to EU energy and climate policy.",
+   "tags": [
+    "cop31",
+    "climate diplomacy",
+    "fossil fuels",
+    "carbon capture"
+   ],
+   "published": "2026-11-22",
+   "sources": [
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/574387/"
+    },
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/574328/"
+    },
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/overtime-cop31-talks-end-in-acrimony-amid-eu-profound-disappointment/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "54b40a367b33"
+  },
+  {
+   "title": "Firewood prices rise as winter heating costs climb",
+   "headline": "Firewood prices have risen as households turn to wood heating amid higher oil and gas costs.",
+   "summary": "Tagesspiegel reports that heating with wood has become more expensive as winter approaches. The article attributes the pressure to oil and gas prices that have risen sharply due to international crises. The candidate text gives no specific figures for wood prices, so the detail beyond the headline is limited.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Consumer heating-cost story; no profile basis, limited energy policy substance.",
+   "tags": [
+    "heating",
+    "firewood",
+    "energy prices",
+    "germany"
+   ],
+   "published": "2026-11-22",
+   "sources": [
+    {
+     "name": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-brennstoffe-heizen-mit-holz-preise-gestiegen-so-lasst-sich-sparen-16311829.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "7645a47e15e2"
+  },
+  {
+   "title": "Nine Liège-province municipalities begin sharing electricity, a first in Wallonia",
+   "headline": "Nine municipalities in Liège province now share their electricity, the first such arrangement in Wallonia.",
+   "summary": "According to RTBF Info, nine communes in the province of Liège are sharing their electricity, which is described as a first in Wallonia. The report's opening example is the 'Sainte Famille' care home in Thimister-Clermont, whose entire building is covered with solar panels. The source text is limited, so further details of the arrangement are not available here.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "No profile basis yet; neutral rating for a regional energy story.",
+   "tags": [
+    "local energy",
+    "solar power",
+    "wallonia",
+    "electricity sharing"
+   ],
+   "published": "2026-11-22",
+   "sources": [
+    {
+     "name": "RTBF Info",
+     "url": "https://www.rtbf.be/article/9-communes-de-la-province-de-liege-partagent-leur-electricite-une-premiere-en-wallonie-11819331"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "9455ae474a9d"
   }
  ],
- "generated_at": "2026-11-22T05:06:34+00:00",
- "model": "deepseek/deepseek-v4.1-flash",
+ "generated_at": "2026-11-22T14:13:36+00:00",
+ "model": "anthropic/claude-haiku-5.5",
  "usage": {
-  "input_tokens": 3378,
-  "output_tokens": 2861,
+  "input_tokens": 7316,
+  "output_tokens": 1238,
   "web_searches": 0,
-  "calls": 2,
-  "cost_usd": 0.0023
+  "calls": 3,
+  "cost_usd": 0.00135
  },
  "categories": [
   {
