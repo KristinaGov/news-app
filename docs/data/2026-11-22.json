@@ -176,16 +176,185 @@
    "category": "be",
    "via": "rss",
    "id": "9455ae474a9d"
+  },
+  {
+   "title": "EU agrees delay to methane import monitoring obligations",
+   "headline": "EU countries agree to postpone methane monitoring and reporting duties for fossil fuel importers to 2029.",
+   "summary": "The Council of the EU has agreed a targeted amendment to the methane regulation. It delays monitoring, reporting and verification obligations for importers of natural gas, crude oil and coal from 1 January 2027 to 1 January 2029. The amendment is intended to safeguard security of supply.",
+   "doc_type": "law",
+   "interest": 3,
+   "interest_reason": "No profile basis yet; neutral rating for a regulatory amendment.",
+   "tags": [
+    "methane",
+    "gas",
+    "security of supply",
+    "eu regulation"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "Council of the European Union",
+     "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/methane-regulation-eu-agrees-targeted-amendment-to-safeguard-security-of-supply/"
+    }
+   ],
+   "category": "eu",
+   "via": "search",
+   "id": "91878784a56e"
+  },
+  {
+   "title": "Council and Parliament agree on faster grid permitting",
+   "headline": "Council and Parliament strike deal to streamline permitting under the EU grids package.",
+   "summary": "The Council and the European Parliament have reached an agreement on measures to streamline permitting under the grids package, aimed at a faster clean energy transition. Member states will have 1.5 years to incorporate the directive's provisions into national law.",
+   "doc_type": "law",
+   "interest": 3,
+   "interest_reason": "No profile basis yet; neutral rating for a grids legislation deal.",
+   "tags": [
+    "grids",
+    "permitting",
+    "electricity networks",
+    "eu legislation"
+   ],
+   "published": "2026-11-18",
+   "sources": [
+    {
+     "name": "Council of the European Union",
+     "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/18/grids-package-council-and-parliament-agree-to-streamline-permitting-for-a-faster-clean-energy-transition/"
+    }
+   ],
+   "category": "eu",
+   "via": "search",
+   "id": "5b9f2eb084bd"
+  },
+  {
+   "title": "333 gas suppliers announce price increases from January 1",
+   "headline": "Hundreds of German gas suppliers raise prices from 1 January as Iran war costs filter through.",
+   "summary": "Handelsblatt has published an interactive calculator showing how much more households may pay after 333 basic supply providers announced gas price increases effective 1 January. The rises reflect high gas prices caused by the Iran war. The tool lets families estimate their own extra costs.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Energy prices affecting households; relevant to German energy market coverage",
+   "tags": [
+    "gas prices",
+    "households",
+    "energy costs"
+   ],
+   "published": "2026-11-22",
+   "sources": [
+    {
+     "name": "Handelsblatt Energie",
+     "url": "https://www.handelsblatt.com/unternehmen/energie/heizen-333-gasanbieter-erhoehen-zum-1.-januar-tarife-wie-teuer-es-wird/100270528.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "5e8d4da450c3"
+  },
+  {
+   "title": "Firewood prices rise as heating costs climb",
+   "headline": "Firewood has become more expensive, and wood-burning remains common in German homes.",
+   "summary": "Handelsblatt reports that wood prices have risen sharply in recent years alongside the energy crisis. Fireplaces remain widespread in Germany, and the article outlines ways owners can cut costs.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Consumer heating story with limited policy or market relevance",
+   "tags": [
+    "firewood",
+    "heating",
+    "consumer costs"
+   ],
+   "published": "2026-11-22",
+   "sources": [
+    {
+     "name": "Handelsblatt Energie",
+     "url": "https://www.handelsblatt.com/unternehmen/energie/heizen-mit-holz-holz-ist-seit-2020-um-45-prozent-teurer-gas-um-91-prozent/100271826.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "bfecf2b1ec6d"
+  },
+  {
+   "title": "UN climate conference in Antalya ends without joint declaration",
+   "headline": "Antalya climate talks collapse without a final declaration over fossil fuel phase-out wording.",
+   "summary": "Delegates at the world climate conference in Antalya failed to agree on a closing statement. The dispute centres on whether the text should refer to phasing out coal, oil and gas. The EU refused to accept a draft that omitted any reference to fossil fuels, and German Environment Minister Schneider had called the draft unacceptable.",
+   "doc_type": "news",
+   "interest": 5,
+   "interest_reason": "Major climate policy outcome; directly relevant to energy and climate policy",
+   "tags": [
+    "climate conference",
+    "fossil fuels",
+    "cop",
+    "eu"
+   ],
+   "published": "2026-11-22",
+   "sources": [
+    {
+     "name": "FAZ Klima, Energie und Umwelt",
+     "url": "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/das-klima-drama-von-antalya-accg-201704569.html"
+    },
+    {
+     "name": "FAZ Klima, Energie und Umwelt",
+     "url": "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/einigung-bei-weltklimakonferenz-gescheitert-accg-201706517.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "4fb9089b693b"
+  },
+  {
+   "title": "Farmers' lobby mobilises against EU direct payment cuts",
+   "headline": "The German Farmers' Association calls new protests against planned cuts to EU direct payments.",
+   "summary": "The Deutscher Bauernverband is calling for fresh protests against proposed reductions in EU direct payments. An FAZ feature asks how a relatively small group has gained such influence in policy debates.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Agricultural policy, outside the energy and environment focus",
+   "tags": [
+    "agriculture",
+    "eu budget",
+    "farmers"
+   ],
+   "published": "2026-11-21",
+   "sources": [
+    {
+     "name": "FAZ Klima, Energie und Umwelt",
+     "url": "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/bauern-rufen-wieder-zum-protest-warum-ist-der-politische-einfluss-der-landwirte-so-gross-201635365.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "4d7627d8f972"
+  },
+  {
+   "title": "Ministers warn of extra costs from German renewables reform",
+   "headline": "German ministers warn that the renewables reform could raise costs, and the SPD objects to grid-area cuts.",
+   "summary": "German ministers told coalition lawmakers that the planned renewables reform could create extra costs. The Social Democrats oppose reducing compensation for new wind and solar plants in grid-congested areas.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Core German renewables policy dispute within the coalition",
+   "tags": [
+    "renewables reform",
+    "coalition",
+    "grid congestion",
+    "wind and solar"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "TerraWorldNews",
+     "url": "https://terraworldnews.com/en/news/2026/11/19/reiche-schneider-eeg-reform-mehrkosten-2026-11-19-b1100"
+    }
+   ],
+   "category": "de",
+   "via": "search",
+   "id": "bff72d6d8c3d"
   }
  ],
- "generated_at": "2026-11-22T14:15:31+00:00",
- "model": "",
+ "generated_at": "2026-11-22T14:29:06+00:00",
+ "model": "anthropic/claude-haiku-5.5",
  "usage": {
-  "input_tokens": 0,
-  "output_tokens": 0,
-  "web_searches": 0,
-  "calls": 0,
-  "cost_usd": 0.0
+  "input_tokens": 17392,
+  "output_tokens": 3244,
+  "web_searches": 6,
+  "calls": 6,
+  "cost_usd": 0.045544
  },
  "categories": [
   {
@@ -202,8 +371,38 @@
   }
  ],
  "errors": [],
- "feed_errors": [
-  "ACER: <urlopen error timed out>"
- ],
- "profile_set": true
+ "feed_errors": [],
+ "profile_set": true,
+ "search_log": [
+  {
+   "category": "eu",
+   "searches_allowed": 3,
+   "lines": 2,
+   "kept": 2,
+   "dropped": [],
+   "model": "openai/gpt-6-luna",
+   "searches_run": 3,
+   "results_cited": 18
+  },
+  {
+   "category": "de",
+   "searches_allowed": 1,
+   "lines": 1,
+   "kept": 1,
+   "dropped": [],
+   "model": "openai/gpt-6-luna",
+   "searches_run": 1,
+   "results_cited": 6
+  },
+  {
+   "category": "be",
+   "searches_allowed": 2,
+   "lines": 0,
+   "kept": 0,
+   "dropped": [],
+   "model": "openai/gpt-6-luna",
+   "searches_run": 2,
+   "results_cited": 12
+  }
+ ]
 }
