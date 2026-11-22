@@ -1,0 +1,127 @@
+{
+ "date": "2026-11-22",
+ "items": [
+  {
+   "title": "Groen accepts nuclear energy as possible transition technology",
+   "headline": "Groen party members vote to accept nuclear energy as a transition to renewables.",
+   "summary": "At its congress 'Over Hoop' in Antwerp, Groen members approved a proposal to no longer exclude nuclear energy as a transition technology towards fully renewable energy. The proposal was approved with 70% of votes. The ultimate goal remains an energy supply that is 100% renewable.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Significant Belgian energy policy shift; reader follows energy policy.",
+   "tags": [
+    "nuclear",
+    "groen",
+    "energy-policy",
+    "belgium"
+   ],
+   "published": "2026-11-21",
+   "sources": [
+    {
+     "name": "VRT NWS (Dutch)",
+     "url": "https://vrtnws.be/p.11pxQQl3G"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "8348b4ede91e"
+  },
+  {
+   "title": "Pidpa temporarily replaces digital water meters in 500 homes due to battery drain",
+   "headline": "Pidpa swaps digital water meters for analog in 500 homes over moisture battery drain.",
+   "summary": "Drinkwatermaatschappij Pidpa has temporarily replaced digital water meters with analog ones in about 500 homes. In exceptionally humid conditions, the battery of the digital meter can drain faster, Gazet van Antwerpen reported and VRT NWS confirmed.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Utility technical issue, moderate relevance to environment readers.",
+   "tags": [
+    "water",
+    "digital-meter",
+    "pidpa",
+    "flanders"
+   ],
+   "published": "2026-11-21",
+   "sources": [
+    {
+     "name": "VRT NWS (Dutch)",
+     "url": "https://vrtnws.be/p.M9mWDnB5a"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "24d009ae6594"
+  },
+  {
+   "title": "Brasschaat introduces immediate fines up to €500 for littering",
+   "headline": "Brasschaat imposes immediate GAS fines up to €500 for littering.",
+   "summary": "The municipality of Brasschaat will immediately fine anyone caught leaving waste next to a bin or on the street with a GAS fine of up to €500. 'The time for awareness and warnings is over,' the municipality said.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Local litter enforcement, low policy significance for energy/environment.",
+   "tags": [
+    "waste",
+    "litter",
+    "brasschaat",
+    "local-policy"
+   ],
+   "published": "2026-11-21",
+   "sources": [
+    {
+     "name": "VRT NWS (Dutch)",
+     "url": "https://vrtnws.be/p.8epw9nvR4"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "ad0c5bd03dd1"
+  },
+  {
+   "title": "Brussels parliament approves zero-emission requirement for new taxis from 2027",
+   "headline": "Brussels mandates new taxis be zero-emission from January 2027, existing diesels exempt.",
+   "summary": "The Brussels parliament approved an ordinance on Friday confirming the electrification of the Brussels taxi fleet. From 1 January 2027, every newly registered taxi in Brussels must be a zero-emission vehicle. Existing diesel taxis may continue to operate longer.",
+   "doc_type": "law",
+   "interest": 4,
+   "interest_reason": "Regional electrification policy, relevant to energy and environment reader.",
+   "tags": [
+    "brussels",
+    "taxis",
+    "zero-emission",
+    "electrification"
+   ],
+   "published": "2026-11-21",
+   "sources": [
+    {
+     "name": "VRT NWS (Dutch)",
+     "url": "https://vrtnws.be/p.5waxGO9QN"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "4cbcad7fcc82"
+  }
+ ],
+ "generated_at": "2026-11-22T05:06:34+00:00",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 3378,
+  "output_tokens": 2861,
+  "web_searches": 0,
+  "calls": 2,
+  "cost_usd": 0.0023
+ },
+ "categories": [
+  {
+   "id": "eu",
+   "name": "EU"
+  },
+  {
+   "id": "de",
+   "name": "Germany"
+  },
+  {
+   "id": "be",
+   "name": "Belgium"
+  }
+ ],
+ "errors": [],
+ "feed_errors": [],
+ "profile_set": true
+}
