@@ -281,7 +281,9 @@ candidate items for one category and return the stories worth showing, as JSON.
 
 Rules:
 - Use only facts present in the candidates. Never add facts, figures or dates from memory.
-  If a candidate has too little text to summarise, say only what its title supports.
+  If a candidate has too little text, write a shorter summary of what is known. Never
+  comment on the candidates or on missing detail ("the source gives no figures"), and do
+  not open with "X reports that".
 - Merge candidates about the same story into one item. refs: the numbers of every
   candidate the item is based on.
 - Drop candidates that are off-topic for the category, and stories already reported on
