@@ -25,7 +25,7 @@ models:
 # AI web search runs only on these weekdays (0 = Monday ... 6 = Sunday) and looks back
 # lookback_days. Feeds and pages are read every day regardless.
 search:
-  weekdays: [0, 3, 6]
+  weekdays: [0, 3]
   lookback_days: 4
 
 # EU legislation tracker, shown in the EU tab under "Legislation". No AI is used: the
@@ -65,6 +65,7 @@ categories:
       - {name: "ENTSO-E", url: "https://www.entsoe.eu/rss/news.xml"}
       - {name: "Carbon Pulse", url: "https://carbon-pulse.com/feed/"}
       - {name: "Euractiv", url: "https://www.euractiv.com/feed/", keywords: true}
+      - {name: "Council of the EU", url: "https://www.consilium.europa.eu/en/rss/pressreleases.ashx", keywords: true}
       - {name: "Politico Europe Energy", url: "https://www.politico.eu/section/energy/feed/"}
       - {name: "E3G", url: "https://www.e3g.org/feed/", keywords: true}
       - {name: "Florence School of Regulation", url: "https://fsr.eui.eu/feed/", keywords: true}

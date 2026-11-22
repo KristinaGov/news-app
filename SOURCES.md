@@ -16,7 +16,7 @@ this page.
   `config/feeds.yaml` under `search_topics`; each day's file records what the searches
   returned (`search_log`).
 
-Totals: 33 sources by RSS, 5 news pages, 1 data export, plus 6 topic searches twice a week.
+Totals: 34 sources by RSS, 5 news pages, 1 data export, plus 6 topic searches twice a week.
 
 ## EU
 
@@ -34,6 +34,7 @@ Totals: 33 sources by RSS, 5 news pages, 1 data export, plus 6 topic searches tw
 | ENTSO-E | RSS | Was AI search before |
 | Carbon Pulse | RSS | Paywalled: headlines only |
 | Euractiv | RSS, filtered | Whole-site feed; the energy section feed refuses automated readers. Was AI search before |
+| Council of the EU, press releases | RSS, filtered | Added 2026-11-22 |
 | Politico Europe, energy section | RSS | Added 2026-11-22. Partly paywalled |
 | E3G (think tank) | RSS, filtered | Added 2026-11-22 |
 | Florence School of Regulation | RSS, filtered | Added 2026-11-22 |
@@ -78,7 +79,6 @@ Totals: 33 sources by RSS, 5 news pages, 1 data export, plus 6 topic searches tw
 | EUR-Lex, all Parliament and Council legislation (feed) | Overlaps with the Official Journal L feed |
 | EUR-Lex, Official Journal C series (feed) | Notices and information; high volume, little policy content |
 | ENTSO-E position papers (feed) | Rarely updated; main news feed carries the announcements |
-| Council of the EU press releases (feed) | Works, but mostly foreign affairs; add if wanted |
 | European Parliament ITRE and ENVI committees | Feeds refuse automated readers |
 | European Parliament open data API | Works, but gives no titles or status for procedures |
 | Bundesnetzagentur EEG and gas feeds | 100 to 200 undated entries of auction dates and routine notices |

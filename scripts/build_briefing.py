@@ -290,7 +290,8 @@ results are recent:
 I already have these stories, so skip them and anything covering the same event:
 {have}
 
-Report at most {MAX_SEARCH_FINDINGS} items, the most significant first. Report only items
+Prefer official sources and established news outlets; skip aggregator and content-farm
+sites. Report at most {MAX_SEARCH_FINDINGS} items, the most significant first. Report only items
 that appear in the search results, with the exact URL from the result. Skip anything older
 than {since} or whose date you cannot establish. Finding nothing new is a normal outcome;
 never fill gaps from memory.
