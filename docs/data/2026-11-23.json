@@ -1,0 +1,254 @@
+{
+ "date": "2026-11-23",
+ "items": [
+  {
+   "title": "EU ETS reform stalls after Parliament committee vote",
+   "headline": "Parliament's industry committee rejected a compromise overhaul of the EU ETS, leaving the reform and Balkan CBAM costs uncertain.",
+   "summary": "Parliament's industry committee rejected a compromise overhaul of the EU Emissions Trading System by 41 votes to 33. The outcome leaves the reform uncertain. It also clouds the implications for the costs that Balkan countries would face under the carbon border adjustment mechanism (CBAM).",
+   "doc_type": "news",
+   "interest": 5,
+   "interest_reason": "Directly matches the EU ETS revisions and ETS prices the reader follows closely.",
+   "tags": [
+    "eu ets",
+    "ets reform",
+    "cbam",
+    "balkans"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "Power Trading News Europe",
+     "url": "https://electricity.trade/eu-ets-reform-stalls-after-41-33-vote-clouding-balkan-cbam-costs/"
+    }
+   ],
+   "category": "eu",
+   "via": "search",
+   "id": "6b5c9d363e4b"
+  },
+  {
+   "title": "Spain leads first European auction for industrial heat",
+   "headline": "Spain leads the first European auction aimed at decarbonising industrial heat, with 14 projects funded.",
+   "summary": "Spain leads the first European auction aimed at decarbonising industrial heat. Fourteen projects are receiving a total of €83.7 million in aid.",
+   "doc_type": "news",
+   "interest": 5,
+   "interest_reason": "Matches the reader's interest in high temperature heat in industry.",
+   "tags": [
+    "industrial heat",
+    "decarbonisation",
+    "auction",
+    "spain"
+   ],
+   "published": "2026-11-22",
+   "sources": [
+    {
+     "name": "Europa Press",
+     "url": "https://www.europapress.es/economia/noticia-espana-lidera-primera-subasta-europea-calor-industrial-14-proyectos-837-millones-ayudas-20261122113051.html"
+    }
+   ],
+   "category": "eu",
+   "via": "search",
+   "id": "ac0691c226da"
+  },
+  {
+   "title": "Hungary says it will be ready for EU Russian gas ban",
+   "headline": "Hungary's energy minister says the country will be ready for the EU ban on Russian gas.",
+   "summary": "Hungary's energy minister said the country would be ready for the EU ban on Russian gas. The interview also cites EU-wide gas storage levels as of November 17.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Relevant to gas storage and gas infrastructure, which the reader follows.",
+   "tags": [
+    "russian gas ban",
+    "gas storage",
+    "hungary"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "S&P Global",
+     "url": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/111926-interview-energy-minister-says-hungary-will-be-ready-for-eu-russian-gas-ban"
+    }
+   ],
+   "category": "eu",
+   "via": "search",
+   "id": "33293a322d0b"
+  },
+  {
+   "title": "Europe's refining industry at a strategic crossroads",
+   "headline": "Europe must decide whether to transform its refineries for a low-carbon future or grow dependent on imports.",
+   "summary": "Europe faces a strategic choice for its refining industry: transform it for a low-carbon future or become increasingly dependent on production elsewhere. The piece argues that action is now needed.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Relates to hydrogen use in refineries and the reader's energy industry interests.",
+   "tags": [
+    "refining",
+    "low-carbon transition",
+    "energy security"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "Politico Europe Energy",
+     "url": "https://www.politico.eu/sponsored-content/europe-recognizes-refinings-strategic-role-now-it-must-act/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "d9d3184cbc07"
+  },
+  {
+   "title": "EU treaty could limit Brussels' crackdown on national green gold-plating",
+   "headline": "An EU law expert argues Brussels' plan to stop member states tightening environmental rules rests on shaky legal ground.",
+   "summary": "In an interview, an EU law expert argues that Brussels' bid to stop capitals tightening environmental rules is on shaky legal ground under the EU treaties. The interview questions whether the Commission's approach would hold up.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Environmental regulation is of general interest but not a core profile topic.",
+   "tags": [
+    "environmental regulation",
+    "eu law",
+    "gold-plating"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/interview-eu-treaty-could-thwart-brussels-green-gold-plating-crackdown/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "b4bcf8c9b734"
+  },
+  {
+   "title": "Electricity tax cut fizzles as coalition fails to agree on cold progression relief",
+   "headline": "Coalition disputes over tax relief leave the electricity tax cut with little effect for households.",
+   "summary": "Tagesspiegel reports that the planned cut to Germany's electricity tax (Stromsteuer) is having little effect. The coalition has also failed to agree on offsetting cold progression, the tax drag on wages, despite a push from Bavarian premier Markus Söder. The commentary argues that the state is spending the money poorly and should instead use more sustainable relief measures.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Energy prices matter, but tax relief is only loosely within the profile.",
+   "tags": [
+    "electricity tax",
+    "energy prices",
+    "germany policy"
+   ],
+   "published": "2026-11-22",
+   "sources": [
+    {
+     "name": "Tagesspiegel Politik",
+     "url": "https://www.tagesspiegel.de/politik/stromsteuer-und-kalte-progression-der-staat-setzt-das-geld-falsch-ein-16313275.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "ecc9afb9de6b"
+  },
+  {
+   "title": "Reactions to the failed Antalya climate talks",
+   "headline": "Guterres and German environment minister Schneider respond to the stalled Antalya COP.",
+   "summary": "UN Secretary-General António Guterres expressed deep disappointment after the Antalya climate conference ended without a joint declaration. German Environment Minister Carsten Schneider said Germany would not be deterred from doing what is right, arguing that fire cannot be put out while fuel is poured on it. A separate commentary asks whether the era of multilateral climate diplomacy has come to an end, noting that a proposed electrification target failed to materialise.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Climate diplomacy is peripheral to the profile's energy infrastructure focus.",
+   "tags": [
+    "cop",
+    "climate diplomacy",
+    "germany"
+   ],
+   "published": "2026-11-22",
+   "sources": [
+    {
+     "name": "FAZ Klima, Energie und Umwelt",
+     "url": "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/gescheiterter-un-klimagipfel-guterres-fordert-mehr-einsatz-201707238.html"
+    },
+    {
+     "name": "FAZ Klima, Energie und Umwelt",
+     "url": "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/cop31-ist-das-ende-des-klima-multilateralismus-gekommen-201704572.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "253c5ff539c0"
+  },
+  {
+   "title": "Fluxys pulls 1.4 km hydrogen pipe under Sint-Gillis-Waas in one stretch",
+   "headline": "Fluxys has installed a 1.4-kilometre hydrogen pipeline under Sint-Gillis-Waas in a single pull.",
+   "summary": "Fluxys pulled a 1.4-kilometre hydrogen pipe through a pre-drilled borehole under Sint-Gillis-Waas. The pipe was installed in one piece, in a single stretch.",
+   "doc_type": "news",
+   "interest": 5,
+   "interest_reason": "Matches the profile's hydrogen infrastructure interest in Belgium.",
+   "tags": [
+    "hydrogen",
+    "infrastructure",
+    "fluxys",
+    "belgium"
+   ],
+   "published": "2026-11-19",
+   "sources": [
+    {
+     "name": "Engineering.jobs",
+     "url": "https://be.engineering.jobs/en/news/actualite/fluxys-pulls-14-km-hydrogen-pipeline-under-sint-gillis-waas-single-stretch"
+    }
+   ],
+   "category": "be",
+   "via": "search",
+   "id": "53635ddbf3fb"
+  }
+ ],
+ "generated_at": "2026-11-23T05:08:18+00:00",
+ "model": "anthropic/claude-haiku-5.5",
+ "usage": {
+  "input_tokens": 27023,
+  "output_tokens": 5032,
+  "web_searches": 10,
+  "calls": 6,
+  "cost_usd": 0.068026
+ },
+ "search_log": [
+  {
+   "category": "eu",
+   "searches_allowed": 5,
+   "lines": 3,
+   "kept": 3,
+   "dropped": [],
+   "model": "openai/gpt-6-luna",
+   "searches_run": 6,
+   "results_cited": 30
+  },
+  {
+   "category": "de",
+   "searches_allowed": 2,
+   "lines": 0,
+   "kept": 0,
+   "dropped": [],
+   "model": "openai/gpt-6-luna",
+   "searches_run": 2,
+   "results_cited": 11
+  },
+  {
+   "category": "be",
+   "searches_allowed": 2,
+   "lines": 1,
+   "kept": 1,
+   "dropped": [],
+   "model": "openai/gpt-6-luna",
+   "searches_run": 2,
+   "results_cited": 12
+  }
+ ],
+ "categories": [
+  {
+   "id": "eu",
+   "name": "EU"
+  },
+  {
+   "id": "de",
+   "name": "Germany"
+  },
+  {
+   "id": "be",
+   "name": "Belgium"
+  }
+ ],
+ "errors": [],
+ "feed_errors": [],
+ "profile_set": true
+}
