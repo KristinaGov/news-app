@@ -1,6 +1,6 @@
 {
  "category": "eu",
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "source": "European Parliament Legislative Observatory",
  "train_url": "https://www.europarl.europa.eu/legislative-train/",
  "files": [
@@ -25,7 +25,7 @@
     "text": "Results of vote in Parliament"
    },
    "next": null,
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2025/0391(COD)",
@@ -47,11 +47,8 @@
     "date": "2026-11-11",
     "text": "Committee report tabled for plenary, 1st reading"
    },
-   "next": {
-    "date": "2026-11-24",
-    "text": "Vote in plenary scheduled"
-   },
-   "checked": "2026-11-21"
+   "next": null,
+   "checked": "2026-11-24"
   },
   {
    "ref": "2026/0085(COD)",
@@ -73,11 +70,8 @@
     "date": "2026-11-04",
     "text": "Approval in committee of the text agreed at 1st reading interinstitutional negotiations"
    },
-   "next": {
-    "date": "2026-11-24",
-    "text": "Vote in plenary scheduled"
-   },
-   "checked": "2026-11-21"
+   "next": null,
+   "checked": "2026-11-24"
   },
   {
    "ref": "2025/0420(COD)",
@@ -90,7 +84,7 @@
    "rapporteurs": [
     "SALINI Massimiliano (EPP)"
    ],
-   "stage": "Awaiting committee decision",
+   "stage": "Awaiting Parliament's position in 1st reading",
    "first_event": {
     "date": "2025-12-16",
     "text": "Legislative proposal published"
@@ -103,7 +97,8 @@
     "date": "2026-12-14",
     "text": "Indicative plenary sitting date, 1st reading"
    },
-   "checked": "2026-11-21"
+   "checked": "2026-11-24",
+   "changed": "2026-11-24"
   },
   {
    "ref": "2026/0336(COD)",
@@ -122,7 +117,7 @@
     "text": "Legislative proposal published"
    },
    "next": null,
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2026/0325(COD)",
@@ -146,11 +141,8 @@
     "date": "2026-10-22",
     "text": "Matter referred back to the committee responsible for interinstitutional negotiations"
    },
-   "next": {
-    "date": "2026-11-23",
-    "text": "Indicative plenary sitting date, 1st reading"
-   },
-   "checked": "2026-11-21"
+   "next": null,
+   "checked": "2026-11-24"
   },
   {
    "ref": "2026/0211(COD)",
@@ -176,7 +168,7 @@
     "date": "2026-12-14",
     "text": "Indicative plenary sitting date, 1st reading"
    },
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2025/0531(COD)",
@@ -201,7 +193,7 @@
     "text": "Debate in Parliament"
    },
    "next": null,
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2025/0396(COD)",
@@ -224,7 +216,7 @@
     "text": "Matter referred back to the committee responsible for interinstitutional negotiations"
    },
    "next": null,
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2025/0395(COD)",
@@ -247,7 +239,7 @@
     "text": "Matter referred back to the committee responsible for interinstitutional negotiations"
    },
    "next": null,
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2026/0294(COD)",
@@ -268,7 +260,7 @@
     "text": "Committee referral announced in Parliament, 1st reading"
    },
    "next": null,
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2025/0393(COD)",
@@ -291,7 +283,7 @@
     "text": "Results of vote in Parliament"
    },
    "next": null,
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2026/0212(COD)",
@@ -317,7 +309,7 @@
     "date": "2026-12-14",
     "text": "Indicative plenary sitting date, 1st reading"
    },
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2026/0210(COD)",
@@ -343,7 +335,7 @@
     "date": "2026-12-14",
     "text": "Indicative plenary sitting date, 1st reading"
    },
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2026/0203(COD)",
@@ -366,7 +358,7 @@
     "text": "Committee referral announced in Parliament, 1st reading"
    },
    "next": null,
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2025/0399(COD)",
@@ -389,7 +381,7 @@
     "text": "Committee decision to enter into interinstitutional negotiations confirmed by plenary (Rule 72)"
    },
    "next": null,
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2025/0419(COD)",
@@ -412,7 +404,7 @@
     "text": "Matter referred back to the committee responsible for interinstitutional negotiations"
    },
    "next": null,
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2025/0418(COD)",
@@ -435,7 +427,7 @@
     "text": "Matter referred back to the committee responsible for interinstitutional negotiations"
    },
    "next": null,
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2026/0169(COD)",
@@ -458,7 +450,7 @@
     "text": "Committee referral announced in Parliament, 1st reading"
    },
    "next": null,
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2026/0099(COD)",
@@ -530,7 +522,7 @@
     "date": "2026-12-14",
     "text": "Indicative plenary sitting date, 1st reading"
    },
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2025/0524(COD)",
@@ -579,7 +571,7 @@
     "date": "2026-12-14",
     "text": "Indicative plenary sitting date, 1st reading"
    },
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2025/0394(COD)",
@@ -605,7 +597,7 @@
     "date": "2026-12-14",
     "text": "Indicative plenary sitting date, 1st reading"
    },
-   "checked": "2026-11-21"
+   "checked": "2026-11-24"
   },
   {
    "ref": "2025/0180(COD)",

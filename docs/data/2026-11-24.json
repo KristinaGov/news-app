@@ -1,0 +1,381 @@
+{
+ "date": "2026-11-24",
+ "items": [
+  {
+   "title": "Brussels draft energy security rules would block nuclear and coal shutdowns",
+   "headline": "Brussels plans energy security rules that would stop nuclear and coal plant shutdowns.",
+   "summary": "Euractiv reports that new EU draft energy security rules would aim to halt nuclear and coal plant shutdowns. The article notes that the rules could have prevented Germany's nuclear shutdown during its energy crisis.",
+   "doc_type": "law",
+   "interest": 5,
+   "interest_reason": "Matches nuclear phase-out and fossil fuel phase-out interests in profile.",
+   "tags": [
+    "nuclear",
+    "energy security",
+    "coal"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/brussels-wants-to-stop-nuclear-coal-shutdowns-in-energy-security-overhaul/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "4a49671b4d16"
+  },
+  {
+   "title": "Rich EU countries back ETS2 fuel carbon price despite Polish pushback",
+   "headline": "Germany and allies defend the new EU fuel carbon price against Polish objections.",
+   "summary": "Germany and other rich EU countries argue that ETS 2 should discourage Europeans from buying petrol-guzzling cars. Their stance comes amid pushback from Poland against the new fuel carbon price.",
+   "doc_type": "news",
+   "interest": 5,
+   "interest_reason": "Directly covers ETS2 rollout, a core profile topic.",
+   "tags": [
+    "ets2",
+    "carbon pricing",
+    "transport"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/rich-countries-defend-new-eu-fuel-carbon-price-amid-polish-pushback/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "bbdf10be6e1b"
+  },
+  {
+   "title": "EEA estimates 222,000 premature deaths from fine particle pollution in 2024",
+   "headline": "Fine particle pollution caused an estimated 222,000 premature deaths in the EU in 2024.",
+   "summary": "The European Environment Agency's updated air quality burden of disease assessment estimates 222,000 premature deaths in the EU in 2024. The deaths are attributed to long-term exposure to PM2.5 concentrations above WHO guideline levels.",
+   "doc_type": "study",
+   "interest": 3,
+   "interest_reason": "Environmental policy topic, relevant but outside core energy interests.",
+   "tags": [
+    "air quality",
+    "health",
+    "pollution"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "European Environment Agency",
+     "url": "https://www.eea.europa.eu/en/newsroom/news/updated-data-shows-over-220-000-premature-deaths-attributable-to-fine-particle-air-pollution"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "4e77d61ca9d1"
+  },
+  {
+   "title": "EU and Member States reaffirm climate stance at COP31 in Antalya",
+   "headline": "The EU and all 27 Member States presented a unified climate stance at COP31 in Antalya.",
+   "summary": "The European Commission says the EU and its 27 Member States showed a united position at the COP31 conference in Antalya. They reaffirmed their commitment to limiting global warming under the Paris Agreement and to implementing existing climate pledges.",
+   "doc_type": "press_release",
+   "interest": 2,
+   "interest_reason": "General climate diplomacy, little direct link to the profile.",
+   "tags": [
+    "cop31",
+    "climate diplomacy",
+    "paris agreement"
+   ],
+   "published": "2026-11-22",
+   "sources": [
+    {
+     "name": "EC DG Climate Action",
+     "url": "https://ec.europa.eu/commission/presscorner/detail/en/jp_26_2538"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "58050056a283"
+  },
+  {
+   "title": "Heat pump value-added bonus for EU and associated-market manufacturers",
+   "headline": "Economy ministry sets out a 15 percent heat pump bonus for EU-assembled units from July 2027.",
+   "summary": "The Federal Economy Ministry has detailed a 15 percent value-added bonus for heat pumps from the EU and 85 other associated markets, from July 2027, provided the manufacturer says final assembly took place in a listed country. At the same time, the basic subsidy will be cut by 15 percent. The ministry is now checking whether the wording and the rules work as intended.",
+   "doc_type": "law",
+   "interest": 5,
+   "interest_reason": "Directly matches the heat pump residential and industry interest in the profile.",
+   "tags": [
+    "heat pumps",
+    "subsidies",
+    "residential heating"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/23/bundeswirtschaftsministerium-konkretisiert-wertschoepfungsbonus-fuer-waermepumpen/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "7b4ff9ae0199"
+  },
+  {
+   "title": "Bundesnetzagentur president proposed for second term",
+   "headline": "Advisory board backs Klaus Müller for a second term as Bundesnetzagentur president until 2032.",
+   "summary": "The advisory board of the Federal Network Agency has voted by a large majority to propose Klaus Müller for a further term running until 2032. Müller has headed the agency since 2022. The federal government must confirm the proposal.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Relevant to grid regulation, but a personnel decision rather than a policy change.",
+   "tags": [
+    "regulation",
+    "grid",
+    "bundesnetzagentur"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/23/klaus-mueller-fuer-zweite-amtszeit-als-praesident-der-bundesnetzagentur-vorgeschlagen/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "e5a0b811424c"
+  },
+  {
+   "title": "Industry association opposes redispatch reservation in grid package",
+   "headline": "The solar and storage association BNW wants the redispatch reservation removed from the grid package.",
+   "summary": "The association BNW argues that the redispatch reservation threatens the business model of medium-sized project developers and calls for its deletion from the grid package. To steer PV expansion, it proposes regionally differentiated connection cost contributions and a system-serving grid connection capacity.",
+   "doc_type": "consultation",
+   "interest": 4,
+   "interest_reason": "Covers grid expansion and redispatch, both central to the profile.",
+   "tags": [
+    "grid expansion",
+    "redispatch",
+    "solar"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/23/bnw-redispatchvorbehalt-bedroht-geschaeftsmodell-mittelstaendischer-projektierer/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "6e3f30f3c0fb"
+  },
+  {
+   "title": "Digitalisation lags in German distribution grids, study finds",
+   "headline": "Grid operators use more digital tools but rate their own digitalisation lower than two years ago.",
+   "summary": "The third digitalisation report on distribution grids, produced by Envelio and Energate, finds that grid operators now deploy more digital solutions than two years ago. At the same time, they judge their own degree of digitalisation to be lower. IT security, the regulatory framework and integration with existing systems are named as the main problems.",
+   "doc_type": "study",
+   "interest": 3,
+   "interest_reason": "Grid topic, but a general digitalisation survey rather than a core grid event.",
+   "tags": [
+    "distribution grids",
+    "digitalisation",
+    "grid operators"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/23/studie-mehr-netzbetreiber-sehen-handlungsbedarf-bei-digitalisierung/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "dcfdbb3c5a62"
+  },
+  {
+   "title": "PV and storage sector accounts for many large insolvencies",
+   "headline": "Solar and storage firms make up nearly one in ten large German insolvencies, Falkensteg reports.",
+   "summary": "According to Falkensteg's new quarterly report, almost every tenth large insolvency, meaning firms with annual revenue above ten million euros, came from the photovoltaic and storage sector. Installers and traders are now joined by project developers and storage manufacturers.",
+   "doc_type": "study",
+   "interest": 3,
+   "interest_reason": "Market stress in solar and storage, relevant but not a core profile topic.",
+   "tags": [
+    "solar",
+    "storage",
+    "insolvencies"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/23/report-insolvenzen-in-photovoltaik-und-speicherbranche-treffen-immer-groessere-unternehmen/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "30c819f34d30"
+  },
+  {
+   "title": "Large solar projects and developers under pressure",
+   "headline": "Doubts grow over the future of large PV plants as well-known solar companies run into trouble.",
+   "summary": "Several well-known photovoltaic companies have recently run into difficulties, prompting questions about the segment of large PV plants and its business models. The article talks to industry experts about what to watch for.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Relevant market news on developers, but no concrete new facts reported.",
+   "tags": [
+    "solar",
+    "project developers",
+    "markets"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/23/grossanlagen-projektentwickler-und-ipps-unter-druck/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "5421feb9d4b8"
+  },
+  {
+   "title": "Being eligible to bid is not the same as being ready to build",
+   "headline": "Bid ceilings set the limit for tenders, but grid connection and construction schedules decide project viability.",
+   "summary": "The maximum value for the December tender sets the bid limit, not whether a project can actually be realised. Grid connection, technical interfaces and construction schedules must be coordinated early enough, the article argues.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Practical tender commentary, only loosely tied to the profile.",
+   "tags": [
+    "tenders",
+    "solar",
+    "grid connection"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/23/gebotsfaehig-ist-nicht-gleich-baureif-worauf-es-vom-zuschlag-bis-zum-baustart-ankommt/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "d2a864972176"
+  },
+  {
+   "title": "Federal programme extends free electricity-saving checks",
+   "headline": "Environment ministry plans free energy advice for over 100,000 more low-income households.",
+   "summary": "The Federal Environment Ministry wants to extend free advice on saving electricity and energy to more than 100,000 additional low-income households over the next three years. Subsidies will also support replacing inefficient appliances. Tagesspiegel reports the expansion would start in 2027 and include subsidies for washing machines.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Consumer energy-saving policy, peripheral to the profile.",
+   "tags": [
+    "energy saving",
+    "households",
+    "subsidies"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "Bundesumweltministerium",
+     "url": "https://www.bundesumweltministerium.de/pressemitteilung/stromspar-check-bundesumweltministerium-weitet-kostenlose-energieberatungen-aus"
+    },
+    {
+     "name": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-energie-sparen-mehr-stromspar-checks-fur-haushalte-mit-wenig-geld-geplant-16315725.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "b3713a84071c"
+  },
+  {
+   "title": "Potsdam schools replace sealed yards with green spaces",
+   "headline": "Federally funded projects in Potsdam unseal school yards and plant shade trees to cool children.",
+   "summary": "With federal funding, school yards and outdoor areas in Potsdam are being unsealed and planted. Trees, shrubs and hedges are meant to provide shade, strengthen nature and better protect children from heat.",
+   "doc_type": "press_release",
+   "interest": 1,
+   "interest_reason": "Local climate adaptation, outside the reader's core topics.",
+   "tags": [
+    "climate adaptation",
+    "urban greening",
+    "schools"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "Bundesumweltministerium",
+     "url": "https://www.bundesumweltministerium.de/pressemitteilung/potsdamer-schulen-entsiegeln-schulhoefe-und-pflanzen-schattenspender"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "f0efae2b0417"
+  },
+  {
+   "title": "Tibber drops dynamic tariffs without smart meters",
+   "headline": "Electricity provider Tibber changes course under its new German head, ending dynamic tariffs without smart meters.",
+   "summary": "Electricity supplier Tibber intends to let households benefit from fluctuating power prices. It is now withdrawing dynamic tariffs for customers without a smart meter, according to Handelsblatt's interview with the new German chief.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Dynamic tariffs and smart meters relate to market and grid topics.",
+   "tags": [
+    "electricity tariffs",
+    "smart meters",
+    "retail"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "Handelsblatt Energie",
+     "url": "https://www.handelsblatt.com/unternehmen/energie/stromlieferant-tibber-steht-mit-neuem-deutschlandchef-vor-kurswechsel/100271004.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "5646b23483ad"
+  },
+  {
+   "title": "Indian conglomerate builds wind turbines with German know-how",
+   "headline": "A Rostock firm helped an Indian conglomerate learn to build wind turbines, raising European competition concerns.",
+   "summary": "A company from Rostock taught one of India's largest conglomerates how to build wind turbines and passed on its source code. Handelsblatt asks whether Europe has thereby created a competitor for itself.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Wind industry and competition, though not a core profile topic.",
+   "tags": [
+    "wind power",
+    "industry",
+    "competition"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "Handelsblatt Energie",
+     "url": "https://www.handelsblatt.com/unternehmen/energie/windenergie-wie-indiens-reichster-mann-mit-deutschem-wissen-nach-europa-draengt-01/100268626.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "f05e4ed1c320"
+  }
+ ],
+ "generated_at": "2026-11-24T05:07:19+00:00",
+ "model": "anthropic/claude-haiku-5.5",
+ "usage": {
+  "input_tokens": 13548,
+  "output_tokens": 5259,
+  "web_searches": 0,
+  "calls": 3,
+  "cost_usd": 0.003985
+ },
+ "search_log": [],
+ "categories": [
+  {
+   "id": "eu",
+   "name": "EU"
+  },
+  {
+   "id": "de",
+   "name": "Germany"
+  },
+  {
+   "id": "be",
+   "name": "Belgium"
+  }
+ ],
+ "errors": [],
+ "feed_errors": [],
+ "profile_set": true
+}
