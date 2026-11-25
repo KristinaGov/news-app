@@ -1,0 +1,408 @@
+{
+ "date": "2026-11-25",
+ "items": [
+  {
+   "title": "Energy Commissioner Jørgensen Visits Dublin on Energy and Housing Affordability",
+   "headline": "Energy Commissioner Dan Jørgensen travels to Dublin to discuss energy and housing affordability.",
+   "summary": "Energy and Housing Commissioner Dan Jørgensen will be in Dublin on 25 and 26 November to meet national and local policymakers. The visit focuses on housing and energy affordability, which the Commission describes as two of the most urgent issues for European citizens and businesses.",
+   "doc_type": "press_release",
+   "interest": 3,
+   "interest_reason": "Energy affordability is relevant to grid tariffs and energy policy interests.",
+   "tags": [
+    "energy affordability",
+    "housing",
+    "ireland"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "EC DG Energy",
+     "url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-ireland-advance-work-energy-and-housing-affordability-2026-11-24_en"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "9ba1415776c6"
+  },
+  {
+   "title": "Fifth EU Mission Forum on Climate Adaptation Convenes in Dublin",
+   "headline": "Regions and local communities meet in Dublin to speed up climate change adaptation.",
+   "summary": "The Fifth EU Mission Forum on Adaptation to Climate Change is taking place in Dublin with representatives of European regions and local communities. The forum aims to stress the need to prepare early for climate risks, protect people and keep Europe's economy productive and competitive.",
+   "doc_type": "press_release",
+   "interest": 2,
+   "interest_reason": "Climate adaptation is peripheral to the reader's energy and ETS focus.",
+   "tags": [
+    "climate adaptation",
+    "regions",
+    "eu mission"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "EC DG Climate Action",
+     "url": "https://climate.ec.europa.eu/news-other-reads/news/representatives-european-regions-and-local-communities-gather-dublin-accelerate-adaptation-climate-2026-11-24-0_en"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "5b3507102b5b"
+  },
+  {
+   "title": "Think Tank Warns Fragmented National Policies Could Lock in Fossil Fuel Dependence",
+   "headline": "ECFR warns that national energy policies and gas contracts could entrench EU import dependence for decades.",
+   "summary": "The European Council on Foreign Relations says the EU's move away from fossil fuels risks being undermined by fragmented national energy policies. It notes that gas contracts are more common than clean power projects, threatening to lock the bloc into import dependence for decades.",
+   "doc_type": "study",
+   "interest": 4,
+   "interest_reason": "Matches interest in fossil fuel phase out and gas infrastructure.",
+   "tags": [
+    "fossil fuels",
+    "gas imports",
+    "energy security"
+   ],
+   "published": "2026-11-25",
+   "sources": [
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/575063/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "9c19da18e9ef"
+  },
+  {
+   "title": "EU Carbon Price Recovers After Failed Auction",
+   "headline": "EU carbon allowances recover partly after a technical glitch caused the first auction failure in six years.",
+   "summary": "EU carbon allowance prices fell 1.1% on Tuesday after the daily auction failed to clear because of a technical glitch. The market recovered from losses of as much as 3.1% during the session, and the failure was the first in more than six years.",
+   "doc_type": "news",
+   "interest": 5,
+   "interest_reason": "Directly relevant to EU ETS prices, a core profile topic.",
+   "tags": [
+    "eu ets",
+    "carbon prices",
+    "auctions"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/574938/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "0a31a6b5c9e3"
+  },
+  {
+   "title": "Visegrád Four Push to Delay ETS2 Fuel Carbon Price to 2030",
+   "headline": "Visegrád Four countries ask to postpone the new fuel carbon price to 2030.",
+   "summary": "The Visegrád Four group of Central European countries wants the start of the new fuel carbon price to be delayed until 2030. They warned that the new CO2 cost could undermine the European project as a whole.",
+   "doc_type": "news",
+   "interest": 5,
+   "interest_reason": "ETS2 rollout and prices are key topics in the reader's profile.",
+   "tags": [
+    "ets2",
+    "carbon pricing",
+    "visegrad"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/visegrad-four-seek-fuel-carbon-price-delay-to-2030/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "96eab5962a41"
+  },
+  {
+   "title": "Solar power in Germany passes 100 terawatt-hours for the first time",
+   "headline": "Germany's solar output tops 100 terawatt-hours in a single year, a new record.",
+   "summary": "Tagesspiegel reports that solar power generation in Germany has exceeded 100 terawatt-hours for the first time, more than any previous year. The sunshine-driven output leaves earlier records far behind.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Solar generation milestone relevant to energy transition coverage",
+   "tags": [
+    "solar",
+    "renewables",
+    "electricity generation"
+   ],
+   "published": "2026-11-25",
+   "sources": [
+    {
+     "name": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-energiewende-solarstrom-knackt-erstmals-die-marke-von-100-terawattstunden-16322202.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "0dfcf8eb29b9"
+  },
+  {
+   "title": "Coalition expects 4.98 billion euros from electricity tax cut",
+   "headline": "Coalition budget committee to vote early on the electricity tax cut financing.",
+   "summary": "Tagesspiegel reports that the governing coalition expects the electricity tax reduction to cost 4.98 billion euros. The budget committee meets again early the next morning to vote on the proposal.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Electricity tax cut is adjacent to grid and tariff interests",
+   "tags": [
+    "electricity tax",
+    "budget",
+    "electricity prices"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "Tagesspiegel Politik",
+     "url": "https://www.tagesspiegel.de/politik/dpa-haushalt-koalition-rechnet-bei-stromsteuersenkung-mit-498-milliarden-16320798.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "c5228913e32d"
+  },
+  {
+   "title": "VNG secures 18-year Norwegian gas supply deal",
+   "headline": "Gas importer VNG signs an 18-year contract for up to 15.3 TWh of Norwegian gas yearly.",
+   "summary": "Handelsblatt reports that east German gas trader VNG has secured gas from Norway for 18 years, at up to 15.3 terawatt-hours per year. The article notes the deal deepens a state-owned company's influence on Germany's energy supply.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Long-term gas supply and gas infrastructure match profile interests",
+   "tags": [
+    "gas supply",
+    "norway",
+    "gas imports"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "Handelsblatt Energie",
+     "url": "https://www.handelsblatt.com/unternehmen/energie/energie-gasimporteur-vng-sichert-sich-fuer-18-jahre-gas-aus-norwegen/100271645.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "21b6c3750a9a"
+  },
+  {
+   "title": "Cylib takes over BASF battery recycling business",
+   "headline": "Aachen company Cylib acquires BASF's battery recycling business, with closing expected in 2027.",
+   "summary": "Pv magazine reports that Aachen-based Cylib is buying BASF's battery recycling business to expand in Europe and open the North American market. BASF will focus its battery materials business on cathode materials, and the deal is expected to close in the second or third quarter of 2027.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Battery recycling is peripheral to the reader's listed topics",
+   "tags": [
+    "battery recycling",
+    "industry deals",
+    "batteries"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/24/cylib-uebernimmt-batterierecycling-geschaeft-von-basf/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "2a7a3c2ee202"
+  },
+  {
+   "title": "Kyon Energy begins commissioning 203 MWh battery storage in Dahlem",
+   "headline": "Kyon Energy starts testing a 100 MW, 203 MWh battery storage plant in North Rhine-Westphalia.",
+   "summary": "Pv magazine reports that Kyon Energy has begun technical commissioning of a large battery storage facility in Dahlem. The 100-megawatt plant is now in its testing phase, and the company says commercial operation should start shortly.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Grid-scale storage is relevant but not a core followed topic",
+   "tags": [
+    "battery storage",
+    "grid storage",
+    "north rhine-westphalia"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/24/kyon-energy-startet-technische-inbetriebnahme-von-203-megawattstunden-batteriespeicher-in-nordrhein-westfalen/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "f0312dd2ff65"
+  },
+  {
+   "title": "Priwatt's Mission Zero enters provisional insolvency",
+   "headline": "Insolvency administrator to sell stock of Priwatt as affiliate Mission Zero also files.",
+   "summary": "Pv magazine reports that Mission Zero GmbH, part of the Priwatt group, has entered provisional insolvency amid management disputes. The administrator plans to sell the solar company's inventory, which may interest large and online retailers.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Solar sector insolvency is recurring theme already partly covered",
+   "tags": [
+    "solar industry",
+    "insolvency",
+    "photovoltaics"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/24/insolvenzverwalter-verkauft-lagerbestand-von-priwatt/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "cfc5826c19d8"
+  },
+  {
+   "title": "Q8 takes over Smappee's fast-charging hubs",
+   "headline": "Fuel retailer Q8 is taking over 16 charging hub locations from West Flemish energy services firm Smappee.",
+   "summary": "Fuel station chain Q8 is acquiring 16 charging hub sites from Smappee, the West Flemish energy services company led by entrepreneur Stefan Grosjean. The deal expands Q8's electric vehicle charging footprint in Belgium.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "EV charging is peripheral to the followed topics",
+   "tags": [
+    "ev charging",
+    "belgium",
+    "energy services"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "De Tijd Energie",
+     "url": "https://www.tijd.be/r/t/1/id/10706786"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "5a4ef4374824"
+  },
+  {
+   "title": "BlueAlp to invest €50 million in Ostend plastic-to-oil plant",
+   "headline": "Dutch plastic recycler BlueAlp will double capacity at an Ostend plant it has taken over, investing €50 million.",
+   "summary": "BlueAlp, a Dutch specialist in plastic waste recycling, plans to double the capacity of a factory in Ostend that it has acquired, converting plastic waste into oil. The previous owners had lost €132 million on the project before the takeover.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Waste-to-oil is tangential to energy and climate focus",
+   "tags": [
+    "plastic recycling",
+    "ostend",
+    "industry"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "De Tijd Energie",
+     "url": "https://www.tijd.be/r/t/1/id/10706812"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "82c54a795379"
+  },
+  {
+   "title": "EnergyVision passes 5,000 charging points",
+   "headline": "Listed energy company EnergyVision has surpassed 5,000 charging points in Belgium and aims to grow further.",
+   "summary": "Listed energy firm EnergyVision has reached more than 5,000 charging points in Belgium after winning several large concessions. Co-founder and deputy CEO Koen Decourt says the company wants to become one of the largest players in the market.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "EV charging expansion is only loosely related to followed topics",
+   "tags": [
+    "ev charging",
+    "belgium",
+    "market"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "De Tijd Energie",
+     "url": "https://www.tijd.be/r/t/1/id/10706782"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "ea7ccc79d40e"
+  },
+  {
+   "title": "Bihet urges industry to launch small modular reactor projects",
+   "headline": "Energy minister Mathieu Bihet calls on companies to start small modular nuclear reactor projects.",
+   "summary": "Energy minister Mathieu Bihet says the state should play a role in extending existing nuclear plants and building large reactors, while urging businesses to move ahead with small modular reactors. His call signals a shift toward private initiative in new nuclear capacity.",
+   "doc_type": "news",
+   "interest": 5,
+   "interest_reason": "Directly matches nuclear expansion interest in profile",
+   "tags": [
+    "nuclear",
+    "small modular reactors",
+    "belgium"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "L'Echo Énergie",
+     "url": "https://www.lecho.be/r/t/1/id/10706767"
+    },
+    {
+     "name": "RTBF Info",
+     "url": "https://www.rtbf.be/article/nucleaire-belge-ou-lorsque-le-retour-en-grace-se-heurte-aux-defis-du-terrain-11820516"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "a5dec42560c4"
+  },
+  {
+   "title": "Belgian nuclear comeback meets practical challenges",
+   "headline": "Building new nuclear reactors in Belgium is moving from hypothesis to political will, but field realities remain difficult.",
+   "summary": "RTBF reports that building new nuclear reactors in Belgium is no longer just a hypothetical option but a stated political goal. The article examines the practical challenges that this renewed nuclear ambition faces on the ground.",
+   "doc_type": "news",
+   "interest": 5,
+   "interest_reason": "Core nuclear expansion topic in the reader profile",
+   "tags": [
+    "nuclear",
+    "belgium",
+    "policy"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "RTBF Info",
+     "url": "https://www.rtbf.be/article/nucleaire-belge-ou-lorsque-le-retour-en-grace-se-heurte-aux-defis-du-terrain-11820516"
+    },
+    {
+     "name": "L'Echo Énergie",
+     "url": "https://www.lecho.be/r/t/1/id/10706767"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "415adeed7a5b"
+  }
+ ],
+ "generated_at": "2026-11-25T05:06:57+00:00",
+ "model": "anthropic/claude-haiku-5.5",
+ "usage": {
+  "input_tokens": 13132,
+  "output_tokens": 4861,
+  "web_searches": 0,
+  "calls": 3,
+  "cost_usd": 0.003744
+ },
+ "search_log": [],
+ "categories": [
+  {
+   "id": "eu",
+   "name": "EU"
+  },
+  {
+   "id": "de",
+   "name": "Germany"
+  },
+  {
+   "id": "be",
+   "name": "Belgium"
+  }
+ ],
+ "errors": [],
+ "feed_errors": [],
+ "profile_set": true
+}
