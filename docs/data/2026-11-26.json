@@ -1,0 +1,534 @@
+{
+ "date": "2026-11-26",
+ "items": [
+  {
+   "title": "EU Extends Digital Transition Deadline for Waste Shipment Documents",
+   "headline": "The Commission has given businesses and authorities until 1 September 2027 to prepare for mandatory green-listed waste reporting.",
+   "summary": "The European Commission's environment directorate has extended the digital transition for waste shipment documents by eight months. Businesses and authorities now have until 1 September 2027 to prepare for mandatory electronic reporting of green-listed waste.",
+   "doc_type": "law",
+   "interest": 3,
+   "interest_reason": "Environmental regulation, though outside the core energy and ETS topics.",
+   "tags": [
+    "waste",
+    "regulation",
+    "digitalisation"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "EC DG Environment",
+     "url": "https://environment.ec.europa.eu/news/eu-extends-digital-transition-waste-shipment-documents-2026-11-25_en"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "3869855ab81a"
+  },
+  {
+   "title": "Climate-Resilient Buildings Investment Would Most Benefit Low-Income Households",
+   "headline": "The European Environment Agency says efficient, climate-resilient buildings would help poorer households most.",
+   "summary": "Two European Environment Agency publications argue that Europe's housing stock is poorly equipped for climate extremes. They find that investment in energy-efficient and climate-resilient new and existing buildings can benefit low-income households while supporting the EU's carbon neutrality goal for 2050.",
+   "doc_type": "study",
+   "interest": 3,
+   "interest_reason": "Relevant to energy efficiency and heat in buildings, a modest profile match.",
+   "tags": [
+    "buildings",
+    "energy efficiency",
+    "climate adaptation"
+   ],
+   "published": "2026-11-25",
+   "sources": [
+    {
+     "name": "European Environment Agency",
+     "url": "https://www.eea.europa.eu/en/newsroom/news/investing-in-climate-resilient-energy-efficient-buildings-will-benefit-lower-income-households-the-most"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "fda3be139193"
+  },
+  {
+   "title": "EU Carbon Prices Weaken After Options Expiry and Fund Selling",
+   "headline": "EU carbon allowance prices drifted lower as energy markets weakened and investment funds cut their net positions sharply.",
+   "summary": "EUA prices fell on Wednesday amid broad weakness in energy markets and a sell-off following the November options expiry. Weekly Commitment of Traders data showed investment funds made the largest single reduction in net length since records began.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Directly matches the reader's EU ETS price tracking.",
+   "tags": [
+    "eu ets",
+    "carbon prices",
+    "markets"
+   ],
+   "published": "2026-11-25",
+   "sources": [
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/575331/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "5848b63167cf"
+  },
+  {
+   "title": "COP31 Ends Without Deal on International Carbon Markets",
+   "headline": "COP31 closed without a political deal and with only minor changes to the Article 6 carbon market rules.",
+   "summary": "The COP31 conference ended late on Sunday with no political agreement and only small changes to the rules governing the UN's Article 6 carbon markets. Deals were struck and new initiatives launched over the two weeks, including ideas to revive the voluntary carbon market and scale international trading.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Carbon market context linked to ETS, though not EU-specific.",
+   "tags": [
+    "cop31",
+    "article 6",
+    "carbon markets"
+   ],
+   "published": "2026-11-25",
+   "sources": [
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/575410/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "6be73cf8f0cb"
+  },
+  {
+   "title": "Europe's Integrated Power Market Faces Growing Political Doubts",
+   "headline": "Two decades after French, Belgian and Dutch electricity markets were coupled, political support for integration is wavering.",
+   "summary": "Two decades after the coupling of the French, Belgian and Dutch electricity markets, doubts about the integrated power market are growing. Political backlash is increasing across the region.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Electricity market integration fits the reader's grid and market interests.",
+   "tags": [
+    "electricity market",
+    "market coupling",
+    "grids"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/europes-integrated-power-market-fears-growing-political-backlash/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "8681964eec39"
+  },
+  {
+   "title": "RWE Makes the Case for a Dutch Capacity Market",
+   "headline": "RWE argues the Netherlands needs a capacity market to secure its electricity supply.",
+   "summary": "RWE says the Netherlands needs a capacity market to safeguard security of supply. It argues that such a market would create a separate market for capacity, distinct from the energy market.",
+   "doc_type": "other",
+   "interest": 4,
+   "interest_reason": "Capacity markets are a named topic in the reader's profile.",
+   "tags": [
+    "capacity market",
+    "security of supply",
+    "netherlands"
+   ],
+   "published": "2026-11-23",
+   "sources": [
+    {
+     "name": "RWE",
+     "url": "https://benelux.rwe.com/en/press/news-platform/2026-11-23-why-the-netherlands-needs-a-capacity-market-to-safeguard-security-of-supply/"
+    }
+   ],
+   "category": "eu",
+   "via": "search",
+   "id": "1fe4714236c5"
+  },
+  {
+   "title": "Shipping Operators Push for Fair Treatment Under EU Carbon Rules",
+   "headline": "Bulk and tramp shipping operators are seeking fair treatment in the EU's emissions trading revision.",
+   "summary": "Bulk and tramp shipping companies, which carry Europe's fuel, grain and raw materials, say they have no timetable and few champions in the policy process. They argue that the EU's emissions trading revision will show whether policy takes their needs into account.",
+   "doc_type": "other",
+   "interest": 3,
+   "interest_reason": "Touches on ETS revision, though the piece is sponsored content.",
+   "tags": [
+    "eu ets",
+    "shipping",
+    "emissions trading"
+   ],
+   "published": "2026-11-25",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/tramp-shipping-bulk-vessels-seek-fair-eu-carbon-rules-deal-to-stay-competitive/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "8e80db7b0b8b"
+  },
+  {
+   "title": "US Seeks to Kill Global Shipping Carbon Levy Despite EU Pressure",
+   "headline": "The United States is reportedly trying to end the global shipping climate deal at the IMO, despite EU pressure.",
+   "summary": "Washington aims to kill the global shipping climate deal for good, according to IMO diplomats. The move comes despite continued pressure from the EU.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Shipping carbon pricing is adjacent to ETS, but the story is not EU-led.",
+   "tags": [
+    "shipping",
+    "imo",
+    "carbon levy"
+   ],
+   "published": "2026-11-25",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/us-pushes-to-kill-shipping-co2-levy-despite-eu-pressure/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "e7a8202153f2"
+  },
+  {
+   "title": "EPP Backs Weakening of EU Nature Laws With Right-Wing Votes",
+   "headline": "The EPP group joined a right-wing majority in Parliament to relax EU nature laws.",
+   "summary": "The European People's Party voted with a right-wing majority in Parliament to relax EU nature laws. The vote exposed a new rift among lawmakers over balancing environmental protection and industrial growth.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Environmental regulation, but not a core energy or ETS topic.",
+   "tags": [
+    "nature laws",
+    "parliament",
+    "environment policy"
+   ],
+   "published": "2026-11-25",
+   "sources": [
+    {
+     "name": "Politico Europe Energy",
+     "url": "https://www.politico.eu/article/right-wing-majority-votes-to-speed-up-environmental-permitting-rules-for-industry/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "0bcee85860a8"
+  },
+  {
+   "title": "Federal Ministry opens funding call for climate-neutral industrial process heat",
+   "headline": "The Economy Ministry is funding demonstration projects for climate-neutral industrial process heat.",
+   "summary": "The Federal Ministry for Economic Affairs and Energy has issued a call for projects demonstrating climate-neutral industrial process heat. The call is technology-neutral and names electric high-temperature processes, large industrial heat pumps, innovative heat storage and climate-neutral fuels as possible focus areas.",
+   "doc_type": "press_release",
+   "interest": 5,
+   "interest_reason": "Matches profile interest in high temperature heat and industrial heat pumps.",
+   "tags": [
+    "industrial heat",
+    "funding",
+    "heat pumps"
+   ],
+   "published": "2026-11-24",
+   "sources": [
+    {
+     "name": "Solarserver",
+     "url": "https://www.solarserver.de/2026/11/24/bmwe-foerdert-demonstrationsvorhaben-fuer-klimaneutrale-prozesswaerme/"
+    }
+   ],
+   "category": "de",
+   "via": "search",
+   "id": "f53b19a0ca81"
+  },
+  {
+   "title": "Finance Ministry considers stake in transmission operator Amprion",
+   "headline": "The Finance Ministry is weighing a state stake in grid operator Amprion and a joint transmission network.",
+   "summary": "According to Handelsblatt, the Finance Ministry is considering taking a stake in transmission system operator Amprion. An old plan for a single association of all German transmission operators has resurfaced, which would give the state more control over the power grid.",
+   "doc_type": "news",
+   "interest": 5,
+   "interest_reason": "Directly about grid expansion and ownership, a core profile topic.",
+   "tags": [
+    "grid",
+    "transmission",
+    "state ownership"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "Handelsblatt Energie",
+     "url": "https://www.handelsblatt.com/unternehmen/energie/energie-finanzministerium-erwaegt-einstieg-bei-netzbetreiber-amprion/100272487.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "fd6566a7368e"
+  },
+  {
+   "title": "Bundestag committees approve electricity tax cut",
+   "headline": "Bundestag budget committees approve cutting the electricity tax to the EU minimum until 2027.",
+   "summary": "The budget and finance committees of the Bundestag have approved the government's plan to cut the electricity tax to the EU minimum of 0.1 cent per kilowatt-hour. The cut is initially limited to the end of 2027 and financed by surplus subsidies held in the EEG account.",
+   "doc_type": "law",
+   "interest": 3,
+   "interest_reason": "Electricity pricing policy, but not a core profile topic.",
+   "tags": [
+    "electricity tax",
+    "eeg account",
+    "energy prices"
+   ],
+   "published": "2026-11-25",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/25/bundestagsausschuesse-stimmen-senkung-der-stromsteuer-zu/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "229015f7838f"
+  },
+  {
+   "title": "Market concentration in controllable power generation remains high",
+   "headline": "Five companies still produced about 53 percent of electricity from controllable plants in 2025.",
+   "summary": "A new monitoring report by the Federal Network Agency and the Federal Cartel Office finds that about 53 percent of electricity from controllable plants in 2025 came from five companies. The authorities say battery storage should not be hindered in upcoming tenders for controllable capacity, since concentration can push up wholesale prices.",
+   "doc_type": "study",
+   "interest": 4,
+   "interest_reason": "Relevant to capacity markets and market structure in the profile.",
+   "tags": [
+    "market concentration",
+    "capacity markets",
+    "monitoring"
+   ],
+   "published": "2025-11-25",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/25/marktkonzentration-bei-steuerbarer-stromerzeugung-nach-wie-vor-hoch/"
+    },
+    {
+     "name": "Bundesnetzagentur",
+     "url": "http://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20261125_Monitoringbericht.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "0480ff3db84f"
+  },
+  {
+   "title": "EnBW chief warns of billions in costs from gas plant conversions",
+   "headline": "EnBW chief Stamatelopoulos says government plans will cost consumers billions.",
+   "summary": "In an interview, EnBW chief executive Georgios Stamatelopoulos criticises the government over the conversion of old coal plants into gas-fired plants, which he says rests on flawed arithmetic. He calls for German-speed grid connections and warns the approach will cost consumers billions.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Covers gas plant transition and grid connections, both in the profile.",
+   "tags": [
+    "gas plants",
+    "grid connections",
+    "coal phase-out"
+   ],
+   "published": "2026-11-25",
+   "sources": [
+    {
+     "name": "Handelsblatt Energie",
+     "url": "https://www.handelsblatt.com/unternehmen/energie/energie-enbw-chef-warnt-vor-milliarden-kosten-fuer-verbraucher/100270293.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "93211f5323e3"
+  },
+  {
+   "title": "Volkswagen unit launches vehicle-to-grid charging offer",
+   "headline": "Volkswagen subsidiary Elli launches a vehicle-to-grid package with a bonus for connected cars.",
+   "summary": "Volkswagen subsidiary Elli is offering a vehicle-to-grid package combining a bidirectional wallbox, electricity and feed-in tariffs, and digital services. Customers receive a bonus of 24 cents for each hour the car is connected to the wallbox, and Elli is working with The Mobility House.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Peripheral to the profile, touching on grid flexibility and storage.",
+   "tags": [
+    "vehicle-to-grid",
+    "charging",
+    "flexibility"
+   ],
+   "published": "2026-11-25",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/25/vw-startet-angebot-fuer-vehicle-to-grid-laden/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "d04d6315c428"
+  },
+  {
+   "title": "Battery storage revenues fall despite rising power prices in October",
+   "headline": "Battery storage revenues declined in October even as power prices rose.",
+   "summary": "Electricity prices rose again in October, yet revenues for battery storage fell in both wholesale and balancing energy markets. Lennard Wilkening, CEO of Suena Energy, explains the reasons and what this means for battery trading in the coming winter months.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Storage market data, but of limited direct relevance to the profile.",
+   "tags": [
+    "battery storage",
+    "wholesale market",
+    "balancing energy"
+   ],
+   "published": "2026-11-25",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/25/steigende-preise-schrumpfende-preisspannen-batterieerloese-im-oktober/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "a4b75039454e"
+  },
+  {
+   "title": "Study warns tariffs on clean energy technology raise climate costs",
+   "headline": "A Wuppertal Institute study finds clean-tech tariffs would roughly double EU climate costs.",
+   "summary": "A research team led by the Wuppertal Institute examined the economic effects of a trade conflict over clean energy technologies such as solar, wind and batteries. It estimates that EU costs for reaching its climate targets could roughly double, and finds tariffs alone fall short of EU industrial goals.",
+   "doc_type": "study",
+   "interest": 3,
+   "interest_reason": "EU-level clean-tech trade analysis, loosely connected to the profile.",
+   "tags": [
+    "trade policy",
+    "clean tech",
+    "eu climate targets"
+   ],
+   "published": "2025-11-25",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/25/studie-schutzzoelle-fuer-saubere-energietechnologien-verteuern-klimaschutz-und-reichen-fuer-eu-industrieziele-nicht-aus/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "76829a0dd631"
+  },
+  {
+   "title": "EU extends relaxed state aid rules amid energy crisis",
+   "headline": "The EU is extending looser state aid rules so member states can support industry and farmers longer.",
+   "summary": "The EU has extended its relaxation of state aid rules because of the energy market situation. Member states may give companies and farmers more and longer aid, with the arrangement allowed until the end of June.",
+   "doc_type": "law",
+   "interest": 3,
+   "interest_reason": "Energy-price crisis policy at EU level, somewhat relevant to markets.",
+   "tags": [
+    "state aid",
+    "energy prices",
+    "eu policy"
+   ],
+   "published": "2025-11-25",
+   "sources": [
+    {
+     "name": "Tagesspiegel Politik",
+     "url": "https://www.tagesspiegel.de/politik/dpa-eu-verlangert-lockerung-fur-staatliche-beihilfen-16325065.html"
+    },
+    {
+     "name": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-energiekrise-eu-erlaubt-mehr-staatshilfen-fur-landwirte-und-industrie-16325032.html"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "7ead53e0f84f"
+  },
+  {
+   "title": "Study finds heat transition tools lacking for local players",
+   "headline": "A study says utilities, heat networks and municipalities face the task of delivering the heat transition.",
+   "summary": "An article from the idw science information service reports on tools and measures for the heating transition. It says utilities, heat-network operators, municipalities and planning offices face the task of implementing it.",
+   "doc_type": "other",
+   "interest": 3,
+   "interest_reason": "Heating transition is in scope, though the source is general.",
+   "tags": [
+    "heat transition",
+    "heat networks",
+    "municipalities"
+   ],
+   "published": "2025-11-25",
+   "sources": [
+    {
+     "name": "idw – Informationsdienst Wissenschaft",
+     "url": "https://nachrichten.idw-online.de/2026/11/25/werkzeuge-und-massnahmen-fuer-die-waermewende"
+    }
+   ],
+   "category": "de",
+   "via": "search",
+   "id": "21d422c3b485"
+  },
+  {
+   "title": "Google Keeps Building Farciennes Data Centre Without a Permit",
+   "headline": "Google continues construction of its Farciennes data centre in Wallonia despite losing its permit this summer.",
+   "summary": "Drone footage shows Google still building the data centre in Farciennes, one of Wallonia's poorest municipalities, although the permit was withdrawn this summer. Google has appealed the decision to revoke the permit but is not waiting for a court ruling before continuing work. Critics say the company shows disrespect for the environment and local residents.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Belgian data centre permitting and environmental enforcement, relevant to energy and environment policy",
+   "tags": [
+    "data centres",
+    "permits",
+    "wallonia",
+    "environment"
+   ],
+   "published": "2025-11-25",
+   "sources": [
+    {
+     "name": "VRT NWS (Dutch)",
+     "url": "https://vrtnws.be/p.APQmEG36E"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "e71f48a1e508"
+  }
+ ],
+ "generated_at": "2026-11-26T05:07:11+00:00",
+ "model": "anthropic/claude-haiku-5.5",
+ "usage": {
+  "input_tokens": 27681,
+  "output_tokens": 8168,
+  "web_searches": 9,
+  "calls": 6,
+  "cost_usd": 0.069734
+ },
+ "search_log": [
+  {
+   "category": "eu",
+   "searches_allowed": 5,
+   "lines": 3,
+   "kept": 2,
+   "dropped": [
+    "already seen: https://www.europapress.es/economia/noticia-espana-lidera-primera-subasta-europea-calor-industrial-14-proyectos-837-millones-ayudas-20261122113051"
+   ],
+   "model": "openai/gpt-6-luna",
+   "searches_run": 5,
+   "results_cited": 29
+  },
+  {
+   "category": "de",
+   "searches_allowed": 2,
+   "lines": 2,
+   "kept": 2,
+   "dropped": [],
+   "model": "openai/gpt-6-luna",
+   "searches_run": 2,
+   "results_cited": 12
+  },
+  {
+   "category": "be",
+   "searches_allowed": 2,
+   "lines": 0,
+   "kept": 0,
+   "dropped": [],
+   "model": "openai/gpt-6-luna",
+   "searches_run": 2,
+   "results_cited": 12
+  }
+ ],
+ "categories": [
+  {
+   "id": "eu",
+   "name": "EU"
+  },
+  {
+   "id": "de",
+   "name": "Germany"
+  },
+  {
+   "id": "be",
+   "name": "Belgium"
+  }
+ ],
+ "errors": [],
+ "feed_errors": [],
+ "profile_set": true
+}
