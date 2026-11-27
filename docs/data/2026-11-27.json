@@ -1,0 +1,637 @@
+{
+ "date": "2026-11-27",
+ "items": [
+  {
+   "title": "EU and Switzerland Agree 2027 Rules for Emission Allowance Transfers",
+   "headline": "The EU and Switzerland have agreed arrangements for 2027 allowance transfers between their emissions trading registries.",
+   "summary": "The European Commission's climate directorate says the 2027 arrangements for transferring emission allowances between the EU Emissions Trading System and the Swiss system have been agreed. The transfers follow the EU and Swiss Linking Agreement, which connects the two carbon markets.",
+   "doc_type": "press_release",
+   "interest": 3,
+   "interest_reason": "Relevant to EU ETS mechanics, though a routine administrative item.",
+   "tags": [
+    "eu ets",
+    "switzerland",
+    "linking"
+   ],
+   "published": "2026-11-25",
+   "sources": [
+    {
+     "name": "EC DG Climate Action",
+     "url": "https://climate.ec.europa.eu/news-other-reads/news/2027-arrangements-execution-transfers-between-emission-trading-registries-eu-and-switzerland-2026-11-26_en"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "faeb4f7b0201"
+  },
+  {
+   "title": "Commission Speech on COP31 Outcome in Parliament",
+   "headline": "Commissioner Hoekstra defended the EU's approach to the Antalya climate summit in a Parliament debate.",
+   "summary": "Commissioner Hoekstra addressed the European Parliament plenary in Strasbourg on the outcome of the COP31 UN climate summit in Antalya. The speech centres on the EU's negotiating position, though the extract available is short.",
+   "doc_type": "press_release",
+   "interest": 2,
+   "interest_reason": "Mostly overlaps with COP31 coverage already reported.",
+   "tags": [
+    "cop31",
+    "climate diplomacy"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "EC Press Corner",
+     "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2593"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "bd4e28f54c1f"
+  },
+  {
+   "title": "Harmonised Standards for Gas Cooking Appliances and Gas Shut-off Valves Updated",
+   "headline": "The Commission has amended its implementing decision on harmonised standards for gas cooking appliances and shut-off valves.",
+   "summary": "A Commission implementing decision published in the Official Journal amends Implementing Decision 2024/2944 on harmonised standards. It covers domestic cooking appliances burning gas and automatic shut-off valves for gas burners and appliances, in support of EU product regulation.",
+   "doc_type": "law",
+   "interest": 2,
+   "interest_reason": "Gas appliance safety standards, only loosely within the reader's gas interests.",
+   "tags": [
+    "gas appliances",
+    "standards"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=OJ:L_202602611"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "4bb22d0d211e"
+  },
+  {
+   "title": "Delegated Regulation Sets Methods for Certifying Carbon Farming",
+   "headline": "A new delegated regulation sets certification methodologies for carbon farming activities across the EU.",
+   "summary": "The Commission has adopted a delegated regulation supplementing Regulation 2024/3012 by establishing certification methodologies for carbon farming. The act was published in the Official Journal and is dated 9 July 2026.",
+   "doc_type": "law",
+   "interest": 3,
+   "interest_reason": "Climate policy with carbon removal links, but outside core ETS and energy topics.",
+   "tags": [
+    "carbon farming",
+    "certification",
+    "removals"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=OJ:L_202602617"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "a8e8f2c0bf41"
+  },
+  {
+   "title": "Directive Lets Heavy-Duty Vehicle Road Charges Vary With CO2 Emissions",
+   "headline": "A new directive allows road charges for heavy-duty vehicles to vary according to their CO2 emissions.",
+   "summary": "Parliament and Council have adopted a directive amending Directive 1999/62/EC, the Eurovignette road charging rules. It allows charges for heavy-duty vehicles to be varied based on their CO2 emissions and simplifies certain provisions.",
+   "doc_type": "law",
+   "interest": 3,
+   "interest_reason": "Relevant to transport decarbonisation pricing, a moderate fit for climate policy interests.",
+   "tags": [
+    "heavy-duty vehicles",
+    "road charges",
+    "co2"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "EUR-Lex Official Journal L",
+     "url": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=OJ:L_202602610"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "dfaf4d6f6ce1"
+  },
+  {
+   "title": "Electric Trucks Gain Ground but Grid and Charging Remain the Bottleneck",
+   "headline": "The EEA says electric truck sales are accelerating, but charging and grid capacity must keep pace.",
+   "summary": "The European Environment Agency published new assessments showing electric truck sales are rising, though they still account for a small share of new registrations. The agency says scaling up will depend on charging infrastructure and electricity grids keeping pace.",
+   "doc_type": "study",
+   "interest": 3,
+   "interest_reason": "Grid and charging expansion matters to the reader, though it is transport-focused.",
+   "tags": [
+    "electric trucks",
+    "charging",
+    "grid expansion"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "European Environment Agency",
+     "url": "https://www.eea.europa.eu/en/newsroom/news/electric-trucks-gain-ground-as-europe-faces-the-wider-challenge-of-making-transport-sustainable"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "e170844e1f62"
+  },
+  {
+   "title": "EU Carbon Prices Hold Gains as Speculators Return",
+   "headline": "EU carbon allowance prices held early gains on Thursday as speculative buyers returned after a heavy sell-off.",
+   "summary": "European carbon prices rose on Thursday morning and kept the gain through the afternoon. The move came amid stronger equity markets and despite weaker natural gas prices, as speculators seemed to return after last week's heavy selling.",
+   "doc_type": "news",
+   "interest": 5,
+   "interest_reason": "Direct EU ETS price coverage, a core topic in the reader profile.",
+   "tags": [
+    "eu ets",
+    "eua prices",
+    "carbon market"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/575741/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "1df613251302"
+  },
+  {
+   "title": "France's CBAM Export Proposal Gains Backing",
+   "headline": "France's proposal to support CBAM-covered industry exports is gaining support in member states and Parliament.",
+   "summary": "France's plan to support exports from industries covered by the EU Carbon Border Adjustment Mechanism is gaining traction among member states and the European Parliament. Both want a more lasting solution than the one the Commission has proposed.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Carbon border pricing directly affects ETS-covered industry, a close profile fit.",
+   "tags": [
+    "cbam",
+    "carbon leakage",
+    "exports"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/575962/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "c1c39e3844b9"
+  },
+  {
+   "title": "Cold Snap Drains Gas Storage Without Price Spike",
+   "headline": "Two weeks of heavy gas withdrawals in Europe have so far not pushed gas prices up.",
+   "summary": "Europe has seen two weeks of massive gas withdrawals during a cold snap, yet prices have fallen rather than spiked. The article examines why the market has not reacted as expected so far.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Gas storage levels and gas market moves match the reader's gas interests.",
+   "tags": [
+    "gas storage",
+    "gas prices",
+    "cold snap"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/why-europes-cold-snap-hasnt-caused-gas-price-spikes-yet/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "37e952d7bee0"
+  },
+  {
+   "title": "Parliament Backs Two-Year Delay to EU Methane Rules",
+   "headline": "Right-wing lawmakers have approved a two-year postponement of the EU's methane rules.",
+   "summary": "A right-wing alliance in the European Parliament has backed a two-year delay to the EU methane regulation. Euractiv reports the postponement benefits the US government and oil majors.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Methane regulation is a named interest and a delay is a significant policy change.",
+   "tags": [
+    "methane",
+    "oil and gas",
+    "regulation delay"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/right-wing-alliance-rubber-stamps-eu-methane-rules-delay/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "1977b0a0cd33"
+  },
+  {
+   "title": "Commission Plans to Use CAP Funds for Farmers' Energy Relief",
+   "headline": "The Commission plans to let member states use farm policy funds to offset higher fuel and power bills.",
+   "summary": "The Commission intends to allow countries to use Common Agricultural Policy money to shield farmers from rising fuel and electricity prices. The plan was reported as an exclusive by Euractiv.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Energy price relief is relevant, though the link is indirect.",
+   "tags": [
+    "energy prices",
+    "cap",
+    "farmers"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/exclusive-commission-turns-to-cap-money-for-farmers-energy-relief/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "3d72aabcda5a"
+  },
+  {
+   "title": "Six States Seek EU Budget Funding for Military Fuel Pipelines",
+   "headline": "Six member states want the EU budget to finance military fuel pipelines amid rising defence fuel demand.",
+   "summary": "Six EU states are asking for EU budget money to fund military fuel pipelines. Poland's military flight hours rose 917% between 2021 and 2025, which the article links to a surge in fuel demand.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Fuel infrastructure is relevant, though the military focus is a weaker fit.",
+   "tags": [
+    "pipelines",
+    "fuel infrastructure",
+    "defence"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/six-eastern-countries-want-mff-to-pay-for-military-fuel-pipelines/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "fa5a53cfaa8d"
+  },
+  {
+   "title": "Study Finds Renewable Liquid Gases Can Complement Electrification",
+   "headline": "A recent study argues renewable liquid gases could complement electrification in off-grid and hard-to-electrify uses.",
+   "summary": "A new study says renewable liquid gases could play a complementary role to electrification in rural, off-grid and hard-to-electrify settings. The piece is sponsored partner content, so its independence is limited.",
+   "doc_type": "study",
+   "interest": 2,
+   "interest_reason": "Relevant to decarbonisation, but sponsored content with limited detail.",
+   "tags": [
+    "renewable gases",
+    "electrification",
+    "decarbonisation"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "Euractiv",
+     "url": "https://www.rapporteur.com/news/europes-decarbonisation-needs-more-than-electrification-reports-new-study/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "3a5c3434a280"
+  },
+  {
+   "title": "Sandbag Examines Petrochemicals Under the CBAM at COP31",
+   "headline": "Sandbag highlights the regulatory barriers petrochemical producers face under the EU's CBAM.",
+   "summary": "Sandbag reports on a COP31 side event on the petrochemical industry and carbon barriers, held on 19 November. The discussion addressed how CBAM affects petrochemicals and the path to green competitiveness.",
+   "doc_type": "other",
+   "interest": 3,
+   "interest_reason": "CBAM and industrial carbon costs fit the ETS interest, though it is a side-event report.",
+   "tags": [
+    "cbam",
+    "petrochemicals",
+    "cop31"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "Sandbag",
+     "url": "https://sandbag.be/2026/11/26/sandbag-at-cop31-petrochemicals-under-cbam/"
+    }
+   ],
+   "category": "eu",
+   "via": "rss",
+   "id": "831427bfe4a6"
+  },
+  {
+   "title": "Bundesnetzagentur to make further changes to final AgNes grid fee decision",
+   "headline": "The regulator plans more changes to its grid fee rules, which may affect battery storage business models.",
+   "summary": "The Bundesnetzagentur intends to publish its final AgNes determination on the future grid fee system by year-end. According to pv magazine, the final version is unlikely before 22 December. Adjustments compared with the known draft appear planned, affecting the business models of battery storage operators.",
+   "doc_type": "news",
+   "interest": 5,
+   "interest_reason": "Grid tariffs and storage business models are core profile topics.",
+   "tags": [
+    "grid tariffs",
+    "battery storage",
+    "bundesnetzagentur"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/26/bundesnetzagentur-plant-weitere-aenderungen-in-der-finalen-agnes-festlegung/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "4bf04e31cefc"
+  },
+  {
+   "title": "Brussels debates restrictions on Chinese inverters and battery cells",
+   "headline": "Brussels is weighing new rules that could reach deep into solar and storage supply chains.",
+   "summary": "The EU is discussing two regulations, the Cybersecurity Act 2 and the Industrial Accelerator Act, which are highly relevant to solar and storage developers. A blanket short-term exclusion of Chinese suppliers is not yet emerging, but the new rules could intervene deeply in supply chains and system planning.",
+   "doc_type": "law",
+   "interest": 4,
+   "interest_reason": "Storage and supply chain rules fit the reader's interest in grid and markets.",
+   "tags": [
+    "eu regulation",
+    "inverters",
+    "battery storage"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/26/chinesische-wechselrichter-und-batteriezellen-welche-beschraenkungen-bruessel-diskutiert/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "88b0a1a6b30a"
+  },
+  {
+   "title": "Federal Court rules tenants cannot be forced to remove balcony solar system",
+   "headline": "The Federal Court of Justice protects a tenant's plug-in solar device from removal by a housing cooperative.",
+   "summary": "The Bundesgerichtshof rejected an appeal by a housing cooperative, ruling that it cannot demand removal of a plug-in solar device. The ruling applies even where not all conditions were met. The court relied on the obligation to allow the installation of such devices.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Balcony solar is peripheral to the profile's grid and storage focus.",
+   "tags": [
+    "balcony solar",
+    "tenancy law",
+    "court ruling"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/26/bgh-wohnungsgenossenschaft-darf-mieter-nicht-zur-demontage-einer-photovoltaik-balkonanlage-zwingen/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "5f28ab6efcd1"
+  },
+  {
+   "title": "Approval granted for 2,800 MWh battery storage in Saxony",
+   "headline": "Authorities in Saxony have approved a 700 MW four-hour battery storage project to be built in two stages.",
+   "summary": "The Landesdirektion of Saxony has granted construction approval for a battery storage facility. CI V Gigastar ProjectCo plans to build the 700 megawatt system in two stages, with a capacity of 2,800 megawatt-hours.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Large battery storage projects relate to the reader's storage and grid interests.",
+   "tags": [
+    "battery storage",
+    "saxony",
+    "permits"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/26/baugenehmigung-fuer-4-stunden-speicher-mit-2800-megawattstunden-in-sachsen-erteilt/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "73e11ebc5f93"
+  },
+  {
+   "title": "FRV says Germany faces regulatory upheaval other European solar markets have passed",
+   "headline": "FRV's German head says rapid regulatory change is leaving banks reluctant to value project pipelines.",
+   "summary": "In an interview, Amós Guillén Duarte, head of FRV in Germany, says the country is going through a regulatory upheaval that other European solar markets have already experienced, and that the changes came too quickly. He explains why banks place little value on project pipelines.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Relevant to renewable financing, though more general than core topics.",
+   "tags": [
+    "solar",
+    "project finance",
+    "regulation"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/26/frv-deutschland-erlebt-jetzt-was-andere-europaeische-maerkte-schon-hinter-sich-haben/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "9ff67e3cba74"
+  },
+  {
+   "title": "Grid fee exemption for solar parks with green power storage",
+   "headline": "Solar parks coupled with green power storage can keep grid fee exemptions for 20 years under conditions.",
+   "summary": "Under the Bundesnetzagentur's AgNes determinations, the current grid fee exemption for many generation plants ends from 2029. Ground-mounted solar systems and coupled green power storage can, under certain conditions, receive a 20-year grandfathering period. Lawyer Christof Aha explains the deadlines and investment decisions involved.",
+   "doc_type": "news",
+   "interest": 4,
+   "interest_reason": "Directly concerns grid tariffs and the AgNes changes the reader follows.",
+   "tags": [
+    "grid tariffs",
+    "solar",
+    "storage"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/26/netzentgeltbefreiung-fuer-die-schicksalsgemeinschaft-photovoltaik-freiflaechenanlagen-mit-gruenstromspeicher/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "6a5041500a06"
+  },
+  {
+   "title": "DIW Berlin says long dunkelflaute periods are very rare and manageable",
+   "headline": "DIW researchers find batteries can bridge short renewable lulls, while hydrogen can cover long ones.",
+   "summary": "Experts at the German Institute for Economic Research (DIW Berlin) say batteries can well absorb short periods of very low solar and wind output. Long phases could be bridged mainly with stored green hydrogen converted back to power. They say the necessary infrastructure must now be politically accelerated.",
+   "doc_type": "study",
+   "interest": 5,
+   "interest_reason": "Hydrogen storage and infrastructure are top profile topics.",
+   "tags": [
+    "hydrogen storage",
+    "dunkelflaute",
+    "renewables"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/26/diw-berlin-lange-dunkelflauten-sind-sehr-selten-und-beherrschbar/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "5872a9893ae1"
+  },
+  {
+   "title": "Ladesonne wins start-up prize at Forum Solar plus",
+   "headline": "Start-up Ladesonne takes the first start-up prize awarded at the Forum Solar plus event in Berlin.",
+   "summary": "The Forum Solar plus in Berlin awarded a prize for start-up ideas for the first time. The jury praised all five applications. Ladesonne won for its concept of supplying a charging park directly from a ground-mounted solar plant.",
+   "doc_type": "news",
+   "interest": 2,
+   "interest_reason": "Minor industry event news with limited relevance to profile topics.",
+   "tags": [
+    "solar",
+    "start-ups",
+    "ev charging"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "pv magazine Deutschland",
+     "url": "https://www.pv-magazine.de/2026/11/26/ladesonne-gewinnt-start-up-preise-des-forum-solar-plus/"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "e93fe0ca0398"
+  },
+  {
+   "title": "Blackout test in Fuchstal disconnects 1,450 households from grid",
+   "headline": "The Bavarian municipality of Fuchstal is testing whether self-generated power can supply homes during a crisis.",
+   "summary": "Fuchstal is separating 1,450 households from the public electricity grid for a trial. The test asks whether self-generated power can keep supply running in a crisis scenario.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Grid outage resilience is relevant, though the test is local.",
+   "tags": [
+    "grid resilience",
+    "outages",
+    "decentralised power"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "heise Energie",
+     "url": "https://www.heise.de/news/Ein-Ort-in-Oberbayern-uebt-den-Blackout-11538483.html?wt_mc=rss.red.ho.themen.energie.beitrag.beitrag"
+    }
+   ],
+   "category": "de",
+   "via": "rss",
+   "id": "a3db6573a7e4"
+  },
+  {
+   "title": "Flemish network charges to rise for electricity and fall for gas in 2027",
+   "headline": "Electricity network tariffs will rise by about 35 euros a year for an average household in 2027.",
+   "summary": "The Flemish energy regulator reports that electricity network tariffs will rise again next year, adding about 35 euros a year for an average household. Gas network tariffs, by contrast, are set to fall in 2027.",
+   "doc_type": "news",
+   "interest": 5,
+   "interest_reason": "Grid tariffs are a core followed topic in the reader profile.",
+   "tags": [
+    "grid tariffs",
+    "electricity",
+    "flanders"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "VRT NWS (English)",
+     "url": "https://vrtnws.be/p.93pa9nab3"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "ed9a3ebc657b"
+  },
+  {
+   "title": "EnergyVision wins Octa+ electricity and gas supply business",
+   "headline": "Ghent-based EnergyVision will become the fourth-largest energy supplier for households in Flanders.",
+   "summary": "EnergyVision has won the bidding contest for the electricity and gas supply division of Octa+. The deal makes the Ghent group the fourth-largest supplier of energy to households in Flanders, and investors reacted enthusiastically, pushing its share price to a record.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Energy supplier market move in Flanders; relevant to markets but not a followed topic.",
+   "tags": [
+    "energy suppliers",
+    "markets",
+    "flanders"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "De Tijd Energie",
+     "url": "https://www.tijd.be/r/t/1/id/10706904"
+    },
+    {
+     "name": "L'Echo Énergie",
+     "url": "https://www.lecho.be/r/t/1/id/10707049"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "43b1c02f9a42"
+  },
+  {
+   "title": "ARK Capture raises 5.4 million euros for industrial CO2 capture",
+   "headline": "Walloon start-up ARK Capture has raised 5.4 million euros to scale up industrial carbon capture.",
+   "summary": "ARK Capture, based in Louvain-la-Neuve, has raised 5.4 million euros in fresh capital to capture CO2 from industry. Steelmaker Aperam is its largest investor, and the funds will help grow its prototype and bring the technology to market worldwide.",
+   "doc_type": "news",
+   "interest": 3,
+   "interest_reason": "Industrial carbon capture funding; adjacent to followed industry and climate topics.",
+   "tags": [
+    "carbon capture",
+    "industry",
+    "start-ups",
+    "wallonia"
+   ],
+   "published": "2026-11-26",
+   "sources": [
+    {
+     "name": "De Tijd Energie",
+     "url": "https://www.tijd.be/r/t/1/id/10706833"
+    },
+    {
+     "name": "L'Echo Énergie",
+     "url": "https://www.lecho.be/r/t/1/id/10706875"
+    }
+   ],
+   "category": "be",
+   "via": "rss",
+   "id": "c08f16633ba4"
+  }
+ ],
+ "generated_at": "2026-11-27T05:07:09+00:00",
+ "model": "anthropic/claude-haiku-5.5",
+ "usage": {
+  "input_tokens": 13304,
+  "output_tokens": 7792,
+  "web_searches": 0,
+  "calls": 3,
+  "cost_usd": 0.005227
+ },
+ "search_log": [],
+ "categories": [
+  {
+   "id": "eu",
+   "name": "EU"
+  },
+  {
+   "id": "de",
+   "name": "Germany"
+  },
+  {
+   "id": "be",
+   "name": "Belgium"
+  }
+ ],
+ "errors": [],
+ "feed_errors": [],
+ "profile_set": true
+}
